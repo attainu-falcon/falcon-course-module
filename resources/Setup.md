@@ -2,7 +2,7 @@
 
 ## Ubuntu 18.04
 
-Linux on your Windows or Mac computer without erasing your current operating system [https://www.wikihow.com/Install-Ubuntu-Linux] (https://www.wikihow.com/Install-Ubuntu-Linux)
+Linux on your Windows or Mac computer without erasing your current operating system [https://www.wikihow.com/Install-Ubuntu-Linux](https://www.wikihow.com/Install-Ubuntu-Linux)
 
 # Web development tools
 
@@ -11,7 +11,7 @@ Linux on your Windows or Mac computer without erasing your current operating sys
 #### Setup
 1. If you are using Windows, you can use the Git Bash terminal bundled with the Git installer as your command line. You can download it from [https://gitforwindows.org/](https://gitforwindows.org/)
 2. If you are using a GNU/Linux system, use the Terminal emulator bundled in your distribution.
-3. If you are on macOS, you can use the Terminal app installed by default in Mac. You can also checkout [iTerm2] (https://www.iterm2.com) for a more feature rich Terminal.
+3. If you are on macOS, you can use the Terminal app installed by default in Mac. You can also checkout [iTerm2](https://www.iterm2.com) for a more feature rich Terminal.
 
 #### Tutorials
 1. [Command Line Crash Course](https://learnpythonthehardway.org/book/appendixa.html)

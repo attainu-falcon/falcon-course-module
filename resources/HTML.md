@@ -8,6 +8,6 @@
 
 ## Read More
 
-1. Study HTML and Learn to Code With Our Step-By-Step Guide [https://html.com/] (https://html.com/)
+1. Study HTML and Learn to Code With Our Step-By-Step Guide [https://html.com/](https://html.com/)
 
-2. HTML tutorial at [w3schools.com] (https://www.w3schools.com/html/)
+2. HTML tutorial at [w3schools.com](https://www.w3schools.com/html/)
