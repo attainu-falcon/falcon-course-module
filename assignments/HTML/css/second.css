@@ -1,0 +1,71 @@
+body {
+  background-color: skyblue;
+  margin: 20px;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 50%;
+}
+table {
+  width: 100%;
+  height: 100%;
+  margin-right: 18px;
+}
+table,
+thead,
+tbody,
+tr,
+td,
+th {
+  text-align: center;
+  border: 1px solid grey;
+  padding: 1rem;
+  background-color: white;
+}
+
+input[type="text"] {
+  width: 90%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+input[type="number"] {
+  width: 40%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+input[type="submit"] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: yellow;
+  font-size: 16px;
+}
+input[type="button"] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: blue;
+  font-size: 16px;
+  color: white;
+}
+#address {
+  border: 2px solid grey;
+  padding: 1rem;
+  background-color: white;
+}
+
+#buttons {
+  border: 1px solid grey;
+  padding: 1em;
+  background-color: white;
+}
