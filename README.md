@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AttainU Falcon Batch
 
 This repo contains assignments and notes for AttainU's second Cohort - The AttainU Falcon.
@@ -19,3 +20,6 @@ All the assignments are listed here - [assignments/assignments.md](assignments/a
 ## Resources
 
 Links for downloads, tutorials, extra reading etc can be found here - [resources/resources.md](resources/resources.md)
+=======
+# Hello-World
+>>>>>>> f061b38f90220a844392575fc7942c0006b8f65d
