@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+  <title>amol coding </title>
+</head>
+  <center><h2>This is my 1st coding</h5></center>
+<p>thsi is the paragraph<br/>
+ Please join the Slack  <span style="color:red">join the AMA (Ask Me Anything) session today at 11 AM with AttainU Team</span>. 
+<section>
+Please <pre> Of learning more about what we are trying to accomplish through this program, the how and the why</pre>. </section>
+</p>
+
+
+
+<div>
+  <img src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg " width="30" height="30">
+  </br>
+  <button>Click to go next page</button>
+</div>
+
+
+<form>
+  <input "type:number"/>
+  <textarea>
+    comment
+  </textarea>
+  <button>submit</button>
+</form>
+
+<h1>heading tag</h1>
+<!--<h2>heading tag</h2> comment is declare like this --> 
+<hr>
+
+<a href="https://facebook.com">madness</a>
+<h2>Calender</h2>
+<table>
+  <tr>
+  <th>sun</th>
+  <th>mon</th>
+  <th>tue</th>
+  <th>wed</th>
+  <th>thur</th>
+  <th>fri</th>
+  <th>sat</th>
+  </tr>
+   <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+   </tr>
+</table>
+<br>
+<h4>HTML Tags</<h4>
+<table border=5px >
+  <tr>
+    <th>
+      <span style="color:red">Block Element</span>
+    </th>
+    <th>
+      <span style="color:blue">Inline Element</span>
+    </th>
+  </tr>
+  <tr>
+    <td>P</td>
+    <td>Button</td>
+    
+  </tr>
+  <tr>
+    <td>hr</td>
+    <td>br</br>
+    
+  </tr>
+  <tr>
+    <td>h1toh6</td>
+    <td>table</td>
+    
+  </tr>
+
+<tr>
+  <td>ul</td>
+  <td>input</td>
+</tr>
+
+<tr>
+  <td>form</td>
+  <td>textarea</td>
+</tr>
+<tr>
+  <td>div</td>
+  <td>a</td>
+</tr>
+</table>
+
+
+<ol>
+<li><h5>Technology frontend</h5></li>
+
+<ul>
+  <li>html</li>
+  <li>css</li>
+  <li>mongodb</li>
+  <li>react&redux</li>
+</ul>
+
+  
+    <li><h5>Technology Backend</h5></li>
+  <ul>
+    <li>python</li>
+    <li>java</li>
+  </ul>
+  
+  
+  
+</ol>
+
+
+</html>
