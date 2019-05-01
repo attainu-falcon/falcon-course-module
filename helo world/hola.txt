@@ -1,2 +1,3 @@
 hello world in english
 hola world in spainish
+namaste in hindi
