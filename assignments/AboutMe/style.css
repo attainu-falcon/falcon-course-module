@@ -1,0 +1,44 @@
+/* CSS Document */
+
+main {
+	margin: auto;
+	box-shadow: 10px 10px 20px 10px rgba(59, 255, 249, 0.05);
+	border-radius: 50px;
+	overflow: hidden;
+  width: 80vw;
+  color: slategray;
+  font-family: arial;
+  border: 1px solid whitesmoke; 
+}
+
+header {
+	background-color: paleturquoise;
+	padding: 20px;
+	text-align: center;
+}
+
+#punch {
+	height: 10px;
+	width: 100px;
+	background-color: white;
+	border-radius: 100px;
+	margin: auto;
+  border: 1px solid whitesmoke;
+}
+
+li {
+	line-height: 2;
+}
+
+article {
+	margin: auto;
+	width: 166px;
+}
+
+body {
+  margin: 5vh;
+}
+
+h1 {
+  color: white;
+}
