@@ -1,0 +1,38 @@
+body{
+    background-color: cornsilk;   
+} 
+
+h1{
+    color: red;
+    margin: 30px ;
+    text-align: center;
+    
+    
+}
+
+p{
+    border: 10px dotted;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+h2{
+    text-align: center ;
+    color: blueviolet;
+}
+
+ul{
+    margin: 25px;
+    padding: 20px;
+    color: rgb(243, 26, 243);
+    
+}
+
+
+
+
+
+
+
+
