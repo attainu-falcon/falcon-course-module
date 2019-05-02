@@ -1,0 +1,21 @@
+/*CSS text formatting*/
+
+#floats {
+    background: #d41
+}
+
+#floats #container {
+    background: white;
+    padding: 20px;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color :#33b5e5;
+  color: #ffffff;
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
