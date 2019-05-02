@@ -1,0 +1,52 @@
+body {
+    background-color: cornsilk;
+    font-family: sans-serif;
+}
+
+ul {
+    text-decoration: none;
+    background-color: white;
+}
+
+div {
+    border: 5px solid red;
+    padding: 20px;
+    margin: 50px;
+}
+
+li {
+    line-height: 2;
+}
+
+.name {
+    background-color: darkblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.gender, .height, #heading2 {
+    color: green;
+}
+
+#heading {
+    color: red;
+}
+
+a {
+    display: block;
+    line-height: 2;
+    color: orange;
+    font-size: 20px;
+}
+
+a:visited {
+    color: magenta;
+}
+
+a:hover {
+    color: red;
+}
+
+a:nth-child(2n) {
+    font-size: 36px;
+}
