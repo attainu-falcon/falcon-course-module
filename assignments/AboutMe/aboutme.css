@@ -1,0 +1,21 @@
+body{
+
+    background-color: skyblue;
+}
+.h1{
+    color: black;
+
+margin-left: 45%;
+}
+p{
+    color: darkgreen;
+}
+.movie{
+    color:black;
+}
+img{
+width: 200px;
+}
+li{
+    line-height: 50px;
+}
