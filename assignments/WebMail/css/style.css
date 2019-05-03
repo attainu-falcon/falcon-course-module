@@ -1,3 +1,53 @@
+body {
+    border: 2px solid black;
+    font-family: 'Courier New', Courier, monospace
+}
 nav {
     border-bottom: 1px solid blue;
+    background-color: gray;
+}
+
+#wrapper {
+    width: 100%;
+    margin-top: 20px;
+    overflow: hidden; /* add this to contain floated children */
+}
+#first {
+    width: 25%;
+    height: 200px;
+    margin-left: 20px;
+    float:left; /* add this */
+    border: 1px solid red;
+}
+
+#second {
+    width: 50%;
+    border: 1px solid green;
+    margin-right: 20px;
+    float: right; /* add this */
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table {
+    width: 100%;
+}
+
+th, td{
+    width : 33%;
+    height : 80px;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+  }
+
+footer {
+    background-color: cadetblue;
+    text-align: center;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px
 }
