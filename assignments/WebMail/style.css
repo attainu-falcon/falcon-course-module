@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: steelblue;
+}
+
+header {
+}
+
+nav {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+main {
+    width: 80%;
+    display: inline-block;
+    max-height: 80%;
+}
+
+footer {
+}
+
+#advrt {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    text-align: left;
+    border-spacing: 1px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+tr:nth-child(2n) {
+    background-color: aliceblue;
+}
+
+li, td, th, #advrt, header h4 {
+    padding: 15px;
+    border: 1px solid aliceblue;
+}
