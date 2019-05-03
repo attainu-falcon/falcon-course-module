@@ -1,46 +1,91 @@
-p{
-    background-color: antiquewhite;
-    font: sans-serif;
-    margin-left: 5px;
-    padding-left: 2px;
-    color: blue;
-}
 img{
-    width: 800px;
-    height: 400px;
-
+width: 800px;
+height: 400px;
 }
-able, th, td {
-    border: 1px solid black;
-    padding: 45px;
+table, th, td {
+border: 1px solid black;
+padding: 45px;
 }
 table{
-    width: 1150px;
-    border-collapse: collapse;
-    color: whitesmoke;
-  vertical-align: center;
-  text-align: center;
+width: 1265px;
+border-collapse: collapse;
+color: whitesmoke;
+vertical-align: center;
+text-align: center;
 }
 .class{
-    color: rgb(17, 52, 83)
+color: rgb(17, 52, 83)
 }
-  th:hover {
-    background-color:rgb(255, 0, 200);
-  }
-  tr:nth-child(odd) {
-      background-color: gray;
-      }
-  tr:nth-child(even) {
-      background-color: darkslategray;
-  }
+.box:hover{
+background-color: #ffffff;
+}
+.box{
+border: 25px solid black;
+border-width: 10px;
+font-size: 30px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 0px;
+font-style: oblique;
+color: red;
+background-color: rosybrown;
+}
+tr:nth-child(odd) {
+background-color: gray;
+}
+tr:nth-child(even) {
+background-color: darkslategray;
+}
 td{
-    text-decoration: underline overline;
-    text-decoration-color: black;
+text-decoration: underline overline;
+text-decoration-color: black;
+font-size: 25px;
 
 }
 span{
-    background-color: lightgreen;
+background-color: violet;
+font-style: italic;
+font-weight: 200;
 }
 #namaskaram{
-    color: brown;
+color: brown;
+}
+tr{
+border-bottom: 10px;
+}
+.hero-image {
+background-image:url("https://images.unsplash.com/photo-1556891987-825d0d297886?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+height: 600px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+opacity: 0.5;
+padding: 5px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-left: 5px;
+margin-right: 5px;
+color: whitesmoke;
+}
+p{
+background-color: rgb(10, 7, 2);
+border-radius: 30px;
+text-align: center;
+}
+.bottom{
+position: absolute;
+margin-left: 550px;
+bottom: 70px;
+line-height: 30px;
+text-justify: auto;
+}
+li{
+display: inline-block;
+margin-top: 0px;
+color: white;
+text-decoration: none;
+font-size: 30px;
+margin-left: 551px;
+}
+li :hover{
+color: #0c0b0b;
 }
