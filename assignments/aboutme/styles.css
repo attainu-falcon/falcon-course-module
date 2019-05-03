@@ -1,0 +1,39 @@
+
+body
+{
+   background-image:url(https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+   background-repeat: no-repeat;
+   background-size: cover; 
+  // background-color:slateblue;
+
+}
+
+h3
+{
+
+color:white; border:2px solid black ;padding: 10px;margin: 40px;
+
+} 
+h1{
+    color:white;padding: 10px;margin: 40px;
+
+}  
+
+a{
+    color :red;font-style: oblique ;font-size: 20px ;
+
+}
+
+p{
+    font-style: oblique;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.list{
+    color:white;
+}
+div{
+    color: white;
+}
