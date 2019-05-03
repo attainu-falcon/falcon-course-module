@@ -1,0 +1,55 @@
+body {
+    background-color: #9DB6E5;
+    margin: 0px;
+}
+
+.container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+
+.aboutme {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+
+}
+
+.describe {
+    height: 150px;
+    width: 90%;
+    font-weight: bold;
+}
+
+.favmovies {
+    background-color: #D4F8A2;
+    height: auto;
+    line-height: 25px;
+    padding: 40px;
+
+}
+
+.favmovies > .movie {  /*wanted to align the first line left*/
+    line-height: 10px;
+    text-align: left;
+
+}
+
+.contact {
+    height: 200px;
+    align-items: baseline;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #8553B8;
+    width: 50%;
+}
