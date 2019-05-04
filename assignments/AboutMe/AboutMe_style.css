@@ -1,6 +1,7 @@
 body {
-    background-color: #9DB6E5;
+
     margin: 0px;
+
 }
 
 .container > div {
@@ -23,33 +24,54 @@ body {
 }
 
 .describe {
-    height: 150px;
-    width: 90%;
+    background: url(https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=711&q=80) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    height: 600px;
+    width: 100%;
     font-weight: bold;
-}
-
-.favmovies {
-    background-color: #D4F8A2;
-    height: auto;
-    line-height: 25px;
-    padding: 40px;
+    text-align: center;
+    font-size: 2em;
 
 }
 
-.favmovies > .movie {  /*wanted to align the first line left*/
-    line-height: 10px;
-    text-align: left;
+.container > .favmovies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    grid-column: 1/-1;
+    grid-gap: 10px;
+    padding: 5px 20px 5px 20px;
+    /* text-align: left; */
+    background-color: #9DB6E5;
 
 }
 
-.contact {
-    height: 200px;
-    align-items: baseline;
+#myfav {
+    grid-column: 1/-1;
+    text-align: center;
+    grid-gap: 1px;
+    font-size: 2em;
+    margin-bottom: 1px;
+}
+
+
+
+.connectme {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* text-align: center; */
+}
+
+#twitter, #github, #linkedin, #profile {
+    padding: 30px 30px 30px 30px;
 }
 
 
 footer {
     text-align: center;
     background-color: #8553B8;
-    width: 50%;
+    width: 100%;
+    align-items: baseline;
 }
