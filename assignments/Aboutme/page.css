@@ -1,0 +1,56 @@
+body{
+    background-image:url(https://cdn.pixabay.com/photo/2017/10/31/19/05/web-design-2906159_960_720.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:white;
+  }
+  h1{
+    text-align:center;
+    text-decoration:underline;
+   
+  }
+  p{
+    font-style:italic;
+    font-size:20px;
+    padding:5px;
+   
+  }
+  li{
+    font-style:italic;
+    font-size:20px;
+   
+   }
+  div{
+    font-style:italic;
+    font-size:20px;
+    padding:5px
+   
+  }
+  h3{
+    font-size:25px;
+    text-decoration:underline;
+  }
+  
+  .fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .fa:hover {
+    opacity: 0.8;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-google {
+    background: red;
+    color: white;
+  }
+  .fa-skype {
+    background: #3498DB;
+    color: white;
+  }
+  
