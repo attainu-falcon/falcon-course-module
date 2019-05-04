@@ -1,0 +1,95 @@
+.helloimage{
+background-image:url("https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+height: 600px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+position: relative;
+margin: 0px;
+}
+.tasveer{ 
+background-image: url("https://images.unsplash.com/photo-1501622285814-b5071de6f0be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+height: 100px;
+margin-top: 0px;  
+opacity: 0.5; 
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+background-position: center;
+padding: 10px;
+}
+p{
+background-color: red;
+border-radius: 10px;
+text-align: left;
+}
+.bottom{
+position: absolute;
+margin-left: 10px;
+margin-bottom: 0px;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 45px;
+}
+.kk{
+word-spacing: 25px;  
+margin-left: 1040px;
+}
+.tasveer:hover{
+background-color: red;    
+}
+.hellotext{
+color: aliceblue;
+font-family: 'Times New Roman', Times, serif;
+font-size: 150px;
+margin-left: 45px;
+}
+.checkout{
+color: lawngreen;
+font-size: 45px;
+margin-left: 50px;
+margin-bottom: 10px;
+}
+.textarea {
+position:relative;
+width: 500px;
+height: 55px;
+border: 1px solid #ddd;
+}
+button {
+position:absolute;
+height: 55px;
+right: 0px;
+width: 80px;
+font-size: 20px;
+}
+input{
+position:relative;
+border:none;
+width: 420px;
+height: 55px;
+resize: none;
+font-size: 25px;
+}
+.may{
+margin-left: 900px;
+color: antiquewhite;
+font-size: 70px;
+margin-top: 50px;
+}    
+.img{
+display: inline;
+}
+.imgtext{
+background-image: url("https://images.unsplash.com/photo-1467307983825-619715426c70?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");    
+height: 300px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 60px;
+color: rgb(228, 115, 9);
+text-align: center;
+margin-left: 0px; 
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+background-position: center;
+margin-top: 10px;
+}
