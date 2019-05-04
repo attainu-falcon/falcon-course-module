@@ -29,7 +29,7 @@ footer {
 table {
     width: 100%;
     text-align: left;
-    border-spacing: 1px;
+    border-spacing: 2px;
 }
 
 nav ul {
@@ -45,4 +45,10 @@ tr:nth-child(2n) {
 li, td, th, #advrt, header h4 {
     padding: 15px;
     border: 1px solid aliceblue;
+}
+html {
+    font-size: calc(8px + 1vmin)
+}
+nav li {
+    margin: 1px;
 }
