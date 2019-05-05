@@ -2,7 +2,7 @@
 position:relative;
 height: 40px;
 border: 5px solid #ddd;
-margin-left: 650px;
+margin-left: 630px;
 display: inline;
 color: grey;
 width: 380px;
@@ -22,7 +22,7 @@ background-size: normal;
 position: relative;
 background-position: center;
 font-style: oblique;
-font-family: 'Courier New', Courier, monospace;
+font-family: cursive;
 font-size: 25px;
 background-color: rgb(205, 209, 230);
 }
