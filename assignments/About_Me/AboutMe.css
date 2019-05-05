@@ -1,0 +1,123 @@
+body{
+	background-image: url(https://hdwallsource.com/img/2014/5/best-hd-wallpapers-8324-8657-hd-wallpapers.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
+
+	}
+h1{
+	padding: 200px 200px 100px 900px;
+	font-weight: 200;
+	font-family: Bradley Hand ITC;
+	font-size: 6em;
+	color: #d3d6c2;
+	
+}
+
+img{float: left;
+	size: 10%;
+	border-radius: 100%;
+	padding: : 100px 1600px 100px 200px;
+	margin-right: 200px;
+}
+
+ul {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+  border: 1px solid #555;
+}
+
+li a {
+  display: block;
+  color: #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+li {
+	float: left;
+  text-align: center;
+  border-right: 1px solid #bbb;
+}
+ 
+
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+li a.active {
+  background-color: #09665c;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+.about{
+	padding: 100px 700px 100px 100px;
+	font-family: Harlow Solid Italic;
+	font-size: 4em;
+	color: #52a56d;
+	
+}
+
+p{
+	font-family: Microsoft PhagsPa;
+	color: #b50ccc;
+	font-size: 2.5em;
+	text-align: justify;
+    text-justify: inter-word;
+
+}
+/*dropbtn*/
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
