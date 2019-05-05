@@ -1,22 +1,38 @@
 * {
     box-sizing: border-box;
     font-family: sans-serif;
-    color: steelblue;
+}
+
+body {
+    margin: 0;
+    
+}
+
+header h4 {
+    margin: 0;
+    padding: 20px;
 }
 
 header {
+    border-radius: 0 0 0px 10px;
+    box-shadow: 0px 0px 4px 6px #6495ed29;
+    border-left: 6px solid cornflowerblue;
 }
 
 nav {
     width: 20%;
     display: inline-block;
     vertical-align: top;
+    margin-top: -1px;
+    background-color: white;
 }
 
 main {
     width: 80%;
     display: inline-block;
     max-height: 80%;
+    /* box-shadow: inset 6px 6px 5px 5px #d4e9f31f; */
+    margin-top: 5px;
 }
 
 footer {
@@ -29,35 +45,39 @@ footer {
 table {
     width: 100%;
     text-align: left;
-    border-spacing: 2px;
+    border-collapse: collapse;
+    box-shadow: 8px 3px 10px #669dff2b;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    box-shadow: inset 6px 0px 10px #6495ed6e, 2px 0px 2px #6495ed24;
+    border-radius: 0px 0px 0px 10px;
 }
 
-tr:nth-child(2n) {
-    background-color: aliceblue;
-}
-
-li, td, th, #advrt, header h4 {
-    padding: 15px;
-    border: 1px solid aliceblue;
+td, th {
+    padding: 20px;
+    border-bottom: 1px solid aliceblue;
 }
 html {
-    font-size: calc(8px + 1vmin)
+    font-size: calc(8px + 1vmin);
+    color: cornflowerblue;
 }
 nav li {
     margin: 1px;
+    border-left: 6px solid cornflowerblue;
+    border-bottom: 1px solid aliceblue;
+    border-radius: 0px 10px 10px 10px;
+    padding: 20px;
 }
 
 tr:hover td {
-    background-color: steelblue;
-    color: white;
+    background-color: aliceblue;
 }
 
   nav li:hover {
-    border: none;
+    background-color: aliceblue;
+    border-radius: 0px 10px 10px 10px;
 }
