@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+  display: grid;
+  grid-template-columns: min-content 1fr;
+  font-family: system-ui, sans-serif;
+  
+  /* this breaks position sticky in Firefox */
+  /* overflow-x: hidden; */
+}
+header {
+  grid-column: 1 / 3;
+  background: #455A64;
+  color: white;
+  padding: 4rem;
+  text-align: center;
+}
+nav {
+  white-space: nowrap;
+  background: #37474F;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: white;
+  text-decoration: none;
+}
+nav ul li a.current {
+  background: black;
+}
+main {
+  padding-bottom: 40rem;
+}
+section {
+  padding: 2rem;
+  margin: 0 0 2rem 0;
+}
+footer {
+  grid-column: 1 / 3;
+  background: #607D8B;
+  padding: 5rem 1rem;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+table#t01 {
+  width: 100%;    
+  background-color: #f1f1c1;
+}
+
+h1{
+    text-align: left;
+}
