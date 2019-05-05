@@ -52,3 +52,12 @@ html {
 nav li {
     margin: 1px;
 }
+
+tr:hover td {
+    background-color: steelblue;
+    color: white;
+}
+
+  nav li:hover {
+    border: none;
+}
