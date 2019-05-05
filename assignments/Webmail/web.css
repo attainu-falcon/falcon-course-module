@@ -8,7 +8,7 @@ body{
 }
 .side{
     position:absolute;
-    top:50%;
+    top:40%;
     transform: translateY(-50%);
 }
 .side a{
@@ -28,6 +28,7 @@ body{
     font-size: 17px;
     font-weight: bold;
     font-family: 'Julius Sans One', sans-serif;
+    
 }
 .side a:hover{
     margin-left: 0;
