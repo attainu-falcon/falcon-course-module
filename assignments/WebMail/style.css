@@ -30,8 +30,9 @@ body{
   }
   
   input{
-	height:50px;
+	height:30px;
   }
+
   .navigation{
   list-style: none;
   padding-left:1px;
@@ -85,6 +86,7 @@ body{
   footer
   {
 	position: fixed;
+	height: 100px;
 	left: 10%;
 	width:80%;
 	margin-top:80px;
