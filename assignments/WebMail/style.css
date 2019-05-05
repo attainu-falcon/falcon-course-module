@@ -20,18 +20,17 @@ header {
 }
 
 nav {
-    width: calc(20% - 10px);
+    width: calc(30% - 10px);
     display: inline-block;
     vertical-align: top;
     margin-top: -1px;
     background-color: white;
-    margin-left: 10px;
+    margin-left: 6px;
 }
 
 main {
-    width: 80%;
+    width: 70%;
     display: inline-block;
-    max-height: 80%;
     margin-top: 1px;
 }
 
@@ -46,22 +45,27 @@ table {
     width: 100%;
     text-align: left;
     border-collapse: collapse;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: inset 1px -2px 2px 2px #ccdfff1a;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    box-shadow: inset -2px 0px 2px #6495ed17, inset -2px -2px 2px #6495ed1f, 2px 0px 2px #6495ed24;
+    box-shadow: inset -3px 0px 1px 1px #7fadff17, inset 0px -2px 2px #71a4ff14, 2px 0px 2px #6495ed24;
     border-radius: 0px 0px 10px 10px;
 }
-
+tr {
+    width: 100%;
+    display: inline-table;
+}
 td, th {
     padding: 20px;
-    border-bottom: 2px solid aliceblue;
+    border-top: 2px solid aliceblue;
 }
 html {
-    font-size: calc(8px + 1vmin);
+    font-size: calc(6px + 1vmin);
     color: cornflowerblue;
 }
 nav li {
@@ -69,7 +73,8 @@ nav li {
     border-left: 6px solid cornflowerblue;
     border-bottom: 1px solid aliceblue;
     border-radius: 0px 10px 10px 10px;
-    padding: 20px;
+    padding: 20px 0px;
+    text-align: center;
 }
 
 tr:hover td {
@@ -79,4 +84,16 @@ tr:hover td {
   nav li:hover {
     background-color: aliceblue;
     border-radius: 0px 0px 10px 10px;
+}
+table tbody, table thead
+{
+    display: block;
+    overflow: auto;
+}
+tbody {
+    height: 75vh;
+    overflow: hidden;
+}
+thead {
+    box-shadow: 0 2px 2px 2px aliceblue;
 }
