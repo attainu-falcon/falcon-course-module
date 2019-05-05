@@ -18,10 +18,16 @@ header{
   background-color: #033299;
   font-weight:bold;
 }
+.nav_menu ul{
+  padding-inline-start: 0px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
 .nav_menu{
+  border: 2px solid #FFF;
   vertical-align: top;
   display: inline-block;
-  width: 300px;
+  width: 250px;
 
 }
 .mail_ui{
@@ -59,8 +65,8 @@ header{
   border-right: 1px solid white;
 }
 .ad{
+  align-items: center;
   text-align: center;
-  width: 960px;
   height: 70px;
   background-color: #9e2170;
 }
