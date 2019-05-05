@@ -91,8 +91,7 @@ table tbody, table thead
     overflow: auto;
 }
 tbody {
-    height: 75vh;
-    overflow: hidden;
+    height: calc(100vh - 200px);
 }
 thead {
     box-shadow: 0 2px 2px 2px aliceblue;
