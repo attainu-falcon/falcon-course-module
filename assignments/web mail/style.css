@@ -5,7 +5,7 @@ border: 5px solid #ddd;
 margin-left: 650px;
 display: inline;
 color: grey;
-width: 400px;
+width: 380px;
 }
 input{
 width: 400px;
@@ -27,67 +27,66 @@ font-size: 25px;
 background-color: rgb(205, 209, 230);
 }
 ul{
- list-style: none;   
+list-style: none;   
 }
 .a:hover{
-    color: rgb(163, 99, 99);
+color: rgb(163, 99, 99);
 }
 .b:hover{
-    color: rgb(163, 99, 99);
+color: rgb(163, 99, 99);
 }
 .c:hover{
-    color:rgb(163, 99, 99);
+color:rgb(163, 99, 99);
 }
 .d:hover{
-    color:rgb(163, 99, 99);
+color:rgb(163, 99, 99);
 }
 .e:hover{
-    color: rgb(163, 99, 99);
+color: rgb(163, 99, 99);
 }
 .f:hover{
-    color: rgb(163, 99, 99);
+color: rgb(163, 99, 99);
 }
 .g:hover{
-    color: rgb(163, 99, 99);
+color: rgb(163, 99, 99);
 }
 .glyphicon:hover{
-    color: white;
+color: white;
 }
 .content-table {
-    border-collapse: collapse;
-    margin-left: 15%;
-    margin-top: -500px;
-    font-size: 20px;
-    width:75%;
-    border-radius: 5px 5px 0 0;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-
+border-collapse: collapse;
+margin-left: 15%;
+margin-top: -500px;
+font-size: 20px;
+width:75%;
+border-radius: 5px 5px 0 0;
+overflow: hidden;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.content-table thead tr {
+background-color: orangered;
+color: #ffffff;
+text-align: center;
+font-weight: normal;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.z:hover{
+color:gray;
+}
+.y:hover{
+color:gray;
+}
+.x:hover{
+color:gray;
   }
-  .content-table thead tr {
-    background-color: orangered;
-    color: #ffffff;
-    text-align: center;
-    font-weight: normal;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .z:hover{
-      color:gray;
-  }
-  .y:hover{
-    color:gray;
-  }
-  .x:hover{
-    color:gray;
-  }
-  .w:hover{
-    color:gray;
-  }
-  .v:hover{
-    color:gray;
-  }
-  .add{
-      text-align: center;
-      margin-bottom:-100px;
-      margin-right:0px;
-  }
+.w:hover{
+color:gray;
+}
+.v:hover{
+color:gray;
+}
+.add{
+text-align: center;
+margin-bottom:-100px;
+margin-right:0px;
+}
