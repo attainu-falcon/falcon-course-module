@@ -3,9 +3,6 @@ body {
   display: grid;
   grid-template-columns: min-content 1fr;
   font-family: system-ui, sans-serif;
-  
-  /* this breaks position sticky in Firefox */
-  /* overflow-x: hidden; */
 }
 header {
   grid-column: 1 / 3;
@@ -27,7 +24,6 @@ nav ul li a {
   display: block;
   padding: 0.5rem 1rem;
   color: white;
-  text-decoration: none;
 }
 nav ul li a.current {
   background: black;
