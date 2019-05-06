@@ -1,9 +1,105 @@
-/*{
-  box-sizing:border-box:
-  ;
-}*/
-table{
-    padding:50px;
-    border:10% bold solid;
-    color:black
-  }
+*{
+  box-sizing:border-box;
+}
+
+body{
+
+      background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTptDddyBZG4i4cycd6ZIBP2wT8PQKhihUqenZF7GpzlvTZuPghGQ");
+       background-repeat: no-repeat;
+      background-size: cover;
+   }
+
+   li{
+     color: coral;
+
+     list-style: none;
+     padding:0px;
+     
+   }
+
+   table
+   {
+        margin:70px 20px 40px 20px;
+        width: 60%;
+        border:2px solid coral;
+        height: 200px;
+        position: absolute;
+        left: 300px;
+   }
+      footer{
+position:absolute;
+width: 98.5%;
+top: 500px;
+ border:2px solid coral;
+ color: coral;
+ text-align: center;
+ 
+
+      }
+
+h2{
+  color: coral;
+
+
+
+}
+      
+   nav
+   {
+
+     float: left;
+     border: 2px solid coral;
+     text-align:justify;
+     margin: 70px 70px 80px 5px;
+     width: 10%;
+     height: 200px;
+     font-style:bold;
+
+    }
+  
+
+
+     a{ 
+       font-style: italic;
+       font-size: 20px;
+       color: coral;
+       
+       
+     }
+
+     a:hover{
+     color: red;
+     }
+
+     
+     header{
+       width: 100%;
+       height: 100px;
+       
+     /* background-color: rgb(45, 46, 46);*/
+      
+
+     }
+     h2{
+       color:coral;
+       text-align: left;
+     padding-left: 30px;
+     padding-top: 40px;
+      //margin:30px 80px 20px 30px;
+      border: 2px solid coral;
+      padding-bottom:40px;
+
+     }
+     th{
+       color: coral;
+       border: 2px solid coral;
+     }
+   td{
+    border: 2px solid coral;
+   }
+
+
+
+  
+
+  
