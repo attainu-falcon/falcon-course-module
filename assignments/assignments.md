@@ -37,7 +37,7 @@
 3. Inside the above folder, create a page about you with `html` and `css` having:
     1. A heading with your name.
     2. A short paragraph about you.
-    3. A list of your favourite movies.
+    3. A list of your favourite movies.  
 
 ## Day 5
 #### Create a web-mail page
