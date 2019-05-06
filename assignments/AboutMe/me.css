@@ -1,0 +1,143 @@
+#my img {
+  box-sizing:border-box;
+  position:absolute;
+  left:10px;
+  top:10px;
+  opacity:1;
+  transition: opacity 1s ease-in-out;
+  border: 5px solid rgba(23,67,88,0.8);
+  padding: 5px;
+  height:100px;
+  width:80px;
+}
+
+body {
+  background-color:black;
+  background-size:cover;
+}
+
+/** {
+  background: radial-gradient(circle, white, grey);
+}*/
+
+#my-box{
+  /*margin: 2% 2% 2% 2%;*/
+  /*width: 96%;*/
+  margin-left: 90px; /*should have been 100px no --- 10 + 80 + 10 ok. no. padding of 5+5 is also included already ..??*/
+  height: 100px;
+  background-color:rgba(23,67,88,0.5);
+  opacity:0.7;
+}
+
+.caption{
+  /*margin: 2% 2% 2% 2%;*/
+  /*width: 100%;*/
+  /*margin-left: 13%;*/
+  height: 60px;
+  background-color:rgba(23,67,88,0.5);
+  opacity:0.7;
+}
+
+#my img:hover /*why just img:hover didn't work man :( */{
+  /*opacity:0;*/
+}
+
+.item img:hover{
+  opacity:0.3;
+}
+
+div[class=movies]{
+  position:absolute;
+  top:200px;
+  
+}
+
+/*.item div{
+  color:white;
+  position:absolute;
+  top:200px;
+  height:100px;
+  background-color:black;
+  z-axis:1;
+} */
+
+.item{
+  display:inline-block;
+  margin:0; /*not working? */
+  height:auto; /*not helpful*/
+  width:25%; /*since we have 4 divs, so each should be 25% of the length of the "movies" block? -- but, it's not working?*/
+}
+
+/* 
+.item{
+  display:inline-block;
+  position:absolute;
+  top:100px;
+  border:2px solid black;
+  margin:0;
+  text-align:center;
+  width:25%;
+}
+*/
+.text{
+  /*background-color:black;*/
+}
+.item div{
+  position:relative;
+  top:50px; /*position=relative => wrt where it used to be. it would occur before img, normally. but, we wanted it on the image, at 50px (mid-way). but, this doesn't turn out to be the midway!!?*/
+  z-index:1; /*z-index not, z-axis!!*/
+  background-color:rgba(211,211,211, 0.4);
+  height:20px;
+  width:100%;
+ /* 25% of what? btw 25*4% didn't work*/
+  color:black;
+  text-align:center; /*how to make it center wrt top and bottom too???*/
+  transition: opacity 2s ease-in-out;
+}
+ /*I should shorten the urls???*/
+.item img{
+  position:relative;
+  top:0;
+  z-index:3; /*reverse wasn't working!! i.e. this being -1 and that being 1. why??*/
+  height:100px; /*images are not covering the entire width of screen!!! display=flex will help? not really*/ 
+  width:100%;
+}
+
+button {
+  border: none;
+  color: white;
+  /*height: 1px;
+  width: 1px;*/
+  /*padding: 20px 20px;*/
+  text-align: center;
+  display: inline-block;
+  margin-top:2%; /*shouldn't have margin be wrt the div id "my-box"??*/
+  margin-left:40px;
+  font-size: 15px;
+  cursor:pointer;
+  border:none; /*a default border is added to submit buttons. but, it's not a submit button?*/
+  /*opacity:0.6;*/
+  background-color: transparent;
+  tansition: all 0.4s ease-in-out;
+} /*what is this white background color here? :/*/
+
+button:hover{
+  background-color: transparent;
+  color:orange;
+  transform: scale(2,2);
+}
+
+
+/*img[class]{ 
+  border: 5px solid rgba(23,67,88,0.8);
+  padding: 5px;
+  height:100px;
+  width:80px;
+} */
+
+/*.item{
+  width:25%;
+}*/
+
+
+
