@@ -13,3 +13,26 @@
 #header_text {
     text-align: center;
 }
+
+nav {
+    margin: 30px;
+    overflow: hidden;
+    position: fixed;
+    top : 30px;
+    width: 100%;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    padding: 10px;
+}
+
+nav form{
+    float: right;
+}
+
+button {
+    margin-right: 50px;
+}
