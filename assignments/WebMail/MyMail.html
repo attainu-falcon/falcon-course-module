@@ -2,31 +2,39 @@
 <html>
   <head>
     <style>
-    h1{text-align:center; background-color:green;border: 1px solid black; margin-top: 0px;}
+      *{box-sizing: border-box;}
+    h1{width:570px;text-align:center; background-color:green;border: 1px solid black; margin-top: 0px;}
     tr, th, td{border: 1px solid red;width:140px;}
-    /*div{margin-left:400px;}*/
-    body{background-color:yellow;border: 1px solid black; height:500px}
-      table{display: inline-block;}
-      footer{border: 1px solid red;
-        width:200px;
-        position:relative;
-      top:200px;
-      left:350px;
-      /*border: 1px solid red*/}
+    body{background-color: aqua;/*border: 1px solid black; height:500px;*/}
+      /*ul{display: none;}*/
+      table{position: relative; top: -110px;left:150px;border-collapse: collapse;   /* display: inline-block;*/}
+      button{width: 150px;}
+      footer{text-align: center;border: 1px solid red;width:570px;}
      
     
     </style>
     </head>
   <body><h1>My Mail</h1>
-      <table>
-        <tr><td>inbox</td></tr>
-        <tr><td>sent</td></tr>
-        <tr><td>outbox</td></tr>
-        <tr><td>drafts</td></tr>
-        <tr><td>spam</td></tr>
-        <tr><td>trash</td></tr>
+    <main>
+    <nav><ul>
+      <li>inbox</li>
+      <li>sent</li>
+      <li>outbox</li>
+      <li>drafts</li>
+      <li>outbox</li>
+      <li>spam</li>
+    </ul>
+  </nav>
+</main>    
+      <!--<table>
+        <tr><td><button>inbox</button></td></tr>
+        <tr><td><button>sent</button></td></tr>
+        <tr><td><button>outbox</button></button></td></tr>
+        <tr><td><button>drafts</button></td></tr>
+        <tr><td><button>spam</button></td></tr>
+        <tr><td><button>trash</button></td></tr>
       
-      </table>                           
+      </table>  -->                      
  
       <table>
         <tr>
@@ -58,6 +66,7 @@
     <td>05/01/19</td>
   </tr>
       </table>
+      <br/><br/><br/><br/>
     <footer>This is an ad</footer>
   </body>
   
