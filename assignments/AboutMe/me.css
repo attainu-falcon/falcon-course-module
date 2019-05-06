@@ -49,6 +49,7 @@ body {
 div[class=movies]{
   position:absolute;
   top:200px;
+  width:100%;
   
 }
 
