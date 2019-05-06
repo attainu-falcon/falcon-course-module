@@ -77,6 +77,8 @@ nav li {
     text-align: center;
 }
 
+nav li:last-child {}
+
 tr:hover td {
     background-color: aliceblue;
 }
