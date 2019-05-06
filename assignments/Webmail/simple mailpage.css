@@ -1,0 +1,100 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+	 font-family: 'Roboto Condensed', sans-serif;
+	 background: #ffffff;
+	 overflow: hidden;
+
+}
+ul{
+	list-style: none;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  padding-top: 3px;
+  width: 100%;
+  border-bottom: 2px solid;
+
+}
+.nav ul{
+	display: inline-flex;
+}
+
+i{
+	color: red;
+	padding: 2px;
+  margin: 2px;
+}
+span{
+	padding: 2px;
+	color: red;
+	text-decoration: none;
+}
+
+#searchBar{
+	padding: 5px;
+	border:2px solid red;
+border-radius: 5px;
+width: 400px;
+}
+
+#navigation{
+	float: left;
+	width: 20%;
+	height: 100vh;
+	background: white;
+	border:1px;
+}
+#navigation li{
+  font-size: 1.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 0%;
+}
+#navigation i {
+  font-size: 2rem;
+  text-align: left;
+  padding-left: 1rem;
+}
+li:hover {
+  background-color: #ff4d4d;
+  border-radius: 20px;
+}
+
+ a:hover {
+  color: #ff4d4d;
+}
+a{
+	text-decoration: none;
+}
+table{
+	
+	float: right;
+	width: 80%;
+	text text-align: center;
+
+	
+	border:1px;
+}
+td,
+th {
+  padding: 1rem;
+  border-bottom: 1px solid red;
+}
+
+.tab tr:hover {
+  background-color:  #ff4d4d;
+  color: white;
+}
+.tab tr:hover span {
+  display: none;
+}
+  footer {
+
+  text-align: center;
+
+}
