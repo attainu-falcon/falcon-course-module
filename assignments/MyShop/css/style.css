@@ -33,6 +33,70 @@ nav form{
     float: right;
 }
 
-button {
+#search_button {
     margin-right: 50px;
 }
+
+main {
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 100px;
+}
+
+#filter_section {
+    border: 1px solid red;
+    width: 25%;
+    float: left;
+}
+
+#content_section {
+    border: 1px solid blue;
+    width: 70%;
+    float: right;
+}
+
+#sorting_criteria_div {
+    float: right;
+    margin: 10pxl
+}
+
+.container {
+    height: 400px;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .cell {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    padding: 4rem;
+  }
+  .cell-1 {
+    background: deepskyblue;
+  }
+  .cell-2 {
+    background: orangered;
+  }
+  .cell-3 {
+    background: royalblue;
+  }
+  .cell-4 {
+    background: gold;
+  }
+  .cell-5 {
+    background: blueviolet;
+  }
+  .cell-6 {
+    background: limegreen;
+  }
+  .cell-7 {
+    background: coral;
+  }
+  .cell-8 {
+    background: lightseagreen;
+  }
+  .cell-9 {
+    background: maroon;
+  }
