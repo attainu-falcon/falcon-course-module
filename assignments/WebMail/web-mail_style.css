@@ -1,66 +1,110 @@
 .container {
     border: 1px solid black;
     margin: 1px 5px 5px 5px;
-    height: 1000px;
-    width: 900px;
+    height: 600px;
+    width: 100%;
 
 }
 
-#mail_name {
+.mail_name {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50px;
     width: 100%;
-    height: 40px;
     background-color: grey;
     font-weight: bold;
     font-size: 30px;
-    vertical-align: middle;
-    padding-left: 5px;
-
-
+    align-items: center;
+    text-align: left;
+    position: absolute;
 }
 
 .mail_ops {
     display: grid;
-    grid-template-columns: 80px;
-    grid-template-rows: repeat(5, 40px);
+    grid-template-columns: max-content;
+    grid-template-rows: repeat(5, max-content);
+    grid-gap: 20px;
     border: 1px solid black;
+    padding: 15px;
     width: 150px;
-    height: 400px;
+    height: 350px;
     position:absolute;
     top: 80px;
     left: 40px;
 }
 
-.header {
-    background-color: grey;
-    font-weight: bold;
-    text-align: center;
-    border: 1px solid black;
-
-}
-
 .mailbox {
     display: grid;
     grid-template-columns: 1fr 2fr 0.7fr;
-    grid-template-rows: 50px auto auto;
-    justify-content: center;
+    grid-template-rows: 50px 50px 50px;
+    align-items: center;
     border: 1px solid black;
     width: 600px;
-    height: 400px;
+    height: 380px;
     position:absolute;
     top: 80px;
     left: 250px;
 }
 
-.from, .subject, .date {
-    border: 1px solid black;
+.incoming {
+    grid-column: 1/-1;
+    grid-row: auto;
+}
+
+#sender, #about, #time {
+    border: 2px solid blue;
+    background-color: grey;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+}
+
+.mail_ops>* {
+    border: 1px solid blue;
+    padding: 12px;
+    background-color: yellowgreen;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.new, .inbox, .sent, .drafts, .trash {
+    border-radius: none;
+    opacity: 1;
+    transition: opacity 1s;
+    transition: border-radius 1s;
+}
+
+.new:hover, .inbox:hover, .sent:hover, .drafts:hover, .trash:hover {
+    cursor: pointer;
+    border-radius: 25px;
+    opacity: 0.5;
+}
+
+.incoming {
+    border: 1px solid blue;
+    padding: 12px;
+    background-color: yellow;
+    transition: background-color 1s;
+    transition: opacity 1s;
+    transition: scale 1s;
+
+}
+
+.incoming:hover {
+    background-color: royalblue;
+    transform: scale(1.01);
+    opacity: 0.7;
+
 }
 
 .ad {
-    display: block;
-    border: 1px solid black;
+    display: flex;
+    justify-content: center;
     height: 100px;
-    width: 400px;
-    position: absolute;
-    top: 800px;
-    left: 250px;
+    width: 500px;
+    position: fixed;
+    bottom: 10px;
+    left: 300px;
 }
