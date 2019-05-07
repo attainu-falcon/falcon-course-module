@@ -1,0 +1,23 @@
+h1{
+    color:white;
+  }
+  div{
+    background-image:url("https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547_960_720.jpg");
+  }
+  span{
+    color:pink;
+    border-style:solid;
+    border-width:5px  5px;
+    border-color:green;
+    font-size:20px;
+    font-style:bold;
+  }
+  h6{
+   text-align:center;
+    color:white;
+    font-style:bold;
+  }
+  h3{
+    color:blue;
+    
+  }
