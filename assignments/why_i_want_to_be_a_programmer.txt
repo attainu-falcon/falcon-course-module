@@ -1,0 +1,1 @@
+Programmers have to be okay with constantly failing - your code is oftentimes not going to work on your first try. One of my favorite quotes about failure: "Fear of failure is caused by not knowing how to fail constructively.” 
