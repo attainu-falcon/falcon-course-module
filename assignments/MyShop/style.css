@@ -1,11 +1,23 @@
 li {
 	padding: 20px;
+	position: relative;
+	list-style: none;
+}
+
+aside>ul>li>p::after {
+	content: "+";
+	float: right;
+	font-weight: bolder;
 }
 
 header li {
 	list-style: none;
 	display: inline-block;
 	padding: 30px 20px 20px 20px;
+}
+
+header li:hover {
+	color: orangered;
 }
 
 #logo {
@@ -19,8 +31,13 @@ header {
 	box-shadow: 0px 10px 10px 0px aliceblue;
 }
 
-#sub-categories {
+#sub-menu {
 	background-color: white;
+	clear: left;
+}
+#sub-menu::after {
+	content: "";
+	display: table;
 	clear: both;
 }
 
@@ -28,7 +45,13 @@ header {
 	background-color: white;
 }
 
-ul {
+header ul {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+}
+
+aside ul {
 	margin: 0;
 	padding: 0;
 }
@@ -63,9 +86,19 @@ aside {
 article {
 	height: 300px;
 	width: 200px;
-	background-color: aliceblue;
+	background-color: white;
 	margin: 10px;
 	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	position: relative;
+  box-shadow: 10px 8px 6px #c7d9ea7d;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+article:hover {
+  box-shadow: 5px 4px 3px #c7d9ea7d;
 }
 
 #item-catalog {
@@ -76,10 +109,63 @@ article {
 #items {
 	clear: both;
 	overflow: auto;
-	height: 100%;
+	height: 95%;
 }
 
 body {
 	padding: 0;
 	margin: 0;
+}
+
+.tag {
+	background-color: orangered;
+	padding: 3px 6px;
+	position: absolute;
+	top: 5px;
+	font-size: .7em;
+	height: 1.2em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	box-shadow: 4px 4px 10px 0px rgba(255,69,0,0.38);
+  color: white !important;
+}
+.tag::after {
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	left: 4px;
+	border-top: 5px solid orangered;
+	border-right:  5px solid transparent;
+	border-left:  5px solid transparent;
+}
+
+.search-box {
+	float: right;
+	display: inline-block;
+	padding: 30px 20px 20px 20px; 
+}
+input[type="checkbox"] {
+	margin-right: 20px;	
+}
+
+.discount {
+	z-index: 1;
+	color: white;
+	background-color: black;
+	padding: 4px;
+	margin: 10px;
+	position: absolute;
+}
+#top {
+	height: 50px;
+	width: 50px;
+	background-color: black;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 45px;
+	color: white;
+	text-align: center; 
+	font-size: 4em;
+	opacity: .5;
 }
