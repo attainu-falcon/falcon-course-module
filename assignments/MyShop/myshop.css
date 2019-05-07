@@ -1,0 +1,359 @@
+*{
+  font-family: Arial;
+  margin:0;
+}
+
+.shop-name{
+  color:pink; /*when to use text-color/ color e.g.?*/
+  font-weight:900;
+  font-size:20px;
+  /*font-family: Arial;*/
+  background-color:white;
+  position:absolute;
+  right:50%;
+  top:7px; /*why is it (top=10px) not in the middle? 10+20+10=40=height of the banner..bcoz banner has a margin and top is calculated from the top-edge of the window..*/
+  /*text-align:center; /*text-align=center not working?why should it? why should it not?*/
+  /*I want to push it a little down, and to the center of the nav bar*/
+}
+
+.selected a{ /*important worked when i used .selected a and not, .selected or li .selected!!! why? CSS specificity? read about it?*/
+  background-color:white;
+  font-weight:bold;
+  color:black; /*why is important not working?*/
+}
+.navbars{
+  position:relative;
+}
+nav{
+  width:100%;
+  background-color:#f1f1f1;
+  position:fixed;
+  z-index:30;
+  height:40px;
+  margin:0; /*why didn't this margin work?*/
+}
+/*how to remove the spacing between nav and nav2?*/
+#red, #eshop{
+  color:#E75480;
+}
+
+nav2{
+  width:100%;
+  background-color:white;
+  position:fixed;
+  top:40px;
+  z-index:30;
+  height:40px;
+  margin:0; /*why didn't this margin work?*/
+}
+
+nav2 li a{ 
+  color:black; /*since a is a text, so color=black won't work on nav2 li but, on nav li a*/
+  font-size:11px;
+  display:block;
+  width:120px;
+}
+
+li{
+  display: inline-block;
+}
+li a{
+  text-decoration:none; /*underline/decoration around text*/
+  color:grey;
+  /*justify-content:center; /*how to know what kind of center/middle/align/content will work here? specific to li?*/
+  display:block;
+  line-height:40px;
+  height:40px; /*I had to give the height, so that white bg spreads the whole block and not just the text*/
+  /*padding:3px;*/
+  width:80px; /*set width for align to be relevant it says!!!*/
+  text-align:center;
+  vertical-align:middle;
+  font-size:15px;
+  /*margin-top:12.5px; /*12.5+15+12.5=40px - no. this will give margin to the block. not just the text. padding will do the needful buddy!!*/
+  /*padding-top:12.5px; no padding needed logically. had set margin=0 for body. now things look good man. congrats!!*/ 
+  
+}
+ul{
+  list-style:none;
+}
+
+button{
+  background-color:black;
+  color:white;
+  border:2px solid black; /*wow. as recommended setting it to none removed double border*/
+}
+
+
+/* ---- RIBBON LOGIC ---- */
+
+.ribbon {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /*need to go thru it once. how this is working exactly. but, this is  lovely!!!h-offset v-offset blur spread color |inset|initial|inherit;*/
+  z-index:30;
+ font-size: 8px; /*not able to align text here again. need to understand this properly now man*/
+ color:white; /*why does a 'color' change text-color?*/
+ background-color:#E75480;
+ width:60px;
+ height:10px;
+ position:fixed;
+ top:40px;
+ left:1050px;
+}
+#tip{
+  background-color:#E75480;
+  box-sizing:border-box;
+  position:absolute;
+  z-index:10; /*this z-index is wrt what?parent? BCOZ the whole website will be at z-index=0*/
+  top:4px;
+  left:5px;
+  width:8px;
+  height:8px;
+  /*padding: 3px 3px 3px 3px;*/
+  transform:rotate(45deg);
+}
+
+/* ---- GRID LOGIC ---- */
+.images{
+  position:relative;
+}
+.off{
+  position:absolute;
+  top:30px;
+  left:30px;
+  height:20px;
+  width:50px;
+  display:block;
+  z-index:20;
+  color:white;
+  font-size:10px;
+  text-align:center; /*how to make this text appear in the middle of the black box*/
+  vertical-align: middle;
+  line-height: 20px; /*what is the role of line-height in aligning the text??*/
+  background-color:black;
+}
+img{
+  height:300px;
+  width:260px;
+  position:absolute;
+  top:20px;
+  left:20px; 
+}
+.desc{
+  position:absolute;
+  top:320px;
+  left:20px;
+  height:60px;
+  width:260px;
+  display:block;
+  background-color:white;
+}
+
+/* -----DESCRIBING DESCRIPTION -----*/
+.desc-text{
+  color:grey;
+  font-size:10px;
+  height:14px;
+  width:250px; /*260 is the whole width, -5 -5 = 250*/
+  position:absolute;
+  top:5px;
+  left:5px;
+}
+.rate{
+  color:red;
+  font-weight:900;
+  font-size:12px;
+  position:absolute;
+  top:18px;
+  left:5px;
+}
+.rate-cut{
+  position:absolute;
+  top:4px;
+  right:-40px;
+  color:black;
+  font-weight:700;
+  font-size:10px;
+  text-decoration:line-through;
+}
+.box1:hover, .box2:hover, .box3:hover{
+  border:2px solid black;
+  height:12px;
+  width:12px;
+}
+
+.box1, .box2, .box3{
+  position:absolute;
+  top: 40px;
+  border:1px solid black;
+  height:8px;
+  width:8px;
+}
+.box3{
+  left: 5px;
+  background-color:pink;
+}
+.box1{
+  left: 25px;
+  background-color:orange;  
+}
+.box2{
+  left: 45px;
+  background-color:purple;  
+}
+
+.heart:before { /*https://www.hongkiat.com/blog/css-heart-shape/*/
+  position: absolute;
+  content: '\2661';
+  top:10px;
+  color: grey;
+  height: 8px;
+  left: 240px;
+  width: 8px;
+}
+
+/* ---- SIDE BLOCK ---- */
+.line1{
+  transform: rotate(60deg);
+}
+.line2{
+  transform: rotate(-60deg);
+  position:absolute;
+}
+
+
+.arrow{
+  position:fixed;
+  top:320px;
+  left:1450px;
+  height:40px;
+  width:30px;
+  display:block;
+  z-index:30;
+  color:white;
+  font-size:10px;
+  text-align:center;
+  vertical-align: middle;
+  line-height: 20px; /*what is the role of line-height in aligning the text??*/
+  background-color:black;
+}
+
+/* ---- THE GRID ---- */
+.grid {
+  display: grid;
+  position:absolute; /* <body> is parent for it*/
+  top:90px;
+  /*justify-items:stretch; /*didnt work*/
+  grid-gap: 10px;
+  grid-template-columns: 200px 300px 300px 300px 300px 50px;
+  grid-template-rows: 60px 400px 400px;
+  /*grid-auto-columns: 100px;*/
+  background-color: white;
+   
+    }
+
+  .box {
+    position:relative;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: white;
+    color: red;
+    font-size: 150%;
+    }
+
+  .a {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    }
+   .b {
+    grid-column: 3 ;
+    grid-row: 2;
+    }
+   .c {
+    grid-column: 2 ;
+    grid-row: 2 ;
+    }
+   .d {
+    grid-column: 2;
+    grid-row: 3;
+    }
+   .f {
+    grid-column: 3;
+    grid-row: 3;
+    }
+
+   .e {
+     grid-column: 6 / 7;
+     grid-row: 2 / 4;
+     margin-left:-10px; /*to remove grid-gap*/
+    }
+
+   .g {
+     grid-column: 2 / 7;
+     grid-row: 1;
+    }
+
+   .h {
+     grid-column: 4;
+     grid-row: 2;
+    }
+   .i {
+     grid-column: 5;
+     grid-row: 2;
+    }
+
+   .j {
+     grid-column: 4;
+     grid-row: 3;
+    }
+   .k {
+     grid-column: 5;
+     grid-row: 3;
+    }
+
+/* ---- SORT BY ---- */
+.g .text{
+  position:absolute;
+  top:25px;
+  left:1100px;
+  color:black;
+  font-size:12px;
+  font-weight:bold;
+}
+.g .dropdown{
+  position:absolute;
+  top:22px;
+  left:1160px;
+  box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+  font-size:10px;
+  font-weight:bold;
+  padding: 3px 10px 3px 3px;
+}
+
+/* ----- SIDEBAR ----- */
+.checkboxes ul li{
+  display:block;
+  font-size:12px;
+  color:grey;
+  padding:10px 0 10px 10px;
+  
+}
+
+input[type=checkbox]{
+  padding-right:6px;
+}
+.a{
+  overflow:auto;
+}
+.checkboxes{
+  height:1000px; /* https://stackoverflow.com/questions/48107353/allow-one-grid-item-to-scroll-with-fixed-header-and-sidebar */
+}
+.float{
+  float:right;
+}
+p{
+  font-size:14px;
+  font-weight:bold;
+  color:black;
+  padding:10px;
+}
+
+
+
