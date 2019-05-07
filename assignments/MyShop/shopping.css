@@ -1,0 +1,141 @@
+body{
+	margin:0;
+	padding:0;
+	font-family: 'Righteous', cursive;
+	color: #99D3DF;
+}
+article {
+	height: 400px;
+	width: 250px;
+	background-color: #FFFFFF;
+	margin: 10px;
+	padding: 2px;
+	display: inline-block;
+}
+
+.header{
+	grid-area: header;
+	display: flex;
+	background: #77A6F7;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+
+
+
+}
+.header .logo{
+	font-size: 50px;
+	font-family: 'Francois One', sans-serif;
+	color: #17252A;
+	padding:10px;
+	margin bottom: 20px;
+}
+.nav{
+	grid-area: nav;
+	display: inline-flex;
+	list-style: none;
+	background: #00887A;
+	text-align: center;
+	overflow: hidden;
+	position: fixed;
+	top: 75px;
+	width: 100%;
+}
+
+nav li{
+display: inline-flex;
+
+padding: 10px 40px;
+font-size: 15px;
+margin: 5px;
+
+}
+
+.sidebar{
+	grid-area: sidebar;
+	
+	position: fixed;
+	top: 165px;
+	width: 20%; 
+}
+.categories{
+	padding: 10px;
+	margin: 10px;
+}
+.brand{
+	padding: 10px;
+	margin: 10px;
+}
+h3{
+	text-align: center;
+	font size: 20px;
+}
+.main{
+	grid-area: main;
+	background: #E9E7DA;
+	margin: 10px;
+	padding: 2px;
+}
+.wrapper{
+	 display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-template-rows: 75px 75px auto;
+  grid-template-areas: 
+    "header header header header"
+   "nav nav nav nav"
+    "sidebar main main main";
+    
+}
+a{
+	text-decoration: none;
+	margin: 2px;
+	padding: 2px;
+	color: white;
+}
+#search{
+	
+  width: 200px;
+  border-radius: 5px;
+  border: 2px solid white;
+  background-color: #e2e2e2;
+}
+i{
+	padding: 5px;
+	color: #802BB1;
+}
+.header a:hover {
+  color: #b23121;
+}
+.nav a:hover {
+  color: #b23121;
+}
+.nav i:hover {
+  color: #b23121;
+}
+
+
+
+#sort{
+	float: right;
+	margin: 5px;
+	padding: 5px;
+}
+.head{
+	font-size: 30px;
+	margin: 20px;
+	padding: 10px;
+	 text-align: right;
+}
+ img{
+ 	width: 100%;
+ 	height: 80%;
+}
+p{ 
+    font-family: 'Francois One', sans-serif;
+	font-size: 20px;
+	text-align:center;
+	margin: 0;
+	padding: 0;
+	color: black;
+}
