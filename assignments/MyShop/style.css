@@ -1,0 +1,231 @@
+.navbar{
+    background-color: black;
+    position: fixed;
+    top:70px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: -20px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+.navbar li{
+    margin-right: 30px;
+}
+
+.navbar ul li:nth-child(4) a {
+    color: orangered;
+    font-family: sans-serif;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul a:hover{
+    color: orangered;
+}
+
+.navbar, .search-box{
+    display: inline-block;
+}
+
+.tag {
+	background-color: orangered;
+	padding: 3px 6px;
+	position: absolute;
+	top: -15px;
+	font-size: .7em;
+	height: 1.2em;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	box-shadow: 4px 4px 10px 0px rgba(255,69,0,0.38);
+    color: white !important;
+}
+
+.tag::after {
+	content: "";
+	position: absolute;
+	bottom: -5px;
+	left: 4px;
+	border-top: 5px solid orangered;
+	border-right:  5px solid transparent;
+	border-left:  5px solid transparent;
+}
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.header{
+    background-color: white;
+    position: fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 70px;
+    z-index: 2;
+}
+
+.header h3, img{
+    display: inline-block;
+    margin:10px;
+}
+
+.header h3{
+    font-size: 25px;
+    color: orangered;
+    margin-top: 20px;
+    float: left;
+}
+
+.header h3:first-child{
+    color:black;
+}
+
+.header h3:hover{
+    color: black;
+}
+
+.header img{
+    height: 90px;
+    width: 280px;
+    position: relative;
+    margin-right: 100px;
+    margin-left: 100px;
+    top: -20px;
+    left: 280px;
+}
+
+.search-box{
+    position: fixed;
+    top:75px;
+    right: 25px;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    background: white;
+    z-index: 2;
+}
+
+.search-btn{
+    color: black;
+    float: right;
+    width: 40px;
+    height: 40px;   
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+}
+
+.border{
+    background-color: white;
+    width:100%;
+    height: 10px;
+    position: fixed;
+    top:120px;
+    left:0px;
+    z-index: 2;
+}
+
+.container{
+    position: relative;
+    top:112px;
+    left:-10px;
+}
+.sidebar{
+    position: fixed;
+    top:112px;
+    left:-20px;
+    border-right: 5px solid white);
+    width: 15%;
+    background: white;
+   
+}
+ 
+.filter, .subfilter{
+    list-style: none;
+    line-height: 2;
+}
+
+#sortitem{
+    position: absolute;
+    top: 20px;
+    right:0px;
+}
+
+.item{
+    position: absolute;
+    top: 250px;
+    left:250px;
+    width:95%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products{
+    height: 250px;
+    width: 350px;
+    text-align: center;
+    margin-right: 25px;
+    margin-bottom: 10px;
+
+}
+
+.products a{
+    text-decoration: none;
+    color: black;
+}
+
+.products img{
+    height: 350px;
+    width: 250px;
+}
+
+.products h4{
+    margin-top: 5px;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 8px rgba(0, 0, 0, 0.2);
+  max-width: 350px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: orangered;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
