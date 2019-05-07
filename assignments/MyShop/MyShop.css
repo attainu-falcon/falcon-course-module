@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+.header{
+    background-color: rgb(212, 232, 248);
+    position: fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+    height: 70px;
+    z-index: 2;
+}
+
+.header h3, img{
+    display: inline-block;
+    margin:10px;
+}
+
+.header h3{
+    font-size: 25px;
+    color: slategrey;
+    margin-top: 20px;
+    float: left;
+}
+
+.header h3:first-child{
+    color:black;
+}
+
+.header h3:hover{
+    color: black;
+}
+
+.header img{
+    height: 70px;
+    width: 280px;
+    position: relative;
+    top: -10px;
+    left: 280px;
+}
+
+.navbar{
+    background-color: white;
+    position: fixed;
+    top:70px;
+    left: 0px;
+    height: 50px;
+    width: 100%;
+    z-index: 2;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    position: relative;
+    left: -20px;
+}
+
+.navbar li{
+    margin-right: 30px;
+}
+
+.navbar ul li:nth-child(4) a {
+    color: hotpink;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbar ul a:hover{
+    color: hotpink;
+}
+
+.navbar, .search-box{
+    display: inline-block;
+}
+
+.search-box{
+    position: fixed;
+    top:75px;
+    right: 25px;
+    height: 40px;
+    border-radius: 40px;
+    padding: 10px;
+    background: rgb(212, 232, 248);
+    z-index: 2;
+}
+
+.search-btn{
+    color: black;
+    float: right;
+    width: 40px;
+    height: 40px;   
+}
+
+.search-txt{
+    border: none;
+    background: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+}
+
+.border{
+    background-color: rgb(212, 232, 248);
+    width:100%;
+    height: 10px;
+    position: fixed;
+    top:120px;
+    left:0px;
+    z-index: 2;
+}
+
+.container{
+    position: relative;
+    top:112px;
+    left:-10px;
+}
+.sidebar{
+    position: fixed;
+    top:112px;
+    left:-20px;
+    border-right: 5px solid rgb(212, 232, 248);
+    width: 15%;
+    background: white;
+    z-index: 1;
+}
+
+.filter, .subfilter{
+    list-style: none;
+    line-height: 2;
+}
+
+#sort{
+    position: absolute;
+    top: 20px;
+    right:0px;
+}
+
+.catalogue{
+    position: absolute;
+    top: 40px;
+    left:200px;
+    height:700px;
+    width:85%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products{
+    height: 300px;
+    width: 200px;
+    text-align: center;
+    margin-right: 25px;
+    margin-bottom: 10px;
+
+}
+
+.products a{
+    text-decoration: none;
+    color: black;
+}
+
+.products img{
+    height: 250px;
+    width: 200px;
+}
+
+.products h4{
+    margin-top: 5px;
+}
