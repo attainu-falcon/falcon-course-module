@@ -1,0 +1,229 @@
+body{
+  width: 100%;
+  height: 100%;
+  margin:auto;
+  padding: 2px;
+  background-color:#2C2574;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 25px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  color: #000000;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: capitalize;
+}
+
+.navi{
+  position: fixed;
+  background-color: #2C2574;
+  width: 100%;
+  margin: 0%;
+  padding: 0%;
+  z-index: 2;
+  font-family: Comic Sans MS;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 20.4px;
+  color: #1ED2B1;
+}
+
+ul {
+  color:white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+
+li {
+  float: left;
+  padding:25px;
+  font-family:cosmic sans;
+}
+a{
+  color:red;
+
+}
+
+li #list{
+  float:center;
+}
+#head{
+  color:#FF4778;
+  margin:20px;
+  
+}
+#Active{
+  background:#2C2574;
+}
+.subnav{
+  color:white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  
+}
+li {
+  color:#2C2574;
+  float: left;
+  padding:25px;
+  font-family:cosmic sans;
+}
+a{
+  color:red;
+
+}
+
+#searchBox{
+  width:90%;
+  padding:1pc;
+}
+#submitButton{
+  float:right;
+  height:51px;
+  width:10%;   
+}
+
+
+.subnav-ul {
+  display: flex;
+  list-style: none;
+  margin: 0%;
+  padding: 0%;
+  background-color: white;
+}
+.subnav-ul a {
+  text-decoration: none;
+  margin: 0%;
+  padding: 2em 2em 2em 2em;
+  font-family: Muli, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 52px;
+  color: #2C2574;
+}
+
+.row {
+  display: flex;
+}
+.col-1 {
+  width: 17%;
+  height: 200vh;
+  background-color: #2C2574;
+  margin-top: 9em;
+  /* border-left: 1px solid grey; */
+  box-shadow: 5px 0 5px -5px #333;
+  z-index: 1;
+}
+
+.sidenav a {
+  padding: 16px 8px 15px 16px;
+  /* padding-top: 5rem; */
+  text-decoration: none;
+  font-size: 25px;
+  color: #1ED2B1;
+  display: block;
+  font-family: Muli, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.1px;
+  color: #1ED2B1;
+}
+.sidenav a:first-child {
+  padding-top: 2em;
+}
+.sidenav a i {
+  font-size: 16px;
+  line-height: 18.4px;
+  color: rgb(50, 50, 50);
+  float: right !important;
+  padding-right: 2%;
+}
+
+/* main content */
+.col-2 {
+  width: 83%;
+  background-color: #ffffff;
+  margin-top: 9em;
+}
+.sortBy {
+  font-family: Muli, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 40px;
+  background-color: #EC79DE;
+}
+.column {
+  width: 25%;
+  padding: 0 10px;
+  position: relative;
+}
+.column img {
+  width: 100%;
+  height: 100%;
+}
+
+.row2 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5em;
+}
+
+.card {
+  box-shadow: #79ECC9;
+  text-align: center;
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+
+  font-size: 12px;
+
+  font-weight: 400;
+
+  line-height: 13px;
+
+  color: #B3193D;
+}
+span {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.6);
+}
+.discount-label {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  width: 60px;
+  padding: 1%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.row3 {
+  float: right;
+  /* padding-top: 0.5rem; */
+  margin-top: 0.5em;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
