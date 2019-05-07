@@ -8,6 +8,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    background : #e0f;
 }
 
 #header_text {
@@ -20,6 +21,7 @@ nav {
     position: fixed;
     top : 30px;
     width: 100%;
+    background : #e0f;
 }
 nav ul{
     list-style-type: none;
