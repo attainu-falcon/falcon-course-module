@@ -51,7 +51,7 @@ nav2 li a{
   color:black; /*since a is a text, so color=black won't work on nav2 li but, on nav li a*/
   font-size:11px;
   display:block;
-  width:120px;
+  width:105px;
 }
 
 li{
@@ -96,7 +96,7 @@ button{
  height:10px;
  position:fixed;
  top:40px;
- left:1050px;
+ left:950px;
 }
 #tip{
   background-color:#E75480;
@@ -309,6 +309,9 @@ img{
     }
 
 /* ---- SORT BY ---- */
+.search input[type=text]{
+width:100px;
+}
 .g .text{
   position:absolute;
   top:25px;
