@@ -1,32 +1,43 @@
-#wrapper{font-family: tahoma;}
-.container{width: 90%;
-margin: 0 auto;}
-#subheader{width: 100%;
-height: 30px;
-background:#0a930a;
-color: #fff;
-  margin-top: -15px;
+.wrapper{display: grid;
+grid-template-columns: 1fr 2fr 1fr;
+border: 1px solid #f76707;
+background-color: #fff4e6;
+height: 100%;
+width: 100%;}
+.wrapper > div {border: 2px solid #ffa94d;
+padding: 1em;
+color: #d9480f;/*
+height: 100%;*/}
+.box1 {grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 1;
+grid-row-end: 2;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 4fr}
+.box2 {grid-column-start: 1;
+grid-column-end: 4;
+grid-row-start: 2;
+grid-row-end: 3;
+padding: 10em;
+display: grid;
+grid-template-columns: repeat(10, 1fr);
+   /* border: 1px solid #ffec99;
+*height: 300px;*/
 }
-#subheader p{float: left;
-margin-top: 7px;
+.nested {border: 2px solid #ffec99;
+padding: 1em;
+border-radius: 2px;
+margin-top: 20px;}
+#nested {border: 1px solid green;
+text-align: center;
+padding: 20px ;}
+.box3 {height: auto;
+    display: grid;
+    grid-template-rows: 2fr 2fr 1fr 1fr 1fr; /*grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 3;
+grid-row-end: 4;*/}
+.box4 {height: auto;
 }
-#subheader a{float: right;
-  line-height: 30px;
-  color: #fff;
-  text-decoration: none;
-  margin-left: 30px;
-}
-/*logo styling*/
-#main-header:{width: 100%;
-height:100px;
-background: #1aaa1a;
-float: left;
-margin-top: -15px;}
-#logo{width: 250px;
-margin: 10px;
-float: left;}
-#ist{color: black;
-font-size: 45px;
-font-weight: bold;
-margin-left: 15px;
-font-family: cursive;}
+.box5 {height: auto;}
+.nested2 {border: 1px solid #ffec99;}
