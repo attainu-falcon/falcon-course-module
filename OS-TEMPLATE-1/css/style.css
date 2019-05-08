@@ -1,0 +1,297 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+	font-family: Georgia;
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+header{
+	border-top: 8px solid #76c38f;
+	width: 100%;
+	background-color: rgba(40, 0, 0);
+	
+}
+.navbar{
+	width: 100%;
+	height: 120px;
+	line-height: 120px;
+	float: left;
+}
+.navbar .navbar-brand{
+	width: 30%;
+	float: left;
+}
+.navbar nav{
+	width: 70%;
+	float: left;
+}
+.navbar:after{
+	display: block;
+	clear: both;
+	overflow: hidden;
+}
+nav ul{
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+nav ul li{
+	list-style: none;
+	float: left;
+	height: 80px;
+	line-height: 80px;
+	margin-right: 10px;
+	
+}
+nav ul li a{
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: lighter;
+	text-decoration: none;
+	text-align: center;
+	padding: 0 20px;
+	transition: .3s all ease;
+}
+nav ul li a:hover, .visited{
+	background-color: #76c38f;
+	border-radius: 3px;
+	padding: 10px 20px;
+}
+.carousel{
+	width: 100%;
+	overflow: hidden;
+}
+.carousel .leftimage{
+	margin-top: 140px;
+	float: left;
+	margin-left: 15px;
+}
+.showcase-text{
+	width: 30%;
+	float: left;
+	margin-left: 40px;
+	margin-top: 50px;
+}
+.showcase-text h1{
+	margin-bottom: 20px;
+	font-family: Georgia;
+	color: #ffffff;
+	font-size: 46px;
+	font-weight: 400;
+	line-height: 46px;
+}
+.showcase-text p{
+	font-family: Georgia;
+	color: #979797;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 19.2px;
+	margin-bottom: 10px;
+}
+.showcase-text .button {
+	background-color: #76c38f;
+	border-radius: 5px;
+	padding: 10px 20px;
+	border: none;
+	color: #ffffff;
+	transition: .3s all ease;
+}
+
+.showcase-text .button:hover {
+	background-color: #ffffff;
+	border-radius: 5px;
+	padding: 10px 20px;
+	border: none;
+	color: #76c38f;
+}
+.showcase-image{
+	float: left;
+}
+.showcase-image img{
+	width: 50%;
+	border: 15px solid #6b6b6b;
+	border-radius: 50%;
+	margin-left: 150px;
+	margin-bottom: 30px;
+}
+.carousel .rightimage{
+	margin-top: 140px;
+	float: left;
+	margin-left: -50px;
+}
+.line-seperator{
+	width: 1px;
+	float: left;
+	opacity: .3;
+	margin-left: 150px;
+	height: 280px;
+	background: #fff;
+}
+
+.services{
+	width: 100%;
+	background-color: #660000;
+	padding: 62px 0;
+	overflow: hidden;
+}
+.services-title{
+	
+	display: flex;
+	justify-content: space-around;
+}
+.service-area{
+	width: 225px;
+	height: 305px;
+	background-color: #FFFFFF;
+	text-align: center;
+	transition: .3s all ease;
+}
+.service-area .nested-service{
+	width: 80%;
+	margin: auto;
+	padding: 25px 0;
+}
+.service-area h2{
+	font-family: Georgia;
+	color: #333333;
+	font-size: 32px;
+	font-weight: 400;
+	margin-top: 10px;
+	transition: .3s all ease;
+}
+.service-area p{
+	font-family: Georgia;
+	color: #979797;
+	font-size: 12px;
+	font-weight: 400;
+	margin-top: 20px;
+	transition: .3s all ease;
+}
+.service-area:hover{
+	width: 225px;
+	height: 305px;
+	background-color: #76c38f;
+	text-align: center;
+	color: #fff;
+}
+.service-area:hover h2{
+	color: #fff;
+}
+.service-area:hover p{
+	color: #fff;
+}
+.service-area img{
+	transform: scale(1.0,1.0);
+	transition: .3s all ease;
+}
+.service-area:hover .service-area img{
+	transform: scale(1.1,1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
