@@ -9,7 +9,8 @@ body{
   header li {
 	  list-style: none;
 	  display: inline-block;
-	  padding: 20px 10px 20px 10px;
+		padding: 20px 10px 20px 10px;
+		font-family: Muli, Arial, Helvetica, sans-serif;
   }
   h1{
 	text-align:center;
@@ -39,13 +40,14 @@ body{
 	background:#f3d5e0;
 	display:inline-block;
 	border-radius:15px;
+	font-family: Muli, Arial, Helvetica, sans-serif;
 	
   }
   .details a{
    color: black;
    padding: 20px 15px 20px 10px;
 	text-decoration: none;
-	font-size:18px;
+	font-size:16px;
   }
   .details a:hover {
 	background-color:#efe3e7;
@@ -60,18 +62,18 @@ body{
 	float: right;
   }
   .details input[type=text] {
-	margin-top: 8px;
-	font-size: 18px;
+	margin-top: 6px;
+	font-size: 16px;
 	border: none;
 	padding:6px;
   }
   .details .search-bar button {
 	float: right;
    padding: 6px 8px;
-	margin-top: 8px;
+	margin-top: 6px;
 	margin-right: 16px;
 	background: white;
-	font-size: 18px;
+	font-size: 16px;
 	border: none;
 	cursor: pointer;
   }
@@ -79,10 +81,11 @@ body{
 	background-color:#ead0d1;
 	width:20%;
 	float: left;
-	padding: 10px;
-	margin : 40px 80px 40px 0;
-	font-size:20px;
+	padding: 15px;
+	margin : 25px 80px 40px 0;
+	font-size:16px;
 	border-radius:15px;
+	font-family: Muli, Arial, Helvetica, sans-serif;
   }
   nav ul{
 	list-style-type:none;
@@ -97,9 +100,10 @@ body{
   
   .sort{
 	position:absolute;
-	top:240px;
+	top:250px;
 	right:20px;
 	float:right;
+	font-family: Muli, Arial, Helvetica, sans-serif;
 	
   }
   .product-details{
@@ -118,5 +122,27 @@ body{
 	margin-bottom:20px;
 	height:250px;
 	width:250px;
-  }
+	padding: 10px;
+	}
+	nav i{
+		float: right;
+		cursor: pointer;
+		font-size: 10px;
+	}
+	#viewmore{
+		text-decoration: none;
+		color: brown;
+		text-align: center;
+	
+	}
+	#viewmore i{
+		float: left;
+		font-size: 15px;
+		margin-right: 10px;
+	}
+	h4{
+		font-size: 13px;
+		font-family: Arial, Helvetica, sans-serif;
+		font-weight: 400;
+	}
   
