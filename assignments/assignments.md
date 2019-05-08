@@ -1,9 +1,9 @@
 # Week 1 Assignments
 
-## Day 2
+## Day 1
 #### Create an HTML page on [codepen.io](https://codepen.io) using the tags learnt
 
-## Day 3
+## Day 2
 #### Create an HTML page on [codepen.io](https://codepen.io) using 5 block and inline elements each
 
 # Week 2 Assignments
@@ -63,4 +63,22 @@
     2. The right box is a table of emails with coloumns for From, Subject & Date.
     3. The bottom one is for placing ads.
 4. You can use sizes, colors, font etc according to your choice.
+<<<<<<< HEAD
 >>>>>>> 7098c98ab2cea967cdbabb6be93f4da159799473
+=======
+
+# Week 3 Assignments
+
+## Day 1
+#### Create a shopping page
+![My Shop page](images/myshop.png)
+1. Pull changes into your repo.
+2. Create a folder named `MyShop` inside the `assignments` folder.
+3. Inside the above folder, create a page which has these sections:
+    1. The header at the top is fixed and does not hide on scroll.
+    2. The next one is for navigation and contains links for categories and a search box. You can use an un-ordered list to do that. This is also fixed and does not hide on scroll.
+    3. On the left we have a sidebar for filters. It has checkboxes
+    4. On the right is the product catalogue including price and other details.
+    5. You have a select dropdown for the 'Sort By' option.
+4. This is an assignment where you are required to build to given specifications.
+>>>>>>> 8fd1b46b57fc8aa50090b496e3a49921c5c06559
