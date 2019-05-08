@@ -1,0 +1,37 @@
+*{
+    margin: 0; padding: 0; box-sizing: border-box;
+}
+body{
+    position: relative;
+    background: rgb(87,189, 130);
+    height: 100vh;
+    display: flex;
+    transition: all .3s ease;
+}
+.name, .email, .password, .success{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 350px;
+    height: 50px;
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.name i, .email i, .password i, .success i{
+    padding: 5px;cursor: pointer;
+}
+.name input, .email input, .password input, .success input{
+    background: none;
+    border: none;
+    outline: none;
+    flex: 1;
+    height: 100%;
+}
+div .inactive{
+    opacity: 0;
+    
+}

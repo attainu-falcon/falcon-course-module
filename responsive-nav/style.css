@@ -96,78 +96,77 @@ hr {
 input, select {
     vertical-align:middle;
 }
-
-
-/* custom styles */
-
 nav{
     width: 100%;
-    min-height: 8vh;
+    height: 8vh;
+    background: #545454;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    text-align: center;
-    background: #5544dd;
     font-family: sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+nav a{
+    color: #fff;
+    text-decoration: none;
 }
 .logo{
-    color: #ccc;
-    text-transform: uppercase;
     font-size: 20px;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
-.nav-links{
+ul{
     display: flex;
     justify-content: space-around;
     width: 30%;
 }
-.nav-links a{
+ul li a{
+    font-size: 14px;
+}
+nav ul li:hover a{
     color: #ccc;
-    text-decoration: none;
-    font-weight: lighter;
+    transition: all .3s ease;
 }
-
-.burger{
-    display: none;
-}
-
-.burger div{
+.line-1, .line-2, .line-3{
     width: 25px;
-    height: 3px;
-    background: #ccc;
+    height: 2px;
+    display: block;
+    background: #fff;
     margin: 5px;
 }
-@media screen and (max-width: 1200px){
-    .nav-links{
-        width: 50%;
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width:990px){
+    ul{
+        width: 40%;
     }
 }
-@media screen and (max-width: 768px){
+
+
+@media screen and (max-width:768px){
     body{
         overflow: hidden;
     }
-    .nav-links{
+    ul{
         position: absolute;
-        right: 0;
         top: 8vh;
-        display: flex;
+        right: 0;
         width: 50%;
         height: 92vh;
+        background: #545454;
+        display: flex;
         flex-direction: column;
         align-items: center;
-        background: #5544dd;
-        color: #ccc;
         transform: translateX(100%);
-        transition: transform 0.3s ease-in;
-    }
-    .nav-links li{
-        opacity: 0;
+        transition: transform .5s ease-in;
     }
     .burger{
         display: block;
     }
 }
-
-.nav-active{
+.active{
     transform: translateX(0);
 }
