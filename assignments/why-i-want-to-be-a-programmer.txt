@@ -1,0 +1,6 @@
+Develop A More Creative and Structured Way of Thinking
+When a computer programmer is given a problem that needs solving, they don’t begin to write program code right off the bat. No problem is ever solved in that way. First, it must be broken down into smaller more manageable chunks and then each one tackled as its own problem, a part of the whole. Most non-programmers will not do this, not with any problem. They will attempt to solve the problem as a whole and, on most occasions, they are doomed to failure.
+Make Your Life Easy.
+
+Learn Persistence
+When you begin to learn how to program, you begin to see all problems in the light of their solutions and your brain begins to function in that way. When you have learned how to program and you face a problem, you begin to see the possible solutions and you may, if you are lucky, begin to see some good results. It really doesn’t matter how hard a problem you face, you will become determined to solve it and you will find yourself being turned into an individual who is driven by solutions.
