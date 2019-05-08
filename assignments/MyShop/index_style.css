@@ -1,15 +1,27 @@
 
-html {
+html, body {
     height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
 }
-body {
-    height: 100%;
+
+.myshop p {
+    position: fixed;
+    top: -55px;
+    left: 500px;
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: cursive;
+    color: red;
+    z-index: 500;
 }
 
 .container {
     display: grid;
     grid-template-columns: repeat(6, 1fr) max-content 1fr max-content repeat(3, 1fr) max-content;
-    grid-template-rows: repeat(2, 40px);
+    grid-template-rows: 40px 30px;
 
     /* background-color: #D3C6C6; */
     align-items: center;
@@ -46,15 +58,6 @@ body {
 .container .menu {
     font-family: fantasy;
     font-size: 12px;
-}
-
-.myshop {
-    grid-column: 6/7;
-    grid-row: 1/2;
-    padding: 20px;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: cursive;
 }
 
 #menu1 {
@@ -221,15 +224,15 @@ body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    grid-column-gap: 10px;
+    grid-column-gap: 15px;
     grid-row-gap: 25px;
     /* grid-auto-flow: column; */
-    height: auto;
-    position: relative;
-    top: 130px;
+    height: 80%;
+    width: 80%;
+    position: fixed;
+    top: 120px;
     left: 220px;
-
-
+    overflow-y: scroll;
 }
 
 .collection div {
@@ -258,4 +261,11 @@ body {
     color: red;
     font-size: 15px;
     font-weight: bold;
+}
+
+.sort {
+    display: flex;
+    position: fixed;
+    top: 90px;
+    left: 1000px;
 }
