@@ -4,33 +4,29 @@
         <meta charset="utf-8">
         <title>My Shop</title>
         <link rel="stylesheet" text = "text/css" href="index_style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
     </head>
     <body>
 
         <div class="container">
-            <div class="women"><a href="#">Women</a></div>
-            <div class="men"><a href="#">Men</a></div>
-            <div class="kids"><a href="#">Kids</a></div>
-            <div class="menu" id="menu1">What's new</div>
-            <div class="menu" id="menu2">Exclusive</div>
-            <div class="menu" id="menu3">Trends</div>
-            <div class="menu" id="menu4">Clothing</div>
-            <div class="menu" id="menu5">Dresses</div>
-            <div class="menu" id="menu6">Plus Size</div>
-            <div class="menu" id="menu7">Shoes & Accessories</div>
-            <div class="menu" id="menu8">Sole</div>
-            <div class="menu" id="menu9">E-Shopping Cards</div>
-            <div class="menu" id="menu10">Explore</div>
-            <div class="search-container" id="menu11">
-                <form action="#/action_page.php">
-                <input type="text" placeholder="Search...">
-                <button type="submit"><i class="fa fa-search"></i></button></form>
-            </div>
+            <div class="category"><a class = "active" href="#">Women</a></div>
+            <div class="category"><a href="#">Men</a></div>
+            <div class="category"><a href="#">Kids</a></div>
+            <div class="menu" id="menu1"><span>What's new</span></div>
+            <div class="menu" id="menu2"><span>Exclusive</span></div>
+            <div class="menu" id="menu3"><span>Trends</span></div>
+            <div class="menu" id="menu4"><span>Clothing</span></div>
+            <div class="menu" id="menu5"><span>Dresses</span></div>
+            <div class="menu" id="menu6"><span class = "active">Plus Size</span></div>
+            <div class="menu" id="menu7"><span>Shoes & Accessories</span></div>
+            <div class="menu" id="menu8"><span>Sole</span></div>
+            <div class="menu" id="menu9"><span>E-Shopping Cards</span></div>
+            <div class="menu" id="menu10"><span>Explore</span></div>
 
         </div>
 
         <div class="sidebar">
-            <div class="category"><a href="#category">Category</a><span id = "catplus"></span></div>
+            <div class="filter"><a href="#filter">Category</a><span id = "catplus"></span></div>
             <div class="style"><a href="#style">Style</a><span id = "styleplus"></span>
                 <div class="style_"><label><input type="checkbox" name="casual" value="checked">Casual</label></div>
                 <div class="style_"><label><input type="checkbox" name="boho" value="checked">Boho</label></div>
@@ -54,6 +50,11 @@
 
         </div>
 
+        <div class="search-container">
+            <input type="text" placeholder="Search...">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+
         <div class="sort">Sort By
         <select class="" name="">
             <option value="recommend">Recommend</option>
@@ -62,11 +63,7 @@
             <option value="trendy">Most in Trend</option>
 
         </select>
-
         </div>
-
-
-
 
         <div class="collection">
             <div id="item1">
