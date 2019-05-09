@@ -5,7 +5,7 @@
 .wrapper{
     display:grid;
     grid-gap: 15px;
-    grid-template-rows:3% 80%;
+    grid-template-rows:100px auto;
     grid-template-areas: 
     "header"
     "container"
@@ -45,6 +45,7 @@ color: #16a085;
 padding:15px 15px;
 margin-top: 3%;
 font-size:15px;
+font-family: Muli, Arial, Helvetica, sans-serif;
 transition: 0.5s,all;
 
 
@@ -63,7 +64,7 @@ transition: 0.5s,all;
 .logo{
 grid-area: logo;
 text-align: center;
-color: #a55eea;
+color: #D4BCCC;
 font-family: 'Cinzel Decorative', cursive;
 margin-top: 3%;
 
@@ -72,8 +73,7 @@ margin-top: 3%;
     
 grid-area: carticon;
 text-align: right;
-
-color: #8854d0;
+color: #4b6584;
 margin-top: 5%;
 margin-right: 10%;
 font-size: 30px;
@@ -81,7 +81,7 @@ font-size: 30px;
 .lowernavbar{
     grid-area: lowernavbar;
     background:#ecf0f1;
-    
+    box-shadow: 0 0 5px 0 #ccc;
     display: inline;
     position: relative;
     
@@ -92,11 +92,24 @@ font-size: 30px;
     color:#16a085 ;
     padding:15px 10px;
     font-size:15px;
+    font-family: Muli, Arial, Helvetica, sans-serif;
     transition: 0.5s,all;
     
 }
+.lowernavbar .selected{
+       color:tomato;
+}
 .lowernavbar a:hover{
     color: #e67e22;
+}
+.lowernavbar a span{
+    position: absolute;
+    top: 0;
+    line-height:1.5;
+    font-size: 9px;
+    background-color: tomato;
+    color: white;
+    padding: 0 5px;
 }
 .nav .search{
     float: right;
@@ -105,11 +118,13 @@ font-size: 30px;
 .lowernavbar input[type=text]{
     padding:8px;
     margin-top:8px;
-    border:none;
+    border-style:ridge;
+    border-width:1px;
     font-size:15px;
     float:right;
-    border-top-left-radius: 10%;
-    border-bottom-left-radius: 10%;
+    background:white;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
     
     
 }
@@ -118,7 +133,7 @@ font-size: 30px;
     margin-top:8px;
     border:none;
     font-size:15px;
-    background:#e67e22;
+    background:black;
     color: #ecf0f1;
     cursor: pointer;
     float:right;
@@ -128,8 +143,8 @@ font-size: 30px;
 }
 .container{
     display:grid;
-    grid-gap:10px;
-    grid-template-columns: 15% 85%;
+    grid-gap:1px;
+    grid-template-columns: 250px 1100px;
     grid-template-areas:
      "sidebar content"
 }
@@ -140,9 +155,10 @@ font-size: 30px;
     padding: 8px;
     box-sizing: border-box;
     height:90%;
-    z-index: 1;
     width:15%;
     position:fixed;
+    left:0;
+    overflow:auto;
     
     
     
@@ -150,19 +166,24 @@ font-size: 30px;
 }
 .filterarea ul{
     list-style: none;
+  
     
 }
 .filterarea ul li{
-    padding: 5px;
+     padding:15px;
+     font-family: 'IBM Plex Sans', sans-serif;
 }
+
+
+
 .content{
     grid-area: content;
-    background: rgb(243, 243, 243);
-    color:green;
+    
    
 }
 .sort-order {
-	float: right;
+    float:right;
+	
 	padding: 10px;
 }
 .icons{
@@ -171,38 +192,63 @@ font-size: 30px;
 }
 .wrapper2 {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns:300px 300px 300px;
+    
     grid-gap: 15px;
     background-color: #fff;
     color: #444;
     
   }
+.product{
+       background:#C5C5C5;
+       width:300px;
+       box-sizing:border-box;
+}
+.product img{
+         
+         width:300px;
+}
+.discount{
+   background:black;
+   color:white;
+   width:20%;
+  padding:5px;
+}
+.description{
+    background:#FFFFFF;
+}
+.fa-heart-o{
+        float:right;
+        font-size:12px;
+}
+.fa-heart-o:hover{
+       color:red;
+}
+.red{
+     background:#B0824A;
+     color:#B0824A;
+     border:none;
+     outline:none;
+}
+.black{
+     background:black;
+     border:none;
+     outline:none;
   
-.box {
-    background-color: #d1d8e0;
-    color: #45aaf2;
-    border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
-    display:inline-block;
-    text-align:center;
-    letter-spacing: 1px;
-    line-height: 1.2;
-    border-radius: 5%;
-    
-    
-  }
-  .wrapper2 div>img{
-    
-    height:100%;
-    width:100%;
-       
-   
-  }
-  .box:hover{
-    border: solid 1px #CCC;
-    -moz-box-shadow: 1px 1px 5px #999;
-    -webkit-box-shadow: 1px 1px 5px #999;
-        box-shadow: 1px 1px 5px #999;
-
-  }
+}
+.grey{
+    background:grey;
+    color:grey;
+     border:none;
+     outline:none;
+}
+.color{
+    list-style:none;
+    display:flex;
+    padding:2px;
+  
+}
+.color li{
+    padding:2px;
+}  
+ 
