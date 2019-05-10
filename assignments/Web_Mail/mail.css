@@ -1,0 +1,53 @@
+body{
+	background-image: url(https://images.pexels.com/photos/1308624/pexels-photo-1308624.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+	color: #bc0998;
+}
+ul{
+	background: #07a5c1;
+	color: #07a5c1;
+}
+
+div{
+	
+	border: solid yellow 3px;
+}
+
+.static{
+	position: static;
+	border: solid rgb(45,56,28,255) 2px;
+	height:250px;
+	width:200px;
+	font-family: elephant;
+	padding: 60px 80px 80px 50px;
+	margin: 0px;
+
+}
+
+.Right{
+	position: fixed;
+	border: solid orange 3px;
+	height: 430px;
+	width: 930px;
+	right:70px;
+	left: 400px;
+	top:10px;	
+}
+
+.fixed{
+	position: static;
+	margin:150px;
+}
+.tabl{
+	font-size: 30px;
+	letter-spacing: 100%;
+	line-height: 3;
+	position: fixed;
+	width: 925px;
+	height: 20px;
+	right: 17px;
+	bottom: 200px;
+
+	
+}
+
+
