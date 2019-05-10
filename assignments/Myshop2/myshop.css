@@ -15,6 +15,7 @@
     display: grid;
     position:sticky;
     top:0;
+    z-index: 1;
     grid-template-rows: auto auto;
     grid-template-areas:
     "mainheader"
@@ -22,8 +23,8 @@
 }
 .mainheader{
     grid-area: mainheader;
-    background: white;
-    color:#16a085;
+    background: #F7F8FA;
+    color:black;
     display: grid;
     margin-top: 0;
     
@@ -40,10 +41,10 @@
 .mainnav a{
 float:left;
 text-decoration: none;
-background:white; 
-color: #16a085;
+background:#F7F8FA; 
+color: black;
 padding:15px 15px;
-margin-top: 3%;
+
 font-size:15px;
 font-family: Muli, Arial, Helvetica, sans-serif;
 transition: 0.5s,all;
@@ -57,7 +58,7 @@ transition: 0.5s,all;
 
 }
 .mainnav .active{
-    background: #ecf0f1;
+    background: #ffffff;
 }
 
 
@@ -65,8 +66,9 @@ transition: 0.5s,all;
 grid-area: logo;
 text-align: center;
 color: #D4BCCC;
+font-size: 15px;
 font-family: 'Cinzel Decorative', cursive;
-margin-top: 3%;
+
 
 }
 .carticon{
@@ -74,14 +76,15 @@ margin-top: 3%;
 grid-area: carticon;
 text-align: right;
 color: #4b6584;
-margin-top: 5%;
+
 margin-right: 10%;
 font-size: 30px;
 }
 .lowernavbar{
     grid-area: lowernavbar;
-    background:#ecf0f1;
-    box-shadow: 0 0 5px 0 #ccc;
+    background:#ffffff;
+    color:black;
+    box-shadow: 0 0 3px 0 #ccc;
     display: inline;
     position: relative;
     
@@ -89,7 +92,7 @@ font-size: 30px;
 .lowernavbar a{
     float:left;
     text-decoration: none;
-    color:#16a085 ;
+    color:black ;
     padding:15px 10px;
     font-size:15px;
     font-family: Muli, Arial, Helvetica, sans-serif;
@@ -116,15 +119,14 @@ font-size: 30px;
     
 }
 .lowernavbar input[type=text]{
-    padding:8px;
+    padding:7px;
     margin-top:8px;
     border-style:ridge;
     border-width:1px;
     font-size:15px;
     float:right;
     background:white;
-    border-top-left-radius: 5%;
-    border-bottom-left-radius: 5%;
+    
     
     
 }
@@ -138,31 +140,30 @@ font-size: 30px;
     cursor: pointer;
     float:right;
     margin-right: 1%;
-    border-radius: 10%;
+   
 
 }
 .container{
     display:grid;
     grid-gap:1px;
-    grid-template-columns: 250px 1100px;
+    grid-template-columns: 280px 1100px;
     grid-template-areas:
      "sidebar content"
 }
 .filterarea{
     grid-area: filterarea;
-    background:#ecf0f1;
+    background:#FFFFFF;
     color :black;
-    padding: 8px;
+    padding: 10px;
     box-sizing: border-box;
     height:90%;
     width:15%;
     position:fixed;
     left:0;
-    overflow:auto;
+    overflow:scroll;
+     
     
-    
-    
-    
+ 
 }
 .filterarea ul{
     list-style: none;
@@ -170,8 +171,10 @@ font-size: 30px;
     
 }
 .filterarea ul li{
-     padding:15px;
-     font-family: 'IBM Plex Sans', sans-serif;
+     padding:6px;
+     font-size:14px;
+     color: #666666;
+     font-family: Muli, Arial, Helvetica, sans-serif;
 }
 
 
@@ -190,69 +193,77 @@ font-size: 30px;
     color: black;
     float:right;
 }
-.wrapper2 {
-    display: grid;
-    grid-template-columns:300px 300px 300px;
+.wrapper2{
+    display:flex;
+    flex-flow:row wrap;
+    overflow:auto;
     
-    grid-gap: 15px;
-    background-color: #fff;
-    color: #444;
-    
-  }
-.product{
-       background:#C5C5C5;
-       width:300px;
-       box-sizing:border-box;
-       
 }
-.product:hover{
-    box-shadow: rgb(153, 153, 153) 5px 2px 5px;
+.product{
+       
+       height:420px;
+       width:250px;
+       margin:10px;
+       box-sizing:border-box;
+       position:relative;
 }
 .product img{
-         
-         width:300px;
+        
+        width:250px;
+        height:300px;
 }
 .discount{
+   position:absolute;
+   top:10px;
+   left:10px;
    background:black;
    color:white;
-   width:20%;
-  padding:5px;
+   width:10;
+   font-size:12px;
+   font-family: 'Montserrat', sans-serif;
+   padding:5px;
+   opacity:0.8;
 }
 .description{
-    background:#FFFFFF;
+   background:#FFFFFF;
+}
+.productname{
+      font-family: 'Raleway', sans-serif;
+      font-size:15px;
+      color:grey;
 }
 .fa-heart-o{
-        float:right;
-        font-size:12px;
+       float:right;
+       font-size:12px;
 }
 .fa-heart-o:hover{
-       color:red;
+      color:red;
 }
 .red{
-     background:#B0824A;
-     color:#B0824A;
-     border:none;
-     outline:none;
+    background:#B0824A;
+    color:#B0824A;
+    border:none;
+    outline:none;
 }
 .black{
-     background:black;
-     border:none;
-     outline:none;
-  
+    background:black;
+    border:none;
+    outline:none;
+ 
 }
 .grey{
-    background:grey;
-    color:grey;
-     border:none;
-     outline:none;
+   background:grey;
+   color:grey;
+    border:none;
+    outline:none;
 }
 .color{
-    list-style:none;
-    display:flex;
-    padding:2px;
-  
+   list-style:none;
+   display:flex;
+   padding:2px;
+ 
 }
 .color li{
-    padding:2px;
-}  
+   padding:2px;
+}
  
