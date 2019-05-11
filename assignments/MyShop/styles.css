@@ -1,0 +1,202 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+header{
+  font-family: 'Roboto';
+  background-color: whitesmoke;
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 3;
+}
+.logoContainer{
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 50%;
+}
+.logoContainer h1{
+  line-height: 60px;
+  font-size: 30px;
+  color: tomato;
+}
+.headerNav li{
+  display: inline-block;
+  line-height: 20px;
+  padding: 20px;
+  font-size: 16px;
+}
+.headerNav .active, .headerNav li:hover{
+  background-color: white;
+}
+.navigationBar{
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  top: 60px;
+  background-color: white;
+  box-shadow: 0 0 5px 0 #ccc;
+  z-index: 2;
+}
+.navigationBar ul li{
+  display: inline-block;
+  line-height: 30px;
+  padding: 10px;
+  padding-right: 20px;
+  font-size: 14px;
+  font-family: 'Roboto';
+}
+.navigationBar ul .current, .navigationBar ul li:hover, .navigationBar ul .offer{
+  color: tomato;
+}
+.offer::after{
+    content: " Upto \20B9 1400 off ";
+    font-family: 'Roboto';
+    position: relative;
+    bottom: 20px;
+    left: -110px;
+    background-color: #e60073;
+    color: white;
+    height: 30px;
+    font-size: 10px;
+    line-height: 20px;
+}
+.arrow{
+  position: relative;
+    bottom: 0px;
+    left: 20px;
+    width: 0;
+    height: 0;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 6px solid #e60073;
+}
+
+.searchBox{
+  position: absolute;
+  top: 10px;
+  right: 40px;
+}
+.searchBox input, .searchBox button{
+  height: 30px;
+  vertical-align: top;
+}
+.searchBox button{
+  width: 29px;
+  border: 0;
+  background-color: black;
+  color: white;
+  font-size: 16px;
+}
+.sideNav{
+  position: fixed;
+    top: 110px;
+    left: 0;
+    bottom: 0;
+    width: 240px;
+    border-right: 2px solid #eee;
+    padding: 10px 30px;
+    overflow: auto;
+}
+.filterType{
+  font-family: 'Roboto';
+}
+.filterType i{
+  float: right;
+  font-size: 11.5px;
+  margin-right: 2px;
+  margin-top: 20px;
+  padding-left: 30px;
+  line-height: 12px;
+}
+.filterType h4{
+  display: inline-block;
+  padding: 15px 5px;
+  margin-right: 20px;
+}
+.filterType ul li{
+  font-size: 13px;
+  line-height: 30px;
+  color: #666;
+}
+.viewMore h5{
+  padding: 10px 5px;
+  display: inline-block;
+}
+.viewMore i{
+  float: none;
+  padding-top: 15px;
+}
+
+.container {
+  padding-top: 120px;
+  padding-left: 240px;
+}
+
+.sort {
+  text-align: right;
+  margin: 20px;
+}
+.sort select{
+  height: 25px;
+  width: 120px;
+  -webkit-appearance:none;
+  border: 1px solid grey;
+  border-radius: 0px;
+  padding-left: 10px;
+}
+
+.product {
+  display: inline-block;
+  width: 25%;
+  padding: 15px;
+}
+
+.product:hover {
+  box-shadow: 0 0 2px 0 #ccc;
+}
+
+.product img {
+  background-color: #eee;
+  display: block;
+  width: 100%;
+}
+
+.product .details {
+  color: #666;
+  font-size: 14px;
+  width: 100%;
+  height: 80px;
+}
+.price{
+  margin-top: 3px;
+  color: red;
+  font-weight: bold
+}
+.colorVariants{
+  margin-top:10px;
+}
+.color1 , .color2, .color3{
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  margin-right: 5px;
+}
+.color1:hover, .color2:hover, .color3:hover{
+  border: 3px solid grey;
+}
+.offerBadge{
+background-color:black;
+color:white;
+height:30px;
+width:60px;
+padding:5px;
+position:relative;
+bottom:1000px;
+}
