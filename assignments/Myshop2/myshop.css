@@ -146,7 +146,7 @@ font-size: 30px;
 .container{
     display:grid;
     grid-gap:1px;
-    grid-template-columns: 280px 1100px;
+    grid-template-columns: 280px 1200px;
     grid-template-areas:
      "sidebar content"
 }
@@ -167,6 +167,7 @@ font-size: 30px;
 }
 .filterarea ul{
     list-style: none;
+    line-height: 18px;
   
     
 }
