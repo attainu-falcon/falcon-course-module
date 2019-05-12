@@ -23,7 +23,7 @@ line-height: 30px; /*align text inside a div*/
   top: 60px;
   left: 40px;
   width: 20%;
-  height: 130%; /* 100% just implies the height of the window before you scroll down */
+  height: 50%; /* 100% just implies the height of the window before you scroll down */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   //overflow: scroll;
 }
@@ -86,7 +86,7 @@ table{
   right:40px;
   //background-color:#ccc;
   width:70%;
-  height:100%;
+  height:50%;
   //margin:10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -198,7 +198,7 @@ img{
   width:70%;
   height:50px;
   position:absolute;
-  top:calc(100% + 60px + 20px);
+  top:calc(50% + 60px + 20px);
   right:40px;
   border: 3px solid black;
 }
