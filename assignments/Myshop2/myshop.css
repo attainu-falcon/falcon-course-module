@@ -8,8 +8,7 @@
     grid-template-rows:100px auto;
     grid-template-areas: 
     "header"
-    "container"
-    
+    "container"   
 }
 .header{
     display: grid;
@@ -26,30 +25,23 @@
     background: #F7F8FA;
     color:black;
     display: grid;
-    margin-top: 0;
-    
+    margin-top: 0;   
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
     "mainnav logo carticon"
-
 }
 .mainnav{
-    grid-area: mainnav;
-    
-    
+    grid-area: mainnav;        
 }
 .mainnav a{
 float:left;
 text-decoration: none;
 background:#F7F8FA; 
 color: black;
-padding:15px 15px;
-
+padding:16px 15px;
 font-size:15px;
 font-family: Muli, Arial, Helvetica, sans-serif;
 transition: 0.5s,all;
-
-
 }
 .mainnav a:hover{
 
@@ -160,6 +152,7 @@ font-size: 30px;
     width:15%;
     position:fixed;
     left:0;
+    z-index: 1;
     overflow:scroll;
      
     
@@ -212,6 +205,7 @@ font-size: 30px;
         
         width:250px;
         height:300px;
+       
 }
 .product:hover{
     border: solid 1px #CCC;
