@@ -14,8 +14,8 @@ All the live sessions would be recorded and uploaded on [Google Drive](https://d
 
 ## Assignments
 
-All the assignments are listed here - [assignments/assignments.md](assignments/assignments.md)
+All the assignments are listed here - [assignments/README.md](assignments/README.md)
 
 ## Resources
 
-Links for downloads, tutorials, extra reading etc can be found here - [resources/resources.md](resources/resources.md)
+Links for downloads, tutorials, extra reading etc can be found here - [resources/README.md](resources/README.md)
