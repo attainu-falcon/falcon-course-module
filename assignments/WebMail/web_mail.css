@@ -198,7 +198,7 @@ img{
   width:70%;
   height:50px;
   position:absolute;
-  top:calc(50% + 60px + 20px);
+  top:calc(80% + 60px + 27px);
   right:40px;
   border: 3px solid black;
 }
