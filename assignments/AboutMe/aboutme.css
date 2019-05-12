@@ -1,21 +1,39 @@
 body{
-
-    background-color: skyblue;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.h1{
-    color: black;
 
-margin-left: 45%;
+h1{
+    text-align: center;
+    font-size: 55px;
+    
+}
+h1:hover{
+    color: blueviolet;
 }
 p{
+    margin-top: 55px;
+font-size: 30px;
+color: brown;
+}
+p:hover{
+    color:lightblue;;
+}
+h2{
+   font-size: 40px;
+   color: darkorange;
+}
+h2:hover{
+    color: black;
+}
+ul,li{
+    font-size: 25px;
+    color: aqua;
+    
+}
+ul,li:hover{
     color: darkgreen;
 }
-.movie{
-    color:black;
-}
 img{
-width: 200px;
-}
-li{
-    line-height: 50px;
+   height: 250px;
 }
