@@ -1,6 +1,6 @@
-# AttainU Falcon Batch
+# AttainU Falcon
 
-This repo contains assignments and notes for AttainU's second Cohort - The AttainU Falcon.
+This repo contains assignments and notes for AttainU's second cohort - The AttainU Falcon.
 
 The students have to [fork](https://help.github.com/en/articles/fork-a-repo) the repository, commit their assignments in the `assignments` folder and push. Then they have to submit a pull request against the master branch of `attainu-falcon`.
 
