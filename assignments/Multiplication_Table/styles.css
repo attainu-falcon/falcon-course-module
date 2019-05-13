@@ -1,0 +1,43 @@
+*{
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: #012c72;
+}
+
+.container{
+  width: 350px;
+  height: auto;
+  background-color: whitesmoke;
+  opacity: 0.80;
+  display: table;
+  margin: 0 auto;
+  position: relative;
+  top:100px;
+}
+.multiplierHeading {
+  width: 90%;
+  height: 30px;
+  background-color: aqua;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 5px;
+}
+.multiplierHeading h3{
+color: purple;
+line-height: 30px;
+font-size: 25px;
+}
+.inputBox{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.printButton{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.results{
+  text-align: center;
+}
