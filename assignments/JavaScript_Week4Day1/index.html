@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Multiplication Table</title>
+    </head>
+    <body>
+        <h1>Assignment 13.05.2019</h1>
+
+        <input type="text" id="userInput" value ="">
+        <button type="button" onclick="reSet()" name="button1" value = "">Reset</button>
+        <br><div class="">
+            <button type="button" onclick="multiFunc()" name="button2" value = "">Print Multiplication Table</button>
+        </div>
+        <div id="result"></div>
+
+
+    </body>
+
+    <script type="text/javascript">
+
+        var userInput = document.getElementById("userInput");
+        var output = document.getElementById("result");
+
+        function multiFunc() {
+            var n = Number(userInput.value);
+            for(var i=1; i<11; i++) {
+                output.innerHTML  += i + " * " + n + " = " + n*i +"<br>";
+            }
+        }
+
+        function reSet() {
+            output.innerHTML = "";
+        }
+
+    </script>
+
+</html>
