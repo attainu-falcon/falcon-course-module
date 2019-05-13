@@ -1,0 +1,32 @@
+body{
+	background-color: bisque;
+}
+h1{
+	color: brown;
+	text-align: center;
+}h1:hover{
+	color:navy; 
+}
+
+.text{
+	position:fixed;
+	left: 550px;
+
+}
+.button{
+	position: fixed;
+	left: 550px;
+	top: 120px;
+	
+}
+#out{
+	position: fixed;
+	left: 600px;
+	top: 150px;
+
+}
+button{
+	position: fixed;
+	left: 650px;
+	top: 120px;
+}
