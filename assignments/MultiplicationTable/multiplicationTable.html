@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>AboutMe</title>
-    <link href="styles.css" rel="stylesheet"/>
+    <title>Multiplication Table</title>
+    
     <style>
     body {
 	display: flex;
@@ -67,18 +67,22 @@
   <script>
     	function multiplicationTable(){
 				var num;
-				num=Number(document.getElementById('txtNumber').value); 
-        if(num>1){
-				for(var i=1; i<=10; i++){
-					var pTag= document.getElementById('print');
-					pTag.innerHTML += num +" * " + i + "  =  " + (num*i) + " <br/> " 
-				}}
+				num=Number(document.getElementById('enterNumber').value); 
+        if(num>=1){
+				for(var i=1; i<=10; i++)
+                {
+					var pnum= document.getElementById('print');
+					pnum.innerHTML += num +"  *  " + i + "   =   " + (num*i) + "  <br/>  " 
+				}
+                
+                }
 			}
   </script>
 <div class="rainbow" >
 	<h1 style="background-color:orange;color:raspberry;">Enter the number to get the Multiplication Table:</h1>
-		<p style="text-align:center; color:blue;"><input type="text" id="txtNumber" placeholder="Enter any number."/></p>
-		<p style="text-align:center; color:blue;"><input type="button" value="Submit" onclick='multiplicationTable()'/>
+        <p style="text-align:center; color:blue;"><input type="text" id="enterNumber" placeholder="Enter any number.">
+        </p>
+		<p style="text-align:center; color:blue;"><input type="button" value="Submit" onclick='multiplicationTable()'></p>
 		
 		<p id="print" style="text-align:center; color:blue;"></p></div>
 </body>
