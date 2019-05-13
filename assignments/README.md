@@ -64,3 +64,19 @@
     4. On the right is the product catalogue including price and other details.
     5. You have a select dropdown for the 'Sort By' option.
 4. This is an assignment where you are required to build to given specifications.
+
+# Week 4 Assignments
+
+## Day 1
+
+#### Write a Javascript program that prints multiplication table of `n` upto 10.
+1. `n` should be entered in a input of type - 'number'.
+2. There should be a button with text 'Print Multiplication Table', when clicked should show the output in the following format (assuming n is 5):
+```
+1 * 5 = 5
+2 * 5 = 10
+.
+.
+.
+10 * 5 = 50
+```
