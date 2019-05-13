@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+.print-table{
+  background-color: rgba(255, 166, 0, 0.1);
+  position: relative;
+  height: 80px;
+  width: 400px;
+
+}
+
+#input-number, button{
+position:absolute;
+top:50%;
+height:50px;
+width:200px;
+box-shadow: inset 0 0 10px  rgba(0,0,0,0.1), 0 0 15px rgba(0,0,0,0.1);
+border-radius: 10px;
+}
+
+#input-number{
+//left:calc(50% - 50px);
+transform:translate(0,-50%);
+border:5px solid white;
+padding: 3px; 
+background: rgba(255,255,255,0.7);
+}
+
+button{
+left:calc(50% + 100px);
+transform:translate(-50%,-50%);
+border:5px solid rgba(255, 166, 0, 0.3);
+background:white;
+
+}
+
+button:hover{
+  background:rgba(255, 166, 0, 0.2);
+}
+
+/*ul{
+  position:absolute;
+  list-style-type:none;
+  top: calc( 50% + 50px);
+  margin-top:10px;
+  padding:2px;
+  background:rgba(255, 166, 0, 0.1);
+  height:200px;
+  width:200px;
+}*/
