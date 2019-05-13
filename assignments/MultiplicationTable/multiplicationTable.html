@@ -64,26 +64,35 @@
     
   </head>
 <body>
-  <script>
-    	function multiplicationTable(){
-				var num;
-				num=Number(document.getElementById('enterNumber').value); 
-        if(num>=1){
-				for(var i=1; i<=10; i++)
-                {
-					var pnum= document.getElementById('print');
-					pnum.innerHTML += num +"  *  " + i + "   =   " + (num*i) + "  <br/>  " 
-				}
-                
-                }
-			}
-  </script>
+  
 <div class="rainbow" >
 	<h1 style="background-color:orange;color:raspberry;">Enter the number to get the Multiplication Table:</h1>
         <p style="text-align:center; color:blue;"><input type="text" id="enterNumber" placeholder="Enter any number.">
         </p>
 		<p style="text-align:center; color:blue;"><input type="button" value="Submit" onclick='multiplicationTable()'></p>
 		
-		<p id="print" style="text-align:center; color:blue;"></p></div>
+		<p id="printt" style="text-align:center; color:blue;"></p></div>
+
+		<script>
+    	function multiplicationTable(){
+				var num;
+				
+				num=Number(document.getElementById('enterNumber').value); 
+			  
+				
+					document.getElementById("printt").innerHTML = "";
+        
+				for(var i=1; i<=10; i++)
+                { 
+					var pnum= document.getElementById('printt');
+				
+				
+				
+					pnum.innerHTML += num +"  *  " + i + "   =   " + (num*i) + "  <br/>  " ;
+				}
+                
+                
+			}
+  </script>
 </body>
 </html>
