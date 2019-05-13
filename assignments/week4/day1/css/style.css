@@ -1,0 +1,12 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    margin: 10px;
+}
+
+div {
+    border: 2px solid green;
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+}
