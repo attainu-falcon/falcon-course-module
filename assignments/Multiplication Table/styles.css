@@ -1,0 +1,29 @@
+body{
+    background-color: slategray;
+  }
+
+.container{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  height: 200px;
+  width: 320px;
+}
+  
+  button{
+    background-color: black;
+    color: white;
+    height: 30px;
+  }
+  
+  input{
+    height: 25px;
+  }
+  
+  #result{
+    width: 100%;
+    background-color: white;
+  }
