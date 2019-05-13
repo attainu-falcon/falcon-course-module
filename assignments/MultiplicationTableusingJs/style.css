@@ -1,0 +1,65 @@
+body{
+    background: #0984e3;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+header{
+       position: absolute;
+       background:#2d3436;
+       color:azure;
+       text-align: center;
+       height:10%;
+       width:100%;
+       font-family: 'Righteous', cursive;
+       font-size: 18px;
+       letter-spacing: 2px;
+}
+.container{
+     position: absolute;
+     color:aliceblue;
+     text-align: center;
+     width: 100%;
+     height:80%;
+     top:200px;
+     font-size: 25px;
+     font-family: 'Unica One', cursive;
+     word-spacing: 10px;
+     letter-spacing: 1px;
+}
+footer{
+       position: absolute;
+       background:#2d3436;
+       color:azure;
+       text-align: center;
+       height:5%;
+       bottom:0;
+       font-size:25px;
+       width:100%;
+       font-family: 'Old Standard TT', serif;
+       
+
+}
+input[type=Number]{
+    padding:10px;
+    border:none;
+    font-size:20px;
+    height: 25px;
+    border-radius: 10px 0 0 10px;
+    font-family: 'Unica One', cursive;
+}  
+button{
+    
+    background:rgb(0, 0, 0);
+    color:white;
+    border-radius:0 10px 10px 0;
+    cursor:pointer;
+    position:relative;
+    padding:10px;
+    font-family:sans-serif;
+    border:none;
+    font-size: 20px;
+    height: 45px;
+    font-family: 'Unica One', cursive;
+
+}
