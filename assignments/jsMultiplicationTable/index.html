@@ -1,0 +1,26 @@
+<!-- Multiplication Table-->        
+    <html>
+   <head>
+    <title>Multiplication Table</title>
+    </head>
+        <body>
+   <link rel="stylesheet" type="text/css" href="style.css">
+        <table border="0" style="margin: 0 auto; width: 500px">
+        <tr>
+            <td colspan="2">
+                <h2>Multiplication Table</h2>
+            </td>
+        </tr>
+        <tr>
+            <td width=28%>Enter a number : </td>
+            <td><input type="number" onchange="printTable(this)"></td>
+            
+        </tr>
+        <tr>    
+            <td colspan="2"><span id="mul"></span></td>
+            </tr>
+        </table>
+        <button type="submit" class="button">Print multiplication table</button>
+</body>
+</html>
+<script type="text/javascript" src="script.js"></script>
