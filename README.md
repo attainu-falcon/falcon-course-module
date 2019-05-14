@@ -19,10 +19,11 @@ All the live sessions would be recorded and uploaded on [Google Drive](https://d
 
 ## Assignments
 
-All the assignments are listed here - [assignments/README.md](assignments/README.md)
+All the assignments are listed here - [assignments](assignments/README.md)
 
 ## Resources
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 Links for downloads, tutorials, extra reading etc can be found here - [resources/resources.md](resources/resources.md)
 =======
@@ -31,3 +32,6 @@ Links for downloads, tutorials, extra reading etc can be found here - [resources
 =======
 Links for downloads, tutorials, extra reading etc can be found here - [resources/README.md](resources/README.md)
 >>>>>>> f4d7e29a929ff7b8e30515b0140d0d28e5dafca4
+=======
+Links for downloads, tutorials, extra reading etc can be found here - [resources](resources/README.md)
+>>>>>>> f2b075015e3544e4e0996e15e8bb95de668369d7
