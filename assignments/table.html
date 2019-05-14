@@ -1,0 +1,22 @@
+
+	<head>
+		<title> Table of an entered Number.</title>
+		
+	</head>
+
+	<body style="text-align: center;">
+		<h1>Learn Tables!</h1>
+		<p><input type="number" id="a" placeholder="Enter number"/></p>
+		<p><input type="button" value="Print Multiplication Table" onclick='printTable()'/>
+		<p id="b"></p>
+		<script type="text/javascript">
+			function printTable(){
+				var num;
+				num=Number(document.getElementById('a').value);
+				for(var i=1; i<=10; i++){
+					var result= document.getElementById('b');
+					result.innerHTML+=(num + " * "+ i + " = "+ num*i) + "<br/>" 
+				}
+			}
+		</script>
+	</body>
