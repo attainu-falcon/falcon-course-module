@@ -14,8 +14,12 @@ All the live sessions would be recorded and uploaded on [Google Drive](https://d
 
 ## Assignments
 
-All the assignments are listed here - [assignments/README.md](assignments/README.md)
+All the assignments are listed here - [assignments](assignments)
+
+## Coding Challenges
+
+All the coding challenges are listed here - [coding-challenges](coding-challenges)
 
 ## Resources
 
-Links for downloads, tutorials, extra reading etc can be found here - [resources/README.md](resources/README.md)
+Links for downloads, tutorials, extra reading etc can be found here - [resources](resources)
