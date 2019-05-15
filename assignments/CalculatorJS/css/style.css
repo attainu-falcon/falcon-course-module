@@ -30,3 +30,7 @@ button{
 h1 {
     color: #fff;
 }
+
+#result {
+    background: rgb(153, 192, 238);
+}
