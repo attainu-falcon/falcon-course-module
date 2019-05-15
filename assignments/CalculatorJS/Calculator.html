@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+<style>
+body{
+    background-color: white;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 320px;
+    width: 270px;
+    background-color: #0c2461;
+    border: 8px solid #6a89cc;
+    border-radius: 4px;
+}
+
+.container h1{
+    text-align: center;
+    color: white;
+}
+
+.container input, #output{
+    display: block;
+    width:230px;
+    height: 30px;
+    margin: 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.buttons{
+    width: 190px;
+    height: 50px;
+    margin-left: 40px;
+}
+
+.buttons button{
+    background-color: #6a89cc;
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    border-radius: 4px;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+
+.buttons button:active{
+    background-color: #0c2461;
+}
+
+#output{
+    background-color: #6a89cc;
+    height: 40px;
+    color:black;
+}
+
+</style>
+  </head>
+  <body>
+     <div class="container">
+            <h1>JS Calculator</h1>
+            <input id="inp1" type="number"/>
+            <input id="inp2" type="number"/>
+            <div class="buttons">
+                <button id="addition">+</button>
+                <button id="sub">-</button>
+                <button id="mul">*</button>
+                <button id="div">/</button>
+            </div>
+            <div id="output"></div>
+
+
+        </div>
+    <script src="script.js"></script>
+  </body>
+</html>
