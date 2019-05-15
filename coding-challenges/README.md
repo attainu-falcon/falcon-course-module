@@ -1,7 +1,6 @@
-# Challenge No 1, Looping Through an Array
+# Challenge 1 - Looping through an array
 
-Consider the following array - 
-
+Consider the following array: 
 ```js
 var players = [
 { name: "Roger Federer", rank: 1 },
@@ -18,3 +17,13 @@ var players = [
 ```
 
 Write a `for` loop that only prints players with rank less than or equal to 10.
+
+# Challenge 2 - Find initials of a name
+
+Write a JavaScript function which accepts a name and prints the initials.
+
+Input: `Mahendra Singh Dhoni`
+Output: `MSD`
+
+Input: `Shah Rukh Khan`
+Output: `SRK`
