@@ -54,7 +54,7 @@
 
 ## Day 1
 #### Create a shopping page
-![My Shop page](images/myshop.png)
+![my shop page](images/myshop.png)
 1. Pull changes into your repo.
 2. Create a folder named `MyShop` inside the `assignments` folder.
 3. Inside the above folder, create a page which has these sections:
@@ -70,8 +70,9 @@
 ## Day 1
 
 #### Write a Javascript program that prints multiplication table of `n` upto 10.
-1. `n` should be entered in a input of type - 'number'.
-2. There should be a button with text 'Print Multiplication Table', when clicked should show the output in the following format (assuming n is 5):
+1. Put your codes inside a `MultiplyJS` folder under `assignments`.
+2. `n` should be entered in a input of type `number`.
+3. There should be a button with text 'Print Multiplication Table', when clicked should show the output in the following format (assuming n is 5):
 ```
 1 * 5 = 5
 2 * 5 = 10
@@ -80,3 +81,11 @@
 .
 10 * 5 = 50
 ```
+
+## Day 3
+
+#### Create a simple calculator using JS with the UI looking like the below image:
+![calculator](images/calculator.png)
+1. Put your codes inside a `CalculatorJS` folder under `assignments`. 
+2. Use inputs of type `number`.
+3. Use functions as and when necessary.
