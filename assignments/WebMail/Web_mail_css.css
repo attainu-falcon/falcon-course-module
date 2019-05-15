@@ -1,0 +1,52 @@
+.header{
+    height:40px;
+    background-color: #ccc;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    }
+  .header a {
+    position: absolute;
+    top:0;
+    left:50%;
+    line-height:40px;
+    font-size:28px;
+    font-weight: bold;
+  }
+  .navigation {
+    position: fixed;
+    top: 80px;
+    left:20;
+    bottom:120;
+    width:120px;
+    background-color: black ;
+    color: white;
+   box-shadow: 0 0 5px 0 #ccc;
+   border-right: 2px solid #eee;
+    padding: 10px 30px;
+    }
+  .container {
+    padding-top: 120px;
+    padding-left: 540px;
+    padding-right: 220px;
+  }
+  .container table{
+    width:50%;
+    height:50%;
+    border-collapse: collapse;
+    background-color:yellow;
+  }
+  . container table,tr,th{
+     border: 1px solid black;
+  }
+  . container table, tr {
+     height: 100%;
+    vertical-align: bottom;
+  }
+  .advertisment marquee {
+    padding-top: 350px;
+    
+
+    position: absolute;
+  }
