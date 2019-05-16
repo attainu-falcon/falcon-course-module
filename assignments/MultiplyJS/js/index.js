@@ -5,7 +5,7 @@ function printTable(){
     } else {
         var ans = "<br /><h3>Here is the table of " + N + "</h3> <br />";
         for(let i = 1; i <= 10; i++){
-            ans += i.toString() + " * " + N.toString() + " = " + (N * i).toString() + "<br />";
+            ans += i + " * " + N + " = " + (N * i) + "<br />";
         }
         console.log(ans);
         var div = document.getElementById("table_div");
