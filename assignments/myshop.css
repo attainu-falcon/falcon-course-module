@@ -1,0 +1,232 @@
+{
+  font-family: arial;
+}
+nav{
+  position: fixed;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #3366CC;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5zWipsqImLrKE4NqtY0RWt7t7XGUTlDfSRop541iOjzxF2_N3Ow);
+
+}
+nav h2
+  text-align: center;
+  color: white;
+  font-family: Pacifico, cursive;
+  font-size: px;
+}
+nav ul{
+  list-style-type: none;
+  position: fixed;
+  top: 0px;
+
+}
+nav ul li{
+  display: inline-block;
+
+
+
+}
+nav ul li a{
+  padding:43px 10px;
+  text-decoration: none;
+  height: 15px;
+  background-color: #FFFFFF;
+  text-align: center;
+  color: black;
+  border: 1px solid black;
+}
+nav ul li a:hover{
+  background-color: #593F26;
+  color: white;
+  border: 1px solid white;
+  transition: .5s;
+
+}
+/*hover men */
+.Men:hover{
+  background-color: #3366CC;
+  color: white;
+  border: 1px solid white;
+  transition: .5s;
+  font-weight: bold;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrt8VuztJNvgJDzfqQLTcC6LTM3VFN-_Gu6Njq8PV4Vw_1vWktjQ);
+
+}
+/*Hover Kids*/
+.Kids:hover{
+  background-color:#FFFF99;
+  color: #FF3333;
+  font-weight: bold;
+  border: 1px solid white;
+  transition: .5s;
+  
+
+}
+
+.active{
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+/*Women hover*/
+.active:hover{
+  font-weight: bold;
+  background-color: #FF3399;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGJQoF5TYkqPuAAoTcBXy0cG-1af_vxE4g8kwNy9vLtr6R8XkHRQ);
+  border: 1px solid white;
+  color: #FF4C70;
+
+}
+/*Home & Living hover*/
+
+.home_living:hover{
+  font-weight: bold;
+  background-color: #00CC33;
+  border: 1px solid white;
+  color: white;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRludnyaZApERlkhhwOlNli3f7IKW9HG00nJge1JOq4nZlIJVu4);
+
+}
+/*Gadgets hover*/
+.gadgets:hover{
+  font-weight: bold;
+  background-color: #333366;
+  border: 1px solid white;
+  color: white;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaRiR6BY-HHW7KQjZvKYUzrMbJwy62FOqwww-7nmlXrmiwA6gDSA);
+}
+
+input{
+  position: absolute;
+  right:86px;
+  top:0px;
+}
+
+button{
+  position: absolute;
+  right: 5px;
+  top: 0px;
+}
+.register{
+  position: absolute;
+  right: 25px;
+  top:37px;
+  z-index: 3;
+}
+
+.register ul li a{
+  padding: 5px 8px;
+}
+
+.womendropdown ul{
+  position: absolute;
+  display: none;
+  left:5px;
+  top:15px;
+  list-style-type: none;
+}
+.womendropdown ul li{
+  display: block;
+}
+.womendropdown ul li a{
+  padding:3px 5px;
+}
+.tuter{
+  position: absolute;
+  top:81px;
+  left: 0px;
+  width:cover;
+}
+.directory{
+  z-index:2;
+}
+
+.directory ul{
+  list-style-type: none;
+  position: absolute;
+  top:70px;
+}
+.directory ul li{
+  display: inline;
+}
+.directory ul li a{
+  text-decoration: none;
+  padding: 2px 3px;
+  background-color: #B5EFDA;
+  color: #515B58;
+}
+.tr:hover{
+  border: 1px solid black;
+}
+
+.ree{
+  position: absolute;
+  top:110px;
+
+}
+.ree span{
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 15px;
+}
+.side{
+  position:fixed;
+  left:15px;
+  top: 150px;
+  display: grid;
+  grid-template-columns: 250px;
+  grid-template-rows: repeat(4, 200px);
+  grid-gap:5px;
+  padding: 10px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.side > div{
+  background-color: beige;
+  padding: 5px 5px;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+}
+
+
+/*could not make the radio button buttons*/
+
+
+.brand{
+  position:absolute;
+  top: 175px;
+  left:32px;
+  z-index: 500;
+}
+
+
+.main{
+  position:absolute;
+  top: 300px;
+  left: 340px;
+  display: grid;
+  grid-template-columns: repeat(4, 208px);
+  grid-template-rows: repeat(12, 280px);
+  padding: 40px;
+  grid-gap: 25px;
+  background-color: #fff;
+}
+
+.main > div {
+  background-color: #CCFFFF;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 50px;
+  background-image: image();
+}
+.pic{
+  position: relative;
+top: -10px;
+left:-10px;
+}
