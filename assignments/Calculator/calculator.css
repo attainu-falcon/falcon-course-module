@@ -1,0 +1,52 @@
+body{
+	padding: 3.5%;
+	background: linear-gradient(to top, #33ccff 0%, #ff99cc 100%);
+	background-repeat: no-repeat;
+	text-align:center;
+	font-size: 200%;
+}
+.calc{
+	width: 400px;
+	margin: 0 auto;
+	align-self: center;
+}
+.f2{
+	width:300px;
+	height: 400px;
+	background: linear-gradient(to bottom, #34ddff 12%, #ff00cc 100%);
+	margin: 0 auto;
+	font-size: 40px;
+
+}
+input{
+	font-size: 30px;
+}
+.buttons {
+  background-color: #0a2044; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 60px;
+  width: 300px;
+
+}
+
+#plsBtn{
+	width: 60px;
+}
+#minBtn{
+	width: 60px;
+}
+#mulBtn{
+	width: 60px;
+}
+#divBtn{
+	width: 60px;
+}
+
+h1{
+	background-color: #041e47;
+}
