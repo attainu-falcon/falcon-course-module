@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+<link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <div class="navBar">
+    <ul>
+        <li><a class="active" href="#">Primary</a></li>
+        <li><a href="#">Social</a></li>
+        <li><a href="#">Promotions</a></li>
+      </ul>
+    </div>
+
+    <div class="sideBar">
+      <ul>
+        <li><a class="active1" href="#">Inbox</a></li>
+        <li><a href="#">Sent</a></li>
+        <li><a href="#">Drafts</a></li>
+        <li><a href="#">Spam</a></li>
+      </ul>
+    </div>
+
+    <a class="btnCompose" href="#">COMPOSE</a>
+
+  <div class="searchBox">
+    <input type="text" name="" placeholder="Search Your Mail">
+    <button type="submit" name="Search">Search</button>
+  </div>
+<div class="table">
+  <table>
+
+    <tr>
+      <th class="one">From</th>
+      <th class="two">Subject</th>
+    </tr>
+
+
+    <tr>
+      <td ><a href="#">Hrishav Chakraborty</a></td>
+      <td ><a href="#">Final_Team_Selection</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Ushnish Chaterjee</a></td>
+      <td ><a href="#">Theater Show</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Rohit Das</a></td>
+      <td ><a href="#">Winning Lottey</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Gautom Shaw</a></td>
+      <td ><a href="#">Book Review</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Debarchan Dasgupta</a></td>
+      <td ><a href="#">Doctor Call</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Utathya Pal</a></td>
+      <td ><a href="#">Group Together</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Govind Dhanuk</a></td>
+      <td ><a href="#">Spiritual Quest</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Rohan Das</a></td>
+      <td ><a href="#">Train Boarding</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Sushmita Ganguly</a></td>
+      <td ><a href="#">Admission Procedure</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Subodh Mazumdar</a></td>
+      <td ><a href="#">Flight Missed</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Ashim Das</a></td>
+      <td ><a href="#">Ticket Cancellation</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Roshni Paul</a></td>
+      <td ><a href="#">Payment Procedure</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Hrishav Chakraborty</a></td>
+      <td ><a href="#">Final_Team_Selection</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Ushnish Chaterjee</a></td>
+      <td ><a href="#">Theater Show</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Rohit Das</a></td>
+      <td ><a href="#">Winning Lottey</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Gautom Shaw</a></td>
+      <td ><a href="#">Book Review</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Debarchan Dasgupta</a></td>
+      <td ><a href="#">Doctor Call</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Utathya Pal</a></td>
+      <td ><a href="#">Group Together</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Govind Dhanuk</a></td>
+      <td ><a href="#">Spiritual Quest</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Rohan Das</a></td>
+      <td ><a href="#">Train Boarding</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Sushmita Ganguly</a></td>
+      <td ><a href="#">Admission Procedure</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Subodh Mazumdar</a></td>
+      <td ><a href="#">Flight Missed</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Ashim Das</a></td>
+      <td ><a href="#">Ticket Cancellation</a></td>
+    </tr>
+    <tr>
+      <td ><a href="#">Roshni Paul</a></td>
+      <td ><a href="#">Payment Procedure</a></td>
+    </tr>
+
+  </table>
+</div>
+<div class="advertisement">
+  <marquee behavior="alternate"><h2><a href="#">This is an advertisement...</h2></marquee>
+</div>
+
+<footer>
+  <ul>
+    <li><img src="img/2.png" width="1" height="1" class="common"></li>
+    <li><img src="img/2.png" width="1" height="1" class="common"></li>
+    <li><img src="img/2.png" width="1" height="1" class="common"></li>
+    <li><img src="img/2.png" width="1" height="1" class="common"></li>
+  </ul>
+  <h3>-</h3>
+</footer>
+  </body>
+</html>
