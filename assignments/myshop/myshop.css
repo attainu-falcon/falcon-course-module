@@ -1,0 +1,182 @@
+* {
+    font-size: 14px;
+}
+header {
+    height: 60px;
+    background-color: #eeecec;
+    position: fixed;
+    top: 0%;
+    font-family: sans-serif;
+    right: 0%;
+    left: -40px;
+    z-index: 3;
+
+}
+}
+header ul {
+    width: 300px;
+}
+
+header ul li {
+    line-height: 25px;
+    display: inline-block;
+    font-size: 16px;
+    padding: 25px;
+    width: 1/3;
+    align-content: left;
+    margin-top: -20px;
+}
+
+header ul li.active{
+    background-color: white;
+    color: blue;
+    
+}
+
+header ul li:hover{
+    color:red;
+}
+#myshop {
+    font-size: 33px;
+    position: absolute;
+    color: rgb(247, 93, 119);
+    margin-left: 48%;
+    margin-top: -73px;
+    background-color: white;
+    font-family: Gill Sans;
+    padding: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+    /*text-decoration-style: wavy;*/
+    
+}
+
+#myshop:hover{
+    color: purple;
+}
+
+#navigation {
+    margin-top: 52px;
+    margin-left: -25px;
+    padding-right: 25px;
+    font-family: sans-serif;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    box-shadow: 0px 0px 20px 0px #ccc;
+    z-index: 2;
+    
+
+}
+#navigation ul {
+    list-style: none;
+}
+
+#search{
+    float: right;
+    margin-top: -48px;
+    line-height: 35px;
+}
+
+button{
+    height: 24px;
+    margin-top: 5px;
+    padding-top: -2px;
+    padding-bottom: 5px;
+    background-color: black;
+    width: 25px;
+}
+#navigation ul li {
+    display: inline-block;
+    padding: 9px;
+    font-size: 13.5px;
+}
+#navigation ul li.active{
+    color: blue;
+} 
+#navigation ul li:hover {
+    color:rgb(216, 18, 18);
+    
+}
+.sidebar {
+    width: 220px;
+    box-shadow: 5px 5px 5px 0 #ccc;
+    position: fixed;
+    left: 0;
+    font-family: sans-serif;
+    bottom: 0;
+    padding-top: 10px;
+    top: 110px;  
+    overflow: auto;
+    padding-left: 40px;
+}
+.sidebar ul {
+    list-style: none; 
+    
+}
+.sidebar ul li{
+    font-size: 14px;
+    padding-bottom: 5px;
+    margin-left: -30px;
+}
+
+.sidebar h3:hover {
+    color: green;
+}
+
+.sidebar h3 {
+    padding-top: 5px;
+    font-size: 18px;
+    font-family: sans-serif;
+
+}
+
+.container {
+    padding-top: 130px;
+    padding-left: 230px; 
+
+}
+#sort {
+    position: relative;
+    float: right;
+    margin-top: 0px;
+    
+}
+.container ul{
+    padding-top: 10px;
+    list-style: none;
+    display: inline-block; 
+}
+
+.container ul li{
+    display: inline-block; 
+    padding: 20px #000000;
+}
+.product img{
+    display: inline-block;
+    height: 320px;
+    width: 250px;
+    border-radius: 5px;
+    margin-left: 20px;
+    background-color: #eee;
+    padding: 3px;
+}
+.details{
+    margin-left: 20px;
+    margin-top: -10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background-color: #eee;
+    padding: 15px;   
+}
+.details{
+    font-size: 18px;
+}
+
+.price{
+    color: red;
+    font-size: 15px;
+}
+
