@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body bgcolor="lightblue">
+
+No<input type="number" id="myText" >
+
+
+
+<button onclick="myFunction()">Print Multiplication Table</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+
+  var num=document.getElementById("myText").value;
+var tab=" ";
+if(num>0)
+{
+for (i = 1; i < 11; i++) {
+
+   tab+= i+" * "+num+" = "+i*num+"<br>";
+
+}
+document.getElementById("demo").innerHTML=tab
+}
+else
+
+alert("please enter a valid number!");
+}
+
+</script>
+
+</body>
+</html>
