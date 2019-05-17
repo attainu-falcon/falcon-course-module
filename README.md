@@ -6,11 +6,11 @@ The students have to [fork](https://help.github.com/en/articles/fork-a-repo) the
 
 ## Onboarding
 
-Follow the [Google Doc](https://drive.google.com/open?id=1a5au8H7buInbT5anN16rPdpjbil6iSoRlEZsfpu8oU4) to familiarize yourself with the process at AttainU.
+Follow the shared Onboarding doc to familiarize yourself with the process at AttainU.
 
 ## Lectures
 
-All the live sessions would be recorded and uploaded on [Google Drive](https://drive.google.com/open?id=1UXczpLtGlcqZdW7848ULGeux3Qh7Jfkx).
+All the live sessions would be recorded and uploaded on Google Drive.
 
 ## Assignments
 
