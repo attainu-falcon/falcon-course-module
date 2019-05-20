@@ -8,6 +8,7 @@
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 9999;
     background : #e0f;
 }
 
@@ -20,6 +21,7 @@ nav {
     overflow: hidden;
     position: fixed;
     top : 30px;
+    z-index: 9999;
     width: 100%;
     background : #e0f;
 }
