@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<p id="list"></p>
+
+<script>
+
+var players = [
+{ name: "Roger Federer", rank: 1 },
+{ name: "Rafel Nadal", rank: 2 },
+{ name: "Nalbandian", rank: 12 },
+{ name: "Andy Murray", rank: 14 },
+{ name: "Andy Roddick", rank: 4 },
+{ name: "Pete Sampras", rank: 3 },
+{ name: "Rod Laver", rank: 190 },
+{ name: "Andre Agassi", rank: 11 },
+{ name: "Novak Djokovic", rank: 5 },
+{ name: "Arthur Ashe", rank: 8 },
+];
+var ranklist="";
+for (i = 0; i < players.length; i++) {
+if(players[i].rank<10)
+{
+  ranklist += players[i].name + "   is Secured  "+ players[i].rank+"      Rank<br>";
+}
+}
+document.getElementById("list").innerHTML = ranklist;
+</script>
+
+</body>
+</html>
