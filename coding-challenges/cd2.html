@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<body bgcolor="lightblue">
+
+<textarea id="myText" rows="5" cols="35"></textarea><br>
+
+
+
+<button onclick="myFunction()">Generate initials</button>
+<p id="demo"></p>
+
+
+<script>
+
+function myFunction() {
+
+var sentance=document.getElementById("myText").value; 
+    var wordArray = sentance.split(" ");
+    
+   var initials="";
+   for( i = 0; i<wordArray.length; i++) {
+   initials+=wordArray[i].substring(0, 1);
+    
+       }
+     document.getElementById("demo").innerHTML=initials;
+       }
+</script>
+</body>
+</html>
+
