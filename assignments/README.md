@@ -90,7 +90,7 @@
 2. Use inputs of type `number`.
 3. Use functions as and when necessary.
 
-# Week 4 Assignments
+# Week 5 Assignments
 
 ## Day 2
 
