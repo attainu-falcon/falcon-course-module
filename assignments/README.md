@@ -89,3 +89,14 @@
 1. Put your codes inside a `CalculatorJS` folder under `assignments`. 
 2. Use inputs of type `number`.
 3. Use functions as and when necessary.
+
+# Week 4 Assignments
+
+## Day 2
+
+#### Create a Javascript program that produces a table of numbers from 1 to 10 and squares of them:
+
+![dom manipulation](images/dom-manipulation.png)
+
+1. Put your codes inside a `ManipulationJS` folder under `assignments`. 
+2. Use DOM manipulation to create all the HTML elements. That is the HTML should only contain a `body` tag.
