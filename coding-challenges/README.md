@@ -27,3 +27,30 @@ Output: `MSD`
 
 Input: `Shah Rukh Khan`
 Output: `SRK`
+
+# Challenge 3 - Compare two arrays
+
+Write a JavaScript function that compares two arrays and prints whether they are equal or not.
+
+> Two arrays are considered equal if both arrays contain the same number of elements, and all corresponding pairs of elements in the two arrays are equal. In other words, two arrays are equal if they contain the same elements in the same order.
+
+# Challenge 4 - Looping and searching
+
+Create a function which takes a state as input and loops through the data to output the cities that belong to that state. The data can be found in the file [cities.json](cities.json)
+
+
+# Challenge 5 - Star pattern
+
+Write a JavaScript function that produces a star pattern likes this.
+
+```
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+```
