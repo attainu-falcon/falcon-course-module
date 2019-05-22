@@ -1,0 +1,28 @@
+body{
+	background: linear-gradient(to top, #33ccff 0%, #090009 100%);
+	background-repeat: no-repeat;
+	font-size: 60px;
+	margin: 100px;
+	padding-top: auto;
+}
+fieldset{
+	 background: linear-gradient(to bottom, #33ccff 0%, #ccffff 100%);
+}
+legend{
+	color: #666633 ;
+}
+
+input {
+	font-size: 40px;
+	border-radius: 2em;
+}
+
+button{
+font-size: 0.5em;
+border-radius: 2em;
+background: #99cc00;
+color: #090009;
+}
+h3{
+	display: none;
+}
