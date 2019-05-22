@@ -100,3 +100,17 @@
 
 1. Put your codes inside a `ManipulationJS` folder under `assignments`. 
 2. Use DOM manipulation to create all the HTML elements. That is the HTML should only contain a `body` tag.
+
+## Day 3
+
+#### Create a login page that checks for username and password from the user:
+![login dialog](images/login.png)
+1. Put your codes inside a `LoginJS` folder under `assignments`.
+2. Validate the inputs:
+    1. Username or password cannot be blank.
+    2. Username cannot be less than 5 characters.
+    3. Password cannot be less than 8 characters.
+    4. Username can only contain alphabets, digits and `_`.
+    5. Username cannot start with a digit.
+    6. Username should be case-insensitive.
+3. Username and password can be hardcoded in the JavaScript file.
