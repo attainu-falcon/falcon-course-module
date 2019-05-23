@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <style>
+  div {
+  width: 400px;
+  height: 300px;
+  border: 3px solid navy;
+  background-color:#dddddd;
+  padding: 50px;
+  padding-top: 100px;
+}
+
+label{
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+input{
+  font-size: 15px;
+  padding: 5px;
+  border-radius: 5px;
+}
+button{
+  font-size: 16px;
+  padding: 8px 25px;
+  text-align: center;
+  border-radius: 12px;
+  background-color: white;
+  margin-left:  220px;
+}
+button:hover {
+  background-color: #555555;
+  color: white;
+}
+  </style>
+  <body>
+    <form name="login" onsubmit="return check()">
+    <h2> Login </h2>
+    <div>
+    <label>Username  :</label>
+    <input type="text" id="user" placeholder="Enter Username"  required><br><br><br><br>
+    <label>Password  :</label>
+    <input type="password" id="pass" placeholder="Enter Password" required><br><br><br>
+    <button type="submit"> Login </button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
