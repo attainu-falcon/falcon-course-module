@@ -54,3 +54,31 @@ Write a JavaScript function that produces a star pattern likes this.
 **
 *
 ```
+
+# Challenge 5 - Star pattern
+
+Write a JavaScript function that produces a star pattern likes this.
+
+```
+*
+**
+***
+****
+*****
+****
+***
+**
+*
+```
+
+# Challenge 6 - String Search
+
+First, load the [cities.json](data/cities.json) using Ajax.
+
+Then write a Javascript function that takes a letter and finds all the cities that starts with that letter.
+
+# Challenge 7 - Login page using Bootstrap
+
+Create a login page using bootstrap which looks like the below screenshot 
+
+![bootstrap login page](images/login-page-bootstrap.png)

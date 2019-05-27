@@ -114,3 +114,11 @@
     5. Username cannot start with a digit.
     6. Username should be case-insensitive.
 3. Username and password can be hardcoded in the JavaScript file.
+
+# Week 6 Assignments
+
+## Day 1
+
+#### Create a personal blog page using bootstrap template.
+1. Put your codes inside a `Blog` folder under `assignments`.
+2. The template can be found at [https://getbootstrap.com/docs/4.3/examples/blog/](https://getbootstrap.com/docs/4.3/examples/blog/).
