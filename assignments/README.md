@@ -119,6 +119,7 @@
 
 ## Day 1
 
-#### Create a personal blog page using bootstrap template.
-1. Put your codes inside a `Blog` folder under `assignments`.
-2. The template can be found at [https://getbootstrap.com/docs/4.3/examples/blog/](https://getbootstrap.com/docs/4.3/examples/blog/).
+#### Duplicate and modify previous assignment using a bootstrap template.
+1. Put your codes inside a `LoginBS` folder under `assignments`.
+2. The template can be found at [https://getbootstrap.com/docs/4.3/examples/sign-in/](https://getbootstrap.com/docs/4.3/examples/sign-in/).
+3. Look at the page source and try to get the UI as close as possible.
