@@ -36,7 +36,7 @@ Write a JavaScript function that compares two arrays and prints whether they are
 
 # Challenge 4 - Looping and searching
 
-Create a function which takes a state as input and loops through the data to output the cities that belong to that state. The data can be found in the file [cities.json](cities.json)
+Create a function which takes a state as input and loops through the data to output the cities that belong to that state. The data can be found in the file [cities.json](data/cities.json)
 
 
 # Challenge 5 - Star pattern
