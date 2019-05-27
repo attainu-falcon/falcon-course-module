@@ -55,22 +55,6 @@ Write a JavaScript function that produces a star pattern likes this.
 *
 ```
 
-# Challenge 5 - Star pattern
-
-Write a JavaScript function that produces a star pattern likes this.
-
-```
-*
-**
-***
-****
-*****
-****
-***
-**
-*
-```
-
 # Challenge 6 - String Search
 
 First, load the [cities.json](data/cities.json) using Ajax.
