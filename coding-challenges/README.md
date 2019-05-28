@@ -67,7 +67,7 @@ Create a login page using bootstrap which looks like the below screenshot
 
 ![bootstrap login page](images/login-page-bootstrap.png)
 
-# Challenge 8 - Book Search App (Client Side)
+# Challenge 8 - Book search app (client side)
 
 Create a Javascript application that lets the user search for books under a particular language 
 

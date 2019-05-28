@@ -123,3 +123,19 @@
 1. Put your codes inside a `LoginBS` folder under `assignments`.
 2. The template can be found at [https://getbootstrap.com/docs/4.3/examples/sign-in/](https://getbootstrap.com/docs/4.3/examples/sign-in/).
 3. Look at the page source and try to get the UI as close as possible.
+
+## Day 2
+
+#### Create a company web page using Bootstrap 4.
+
+Home page
+![home page](images/bootstrap-company-home.png)
+About Us page
+![about us page](images/bootstrap-company-about.png)
+Contact Us page
+![contact us page](images/bootstrap-company-contact.png)
+
+1. Put your codes inside a `CompanyBS` folder under `assignments`.
+2. Use documentation at [https://getbootstrap.com/](https://getbootstrap.com/) for help.
+3. Do not use any custom css styles.
+4. You are free to replace text content in the pictures.
