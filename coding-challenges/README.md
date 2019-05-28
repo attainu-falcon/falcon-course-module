@@ -66,3 +66,15 @@ Then write a Javascript function that takes a letter and finds all the cities th
 Create a login page using bootstrap which looks like the below screenshot 
 
 ![bootstrap login page](images/login-page-bootstrap.png)
+
+# Challenge 8 - Book Search App (Client Side)
+
+Create a Javascript application that lets the user search for books under a particular language 
+
+![book library](images/book-library.png)
+
+Use AJAX to load [books.json](data/books.json)
+
+Use an event handler to get the user input from the form.
+
+Create DOM manipulation methods to show the search result using a table.
