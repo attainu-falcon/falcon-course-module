@@ -78,3 +78,17 @@ Use AJAX to load [books.json](data/books.json)
 Use an event handler to get the user input from the form.
 
 Create DOM manipulation methods to show the search result using a table.
+
+# Challenge 9 - Looping with condition
+
+Write a Javascript program that prints even numbers from 1 to 100 in descending order.
+The output should show:
+```
+100
+98
+96
+.
+.
+.
+2
+```
