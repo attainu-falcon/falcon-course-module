@@ -98,3 +98,47 @@ Linux on your Windows or Mac computer without erasing your current operating sys
 1. [Styling lists](http://www.smashingmagazine.com/2009/12/11/styling-html-lists-with-css-techniques-and-resources/)
 2. [CSS validator](https://jigsaw.w3.org/css-validator/)
 3. [Magic of CSS](http://adamschwartz.co/magic-of-css/)
+
+# Javascript
+
+## Tutorials
+1. [https://htmldog.com/guides/javascript/](https://htmldog.com/guides/javascript/)
+2. [Javascript for cats](http://jsforcats.com/) - Easy one to complete compared to others.
+3. [Eloquent JavaScript book](https://eloquentjavascript.net/)
+4. [Mozilla Developer Network Javascript tutorial](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+5. [A re-introduction to Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/A_re-introduction_to_JavaScript) From MDN again. Kind of a crash course.
+6. [The JS way](https://github.com/bpesquet/thejsway/)
+7. [You don't know JS](https://github.com/getify/You-Dont-Know-JS) A book about many Javascript language features in detail.
+
+## Reference
+1. [https://developer.mozilla.org/bm/docs/Web/JavaScript](https://developer.mozilla.org/bm/docs/Web/JavaScript)
+2. [JS Garden](https://bonsaiden.github.io/JavaScript-Garden/) - A collection of docs about quirky parts of Javascript.
+
+## Books
+1. [Professional Javascript for web developers](https://www.amazon.in/Professional-Javascript-Web-Developers-WROX/dp/8126535083)
+2. [Javascript: The definitive guide](https://www.amazon.in/JavaScript-Definitive-Guide-Flanagan-David/dp/9350233940/)
+
+# jQuery
+
+## Tutorials
+1. [https://learn.jquery.com/](https://learn.jquery.com/)
+2. [https://www.codecademy.com/learn/learn-jquery](https://www.codecademy.com/learn/learn-jquery)
+3. [https://css-tricks.com/lodge/learn-jquery/](https://css-tricks.com/lodge/learn-jquery/)
+
+# NodeJS
+
+## Setup
+1. Download from here - [https://nodejs.org/en/](https://nodejs.org/en/)
+2. If you are using a GNU/Linux distribution, please use your package managed to install NodeJS.
+
+# EpressJS
+
+## Setup
+1. If you have Node and NPM installed, run `npm install express`
+2. [Hello World example](https://expressjs.com/en/starter/hello-world.html)
+3. [Routing Guide](https://expressjs.com/en/guide/routing.html)
+4. [Template engine Wiki](https://github.com/expressjs/express/wiki#template-engines)
+
+## Tutorials
+1. [Examples for Express apps](https://github.com/expressjs/express/tree/master/examples)
+2. [Node and Express introduction](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction)

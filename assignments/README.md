@@ -54,7 +54,7 @@
 
 ## Day 1
 #### Create a shopping page
-![My Shop page](images/myshop.png)
+![my shop page](images/myshop.png)
 1. Pull changes into your repo.
 2. Create a folder named `MyShop` inside the `assignments` folder.
 3. Inside the above folder, create a page which has these sections:
@@ -64,3 +64,78 @@
     4. On the right is the product catalogue including price and other details.
     5. You have a select dropdown for the 'Sort By' option.
 4. This is an assignment where you are required to build to given specifications.
+
+# Week 4 Assignments
+
+## Day 1
+
+#### Write a Javascript program that prints multiplication table of `n` upto 10.
+1. Put your codes inside a `MultiplyJS` folder under `assignments`.
+2. `n` should be entered in a input of type `number`.
+3. There should be a button with text 'Print Multiplication Table', when clicked should show the output in the following format (assuming n is 5):
+```
+1 * 5 = 5
+2 * 5 = 10
+.
+.
+.
+10 * 5 = 50
+```
+
+## Day 3
+
+#### Create a simple calculator using JS with the UI looking like the below image:
+![calculator](images/calculator.png)
+1. Put your codes inside a `CalculatorJS` folder under `assignments`. 
+2. Use inputs of type `number`.
+3. Use functions as and when necessary.
+
+# Week 5 Assignments
+
+## Day 2
+
+#### Create a Javascript program that produces a table of numbers from 1 to 10 and squares of them:
+
+![dom manipulation](images/dom-manipulation.png)
+
+1. Put your codes inside a `ManipulationJS` folder under `assignments`. 
+2. Use DOM manipulation to create all the HTML elements. That is the HTML should only contain a `body` tag.
+
+## Day 3
+
+#### Create a login page that checks for username and password from the user:
+![login dialog](images/login.png)
+1. Put your codes inside a `LoginJS` folder under `assignments`.
+2. Validate the inputs:
+    1. Username or password cannot be blank.
+    2. Username cannot be less than 5 characters.
+    3. Password cannot be less than 8 characters.
+    4. Username can only contain alphabets, digits and `_`.
+    5. Username cannot start with a digit.
+    6. Username should be case-insensitive.
+3. Username and password can be hardcoded in the JavaScript file.
+
+# Week 6 Assignments
+
+## Day 1
+
+#### Duplicate and modify previous assignment using a bootstrap template.
+1. Put your codes inside a `LoginBS` folder under `assignments`.
+2. The template can be found at [https://getbootstrap.com/docs/4.3/examples/sign-in/](https://getbootstrap.com/docs/4.3/examples/sign-in/).
+3. Look at the page source and try to get the UI as close as possible.
+
+## Day 2
+
+#### Create a company web page using Bootstrap 4.
+
+Home page
+![home page](images/bootstrap-company-home.png)
+About Us page
+![about us page](images/bootstrap-company-about.png)
+Contact Us page
+![contact us page](images/bootstrap-company-contact.png)
+
+1. Put your codes inside a `CompanyBS` folder under `assignments`.
+2. Use documentation at [https://getbootstrap.com/](https://getbootstrap.com/) for help.
+3. Do not use any custom css styles.
+4. You are free to replace text content in the pictures.
