@@ -1,0 +1,14 @@
+{
+  "name": "express_calculator",
+  "version": "1.0.0",
+  "description": "Assignment for Week-6 Day-4",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Arkesh Jaiswal",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
