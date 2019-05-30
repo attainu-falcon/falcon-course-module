@@ -92,3 +92,16 @@ The output should show:
 .
 2
 ```
+
+# Challenge 10 - Hamming distance
+
+Write a program to find the Hamming distance between two strings.
+
+> *Note:*  Hamming distance between two strings of equal length is the number of positions at which the corresponding characters are different. In more technical terms, it is a measure of the minimum number of changes required to turn one string into another.
+
+The Hamming distance between:
+
+1. "karolin" and "kathrin" is 3.
+2. "karolin" and "kerstin" is 3.
+3. 1011101 and 1001001 is 2.
+4. 2173896 and 2233796 is 3.
