@@ -1,0 +1,17 @@
+@media screen and (max-width: 500px) {
+    input {
+        width: 100%;
+        line-height: 2;
+        border-radius: 4px;
+        background-color: grey;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    input {
+        width: 100%;
+        line-height: 2;
+        border-radius: 4px;
+        background-color: grey;
+    }
+}
