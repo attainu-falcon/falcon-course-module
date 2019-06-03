@@ -97,7 +97,7 @@ The output should show:
 
 Write a program to find the Hamming distance between two strings.
 
-> *Note:*  Hamming distance between two strings of equal length is the number of positions at which the corresponding characters are different. In more technical terms, it is a measure of the minimum number of changes required to turn one string into another.
+> **Note:**  Hamming distance between two strings of equal length is the number of positions at which the corresponding characters are different. In more technical terms, it is a measure of the minimum number of changes required to turn one string into another.
 
 The Hamming distance between:
 
@@ -105,3 +105,13 @@ The Hamming distance between:
 2. "karolin" and "kerstin" is 3.
 3. 1011101 and 1001001 is 2.
 4. 2173896 and 2233796 is 3.
+
+# Challenge 11 - Github users API
+
+Use AJAX to call the Github users API at https://api.github.com/users. Obtain a list of users from the API and show them in Bootstrap cards.
+
+# Challenge 12 - Hamming distance
+
+Given 2 strings, find whether one is an anagram of the other.
+
+> **Note:** Two strings are anagrams if they are written using the same exact letters. Each letter should have the same count in both strings. e.g. 'binary' and 'brainy'

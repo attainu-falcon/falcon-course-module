@@ -149,3 +149,21 @@ Contact Us page
 4. The mul route should take two url parameters and send back their product.
 5. The div route should take two url parameters and send back their division result.
 6. Put your files inside a `Express_Calculator` folder under `assignments`.
+
+# Week 6 Assignments
+
+## Day 1
+
+#### Create a REST API calculator using Express
+1. Create four routes in Express for add, sub, mul and div.
+2. Each route should take two POST data parameters - `num1` and `num2` in JSON format and do the arithmetic operation on them.
+3. For instance, the response for the add route should look like the following:
+```
+{
+    "num1": 20,
+    "num2": 50,
+    "result": 70
+}
+```
+4. No need for UI. Everything can be tested using Postman.
+5.  Put your files inside a `Express_RESTful` folder under `assignments`.
