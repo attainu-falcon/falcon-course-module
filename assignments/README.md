@@ -150,7 +150,7 @@ Contact Us page
 5. The div route should take two url parameters and send back their division result.
 6. Put your files inside a `Express_Calculator` folder under `assignments`.
 
-# Week 6 Assignments
+# Week 7 Assignments
 
 ## Day 1
 
