@@ -110,7 +110,7 @@ The Hamming distance between:
 
 Use AJAX to call the Github users API at https://api.github.com/users. Obtain a list of users from the API and show them in Bootstrap cards.
 
-# Challenge 12 - Hamming distance
+# Challenge 12 - Anagram
 
 Given 2 strings, find whether one is an anagram of the other.
 
