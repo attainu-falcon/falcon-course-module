@@ -166,4 +166,14 @@ Contact Us page
 }
 ```
 4. No need for UI. Everything can be tested using Postman.
-5.  Put your files inside a `Express_RESTful` folder under `assignments`.
+5. Put your files inside an `Express_RESTful` folder under `assignments`.
+
+# Day 3
+
+#### Create a login portal in Express with the following components (as shown in yesterday's lecture):
+1. A _students.json_ which stores data for students including their `username` and `password`.
+2. A _login_ form as created in a previous assignment (LoginJS, LoginBS).
+3. An _authentication_ route which uses a students.json to verify login.
+4. A _redirection_ route only visible after successful login. You can use the webmail assignment as this protected route.
+5. A _logout_ route to destroy the session.
+6. Put your files inside an `Express_Session` folder under `assignments`.
