@@ -29,7 +29,7 @@ Output: `SRK`
 # Challenge 3 - Compare two arrays
 Write a JavaScript function that compares two arrays and prints whether they are equal or not.
 
-> Two arrays are considered equal if both arrays contain the same number of elements, and all corresponding pairs of elements in the two arrays are equal. In other words, two arrays are equal if they contain the same elements in the same order.
+> **Note:** Two arrays are considered equal if both arrays contain the same number of elements, and all corresponding pairs of elements in the two arrays are equal. In other words, two arrays are equal if they contain the same elements in the same order.
 
 # Challenge 4 - Looping and searching
 Create a function which takes a state as input and loops through the data to output the cities that belong to that state. The data can be found in the file [cities.json](data/cities.json)
@@ -121,4 +121,14 @@ Output: "0:0:45"
 
 Input: 3700
 Output: "1:1:40"
+```
+# Challenge 15 - Character increment
+Write a function to take a string as input and change each letter to the next letter in the alphabet.
+
+```
+Input: "hello"
+Output: "ifmmp"
+
+Input: "zeta"
+Output: "afub"
 ```
