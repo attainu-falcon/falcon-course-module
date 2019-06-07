@@ -132,3 +132,14 @@ Output: "ifmmp"
 Input: "zeta"
 Output: "afub"
 ```
+
+# Challenge 16 - URL parameter extraction
+Write a function to take a url as a string input and extract all url parameters from it. Return an object contaning these key-value pairs.
+
+```
+Input: "http://localhost:3000/add?num1=5&num2=3"
+Output: { "num1": 5, "num2": 3 }
+
+Input: "http://localhost:3000/search"
+Output: "Missing URL parameters!"
+```
