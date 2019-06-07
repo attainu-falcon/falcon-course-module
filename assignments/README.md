@@ -177,3 +177,25 @@ Contact Us page
 4. A _redirection_ route only visible after successful login. You can use the webmail assignment as this protected route.
 5. A _logout_ route to destroy the session.
 6. Put your files inside an `Express_Session` folder under `assignments`.
+
+# Day 5
+#### Create an Express application which has the following features:
+1. Store a set of name and tweet data in a variable in Express.
+    ```
+    var tweets = [
+        {
+            name: "digitizer",
+            tweet: "This is a cool piece of information."
+        },
+        {
+            name: "M0SH",
+            tweet: "@digitizer I agree."
+        }
+    ]
+    ```
+2. A default route which displays this data in the UI.
+3. This page displays a form - a _name_ input, a _tweet_ input and a _submit_ button at the end.
+4. The same route should be the form action handler for the POST request on the submit button. You can post data directly as urlencoded or use JavaScript to post it as JSON.
+4. Update the data variable in Express on a successful POST request.
+5. Also, update the UI to reflect the new tweets that have been posted.
+6. Put your files inside an `Express_Twitter` folder under `assignments`.
