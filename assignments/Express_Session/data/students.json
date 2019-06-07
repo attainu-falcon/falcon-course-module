@@ -1,0 +1,42 @@
+[
+    {
+        "id": "01",
+        "name": "Raj",
+        "gender": "male",
+        "hometown": "Delhi",
+        "email": "raj@mail.com",
+        "password": "RAJknowsExpress"
+    },
+    {
+        "id": "02",
+        "name": "Tina",
+        "gender": "female",
+        "hometown": "Jaipur",
+        "email": "tina@tina.com",
+        "password": "tinatina"
+    },
+    {
+        "id": "03",
+        "name": "Rishi",
+        "gender": "male",
+        "hometown": "Chandigarh",
+        "email": "rishi@gmail.com",
+        "password": "rishimuni"
+    },
+    {
+        "id": "04",
+        "name": "Sashi",
+        "gender": "female",
+        "hometown": "Bengaluru",
+        "email": "shashi@tharoor.com",
+        "password": "politics"
+    },
+    {
+        "id": "05",
+        "name": "Prithvi",
+        "gender": "male",
+        "hometown": "Hyderabad",
+        "email": "earth@galaxy.com",
+        "password": "prithviRAJ"
+    }
+]
