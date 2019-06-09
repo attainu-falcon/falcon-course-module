@@ -81,7 +81,7 @@
 </head>
 
 <body class="text-center">
-    <form class="form-signin" action="/auth" method="POST">
+    <form class="form-signin" action="/auth" method="POST" enctype="multipart/form-data">
         <!-- <img class="mb-4" src="/docs/4.3/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72"> -->
         <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
         <label for="inputEmail" class="sr-only">Email address</label>
@@ -93,6 +93,7 @@
                 <input type="checkbox" value="remember-me"> Remember me
             </label>
         </div> -->
+        <input type="file" name="puppy" />
         <input class="btn btn-lg btn-primary btn-block" type="submit"/>
         <p class="mt-5 mb-3 text-muted">&copy; 2017-2019</p>
     </form>
