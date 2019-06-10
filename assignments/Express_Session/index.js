@@ -45,7 +45,12 @@ app.get('/test', function(req, res) {
 });
 
 app.get('/login', function(req, res) {
-    res.sendfile('public/index.html');
+    if (req.session.login == true) {
+        res.redirect('/user');
+    }
+    else {
+        res.sendfile('public/index.html');
+    }
 })
 
 app.post('/auth', upload.single('avatar'), function (req, res) {
