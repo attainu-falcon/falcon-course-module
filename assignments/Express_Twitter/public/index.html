@@ -19,7 +19,7 @@
             <label for="inputTweet" class="sr-only">Password</label>
             <textarea id="inputTweet" class="form-control" name="tweet" placeholder="Enter Tweet" required></textarea>
             
-            <input class="btn btn-lg btn-primary btn-block" type="submit" />
+            <input class="btn btn-lg btn-info btn-block" type="submit" />
             <p class="mt-5 mb-3 text-muted">&copy; 2017-2019</p>
         </form>
     </div>
@@ -39,7 +39,7 @@
                 for(var i=0; i<data.length; i++) {
 
                     var tweetdiv = "";
-                    tweetdiv += '<div class="card border border-success rounded my-3">';
+                    tweetdiv += '<div class="card border border-info rounded my-3">';
                     tweetdiv += '<div class="card-header"><h4> #tweet ' + (i + 1) + '</h4></div';
                     tweetdiv += '<div class="card-body">';
                     tweetdiv += '<p class="card-text">' + data[i].tweet + '</p>';

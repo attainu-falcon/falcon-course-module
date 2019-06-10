@@ -24,7 +24,7 @@ app.get('/getTweets', function(req, res) {
 
 app.post('/', function(req, res) {
     console.log(req.body);
-    tweets.push(req.body); // update db
+    tweets.push(req.body);
     res.redirect('/')
 })
 
