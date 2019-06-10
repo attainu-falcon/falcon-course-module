@@ -14,10 +14,8 @@
     <div class="container">
 
         <form class="form-signin" action="/" method="POST">
-            <label for="inputName" class="sr-only">Email address</label>
-            <input type="text" id="inputName" class="form-control" name="name" placeholder="Enter name" required autofocus>
-            <label for="inputTweet" class="sr-only">Password</label>
-            <textarea id="inputTweet" class="form-control" name="tweet" placeholder="Enter Tweet" required></textarea>
+            <input type="text" class="form-control my-1" name="name" placeholder="Enter name" required autofocus>
+            <textarea class="form-control my-1" name="tweet" placeholder="Enter Tweet" required></textarea>
             
             <input class="btn btn-lg btn-info btn-block" type="submit" />
             <p class="mt-5 mb-3 text-muted">&copy; 2017-2019</p>
@@ -40,15 +38,13 @@
 
                     var tweetdiv = "";
                     tweetdiv += '<div class="card border border-info rounded my-3">';
-                    tweetdiv += '<div class="card-header"><h4> #tweet ' + (i + 1) + '</h4></div';
+                    tweetdiv += '<div class="card-header text-info">#tweet ' + (i + 1) + '</div>';
                     tweetdiv += '<div class="card-body">';
                     tweetdiv += '<p class="card-text">' + data[i].tweet + '</p>';
                     tweetdiv += '<footer class="blockquote-footer">' + data[i].name + '</footer>'
                     tweetdiv += '</div></div>';
 
                     $('#tweets').append(tweetdiv);
-
-                    //$('ul').append('<li>' + data[i].name + ': ' + data[i].tweet + '</li>');
                 }
             }
         })
