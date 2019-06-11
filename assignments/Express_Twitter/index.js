@@ -1,5 +1,7 @@
+var path = require('path');
 var express = require('express');
 var bodyParser = require('body-parser');
+var hbs = require('express-handlebars');
 
 var app = express();
 
@@ -16,16 +18,23 @@ var tweets = [
 
 app.use(bodyParser.urlencoded());
 
-app.use(express.static('public'));
+app.engine('handlebars', hbs({defaultLayout: "main"}));
 
-app.get('/getTweets', function(req, res) {
-    res.json(tweets);
+app.set('view engine', 'handlebars');
+app.set('views', path.join(__dirname, 'views'));
+
+app.get('/', function(req, res) {
+    res.render('home', {
+        title: 'Twitter Feed',
+        tweets: tweets
+    });
 });
 
 app.post('/', function(req, res) {
     console.log(req.body);
     tweets.push(req.body);
     res.redirect('/')
-})
+});
 
-app.listen(3000);
+app.set('port', 3000);
+app.listen(app.get('port'));
