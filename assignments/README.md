@@ -199,3 +199,12 @@ Contact Us page
 4. Update the data variable in Express on a successful POST request.
 5. Also, update the UI to reflect the new tweets that have been posted.
 6. Put your files inside an `Express_Twitter` folder under `assignments`.
+
+# Week 8 Assignments
+
+# Day 2
+#### Create an Express application which has the following features:
+1. Make a copy of the above assignment and modify the code to use data from a `tweets` collection in a database stored on a MongoDB server.
+2. The new tweet from the form should update this database collection.
+3. The UI should reflect the updates in the database collection.
+4. Put your files inside an `Express_MongoDB` folder under `assignments`.
