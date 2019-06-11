@@ -143,3 +143,19 @@ Output: { "num1": 5, "num2": 3 }
 Input: "http://localhost:3000/search"
 Output: "Missing URL parameters!"
 ```
+
+# Challenge 17 - Factorial
+Write  a function to take a number input and output its factorial.
+
+> **Note:** The factorial of any number is the product of all positive integers less than or equal to it. Factorial is mathematically denoted by the symbol `!`.
+
+```
+4! = 4 * 3 * 2 * 1 = 24
+
+6! = 6 * 5 * 4 * 3 * 2 * 1 = 720
+```
+
+# Challenge 18 - Decimal to binary
+Write a function to input a decimal (base-10) number and return its binary equivalent (base-2). The image below illustrates the method to get a binary equivalent `10001` of a decimal number `17`.
+
+![conversion](images/decimal-binary.png)
