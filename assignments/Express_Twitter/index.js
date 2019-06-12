@@ -1,4 +1,3 @@
-var path = require('path');
 var express = require('express');
 var bodyParser = require('body-parser');
 var hbs = require('express-handlebars');
@@ -16,18 +15,43 @@ var tweets = [
     }
 ];
 
+app.use(express.static('public'));
+
 app.use(bodyParser.urlencoded());
 
-app.engine('handlebars', hbs({defaultLayout: "main"}));
+var handlebarsEng = hbs.create({
+    defaultLayout: "main",
+    extname: "hbs",
 
-app.set('view engine', 'handlebars');
-app.set('views', path.join(__dirname, 'views'));
+    helpers: {
+        add: function(a, b) {
+            return a+b;
+        },
+        subtract: function (a, b) {
+            return a - b;
+        }
+    }
+});
+
+app.engine('hbs', handlebarsEng.engine);
+
+app.set('view engine', 'hbs');
+app.set('views', __dirname + '/views');
 
 app.get('/', function(req, res) {
     res.render('home', {
         title: 'Twitter Feed',
+        style: "home",
         tweets: tweets
     });
+});
+
+app.get('/about', function(req, res) {
+    res.render('about', {
+        title: "About Me Page",
+        style: "about",
+        flag: false
+    })
 });
 
 app.post('/', function(req, res) {

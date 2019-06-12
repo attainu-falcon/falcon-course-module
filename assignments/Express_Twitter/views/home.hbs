@@ -4,7 +4,7 @@
     {{#each tweets}}
 
         <div class="card border border-info rounded my-3">
-            <div class="card-header text-info">#tweet {{@index}}</div>
+            <div class="card-header text-info">#tweet {{add @index 1}}</div>
             <div class="card-body">
                 <p class="card-text">{{this.tweet}}</p>
                 <footer class="blockquote-footer">{{this.name}}</footer>
