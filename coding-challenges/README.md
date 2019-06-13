@@ -159,3 +159,8 @@ Write  a function to take a number input and output its factorial.
 Write a function to input a decimal (base-10) number and return its binary equivalent (base-2). The image below illustrates the method to get a binary equivalent `10001` of a decimal number `17`.
 
 ![conversion](images/decimal-binary.png)
+
+# Challenge 18 - Fibonacci
+Write a function to take an input n and print first n terms of the Fibonacci series.
+
+> **Note:** The Fibonacci Sequence is the series of numbers - 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ... ANy term of the Fibonacci series is found by adding up the two numbers before it.
