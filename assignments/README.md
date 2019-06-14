@@ -208,3 +208,16 @@ Contact Us page
 2. The new tweet from the form should update this database collection.
 3. The UI should reflect the updates in the database collection.
 4. Put your files inside an `Express_MongoDB` folder under `assignments`.
+
+# Week 8 Assignments
+
+# Day 5
+#### Create an Express application which has the following features:
+1. Create a database for AttainU with collections of students and instructors (name, email, phone, age, etc.).
+2. Create CRUD routes to add, get, modify and delete student documents.
+3. Create a view at `/instructors` to show all instructor information as bootstrap cards.
+4. Create a separate view at `/students` to show all student information as bootstrap cards.
+5. On the student card have an `Edit` option which turns information to input boxes and an option to `Save`.
+6. Create a view at `/students/add` with a form to add a new student to the collection.
+7. Also have a `Delete` option.
+8. Put your files inside an `Express_AttainU` folder under `assignments`.
