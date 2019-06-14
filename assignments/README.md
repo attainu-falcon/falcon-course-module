@@ -68,7 +68,6 @@
 # Week 4 Assignments
 
 ## Day 1
-
 #### Write a Javascript program that prints multiplication table of `n` upto 10.
 1. Put your codes inside a `MultiplyJS` folder under `assignments`.
 2. `n` should be entered in a input of type `number`.
@@ -83,7 +82,6 @@
 ```
 
 ## Day 3
-
 #### Create a simple calculator using JS with the UI looking like the below image:
 ![calculator](images/calculator.png)
 1. Put your codes inside a `CalculatorJS` folder under `assignments`. 
@@ -93,7 +91,6 @@
 # Week 5 Assignments
 
 ## Day 2
-
 #### Create a Javascript program that produces a table of numbers from 1 to 10 and squares of them:
 
 ![dom manipulation](images/dom-manipulation.png)
@@ -102,7 +99,6 @@
 2. Use DOM manipulation to create all the HTML elements. That is the HTML should only contain a `body` tag.
 
 ## Day 3
-
 #### Create a login page that checks for username and password from the user:
 ![login dialog](images/login.png)
 1. Put your codes inside a `LoginJS` folder under `assignments`.
@@ -118,14 +114,12 @@
 # Week 6 Assignments
 
 ## Day 1
-
 #### Duplicate and modify previous assignment using a bootstrap template.
 1. Put your codes inside a `LoginBS` folder under `assignments`.
 2. The template can be found at [https://getbootstrap.com/docs/4.3/examples/sign-in/](https://getbootstrap.com/docs/4.3/examples/sign-in/).
 3. Look at the page source and try to get the UI as close as possible.
 
 ## Day 2
-
 #### Create a company web page using Bootstrap 4.
 
 Home page
@@ -141,7 +135,6 @@ Contact Us page
 4. You are free to replace text content in the pictures.
 
 ## Day 4
-
 #### Create an Express application with the following features:
 1. The application should have four routes that perform addition, subtraction, multiplication and division.
 2. The add route should take two url parameters and send back their sum.
@@ -153,7 +146,6 @@ Contact Us page
 # Week 7 Assignments
 
 ## Day 1
-
 #### Create a REST API calculator using Express
 1. Create four routes in Express for add, sub, mul and div.
 2. Each route should take two POST data parameters - `num1` and `num2` in JSON format and do the arithmetic operation on them.
@@ -169,7 +161,6 @@ Contact Us page
 5. Put your files inside an `Express_RESTful` folder under `assignments`.
 
 # Day 3
-
 #### Create a login portal in Express with the following components (as shown in yesterday's lecture):
 1. A _students.json_ which stores data for students including their `username` and `password`.
 2. A _login_ form as created in a previous assignment (LoginJS, LoginBS).
@@ -208,8 +199,6 @@ Contact Us page
 2. The new tweet from the form should update this database collection.
 3. The UI should reflect the updates in the database collection.
 4. Put your files inside an `Express_MongoDB` folder under `assignments`.
-
-# Week 8 Assignments
 
 # Day 5
 #### Create an Express application which has the following features:

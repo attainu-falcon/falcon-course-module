@@ -167,9 +167,9 @@ Write a function to take an input n and print first n terms of the Fibonacci ser
 > Any term of the Fibonacci series is found by adding up the two numbers before it.
 
 # Challenge 20 - Pangram
-Given a string, find all characters that are missing from the string, i.e., the characters that can make string a Pangram. We need to print output in alphabetic order.
+Given a string, find all characters that are missing from the string, i.e., the characters that can make the string a pangram. Print the output in alphabetic order, case-insensitive.
 
-> **Note:** Pangram is a sentence containing every letter in the English alphabet.
+> **Note:** A pangram is a sentence containing every letter in the English alphabet.
 
 ```
 Input : The quick brown fox jumps
