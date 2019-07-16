@@ -210,3 +210,17 @@ Contact Us page
 6. Create a view at `/students/add` with a form to add a new student to the collection.
 7. Also have a `Delete` option.
 8. Put your files inside an `Express_AttainU` folder under `assignments`.
+
+## Week 12 Assignments
+
+### Day 2: Create a flexbox webpage
+![flexbox](images/flexbox.png)
+
+1. Use semantic HTML elements only.
+2. Use CSS flexbox layout to achieve the layout shown in the image.
+3. Put your files under `assignments` > `week12` > `day02`.
+4. Move all other assignments under `assignments` > `shallow-dive`.
+
+> Solution session: _day-0_
+>
+> Due day: _day-0_
