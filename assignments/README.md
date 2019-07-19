@@ -224,3 +224,17 @@ Contact Us page
 > Solution session: _day-0_
 >
 > Due day: _day-0_
+
+### Weekly Test: Globals, Objects & Closures
+![screenshot](images/global-object-closure.png)
+
+1. Clicking on each button should update the counter about it.
+2. For `Global Counter` use a global variable to keep track of the clicks.
+3. For `Object Counter`, use an object to keep track of the clicks.
+4. And finally for `Closure Counter`, use a closure to keep track of the clicks.
+5. You can use either Vanialla JS + DOM methods or jQuery for event handlers.
+6. Put your files under `assignments` > `week12` > `weekly-test`.
+
+> Due day: _day-3_
+
+----------
