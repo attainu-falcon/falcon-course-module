@@ -1,0 +1,77 @@
+body {
+
+    margin: 0px;
+
+}
+
+.container > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+
+}
+
+.aboutme {
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 80px;
+    font-weight: bold;
+
+}
+
+.describe {
+    background: url(https://images.unsplash.com/photo-1508830524289-0adcbe822b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=711&q=80) no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    height: 600px;
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+
+}
+
+.container > .favmovies {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr 1fr;
+    grid-column: 1/-1;
+    grid-gap: 10px;
+    padding: 5px 20px 5px 20px;
+    /* text-align: left; */
+    background-color: #9DB6E5;
+
+}
+
+#myfav {
+    grid-column: 1/-1;
+    text-align: center;
+    grid-gap: 1px;
+    font-size: 2em;
+    margin-bottom: 1px;
+}
+
+
+
+.connectme {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* text-align: center; */
+}
+
+#twitter, #github, #linkedin, #profile {
+    padding: 30px 30px 30px 30px;
+}
+
+
+footer {
+    text-align: center;
+    background-color: #8553B8;
+    width: 100%;
+    align-items: baseline;
+}

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>My Shop</title>
+        <link rel="stylesheet" text = "text/css" href="index_style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css"/>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="category"><a class = "active" href="#">Women</a></div>
+            <div class="category"><a href="#">Men</a></div>
+            <div class="category"><a href="#">Kids</a></div>
+            <div class="menu" id="menu1"><span>What's new</span></div>
+            <div class="menu" id="menu2"><span>Exclusive</span></div>
+            <div class="menu" id="menu3"><span>Trends</span></div>
+            <div class="menu" id="menu4"><span>Clothing</span></div>
+            <div class="menu" id="menu5"><span>Dresses</span></div>
+            <div class="menu" id="menu6"><span class = "active">Plus Size</span></div>
+            <div class="menu" id="menu7"><span>Shoes & Accessories</span></div>
+            <div class="menu" id="menu8"><span>Sole</span></div>
+            <div class="menu" id="menu9"><span>E-Shopping Cards</span></div>
+            <div class="menu" id="menu10"><span>Explore</span></div>
+
+        </div>
+
+        <div class="sidebar">
+            <div class="filter"><a href="#filter">Category</a><span id = "catplus"></span></div>
+            <div class="style"><a href="#style">Style</a><span id = "styleplus"></span>
+                <div class="style_"><label><input type="checkbox" name="casual" value="checked">Casual</label></div>
+                <div class="style_"><label><input type="checkbox" name="boho" value="checked">Boho</label></div>
+                <div class="style_"><label><input type="checkbox" name="elegant" value="checked">Elegant</label></div>
+                <div class="style_"><label><input type="checkbox" name="glamorous" value="checked">Glamorous</label></div>
+                <div class="style_"><label><input type="checkbox" name="classy" value="checked">Classy</label></div>
+                <div class="style_"><label><input type="checkbox" name="boho" value="checked">Sexy</label></div>
+            </div>
+            <div class="color"><a href="#color">Color</a><span id = "colorplus"></span>
+                <div class="color_"><label><input type="checkbox" name="black" value="checked">Black</label></div>
+                <div class="color_"><label><input type="checkbox" name="white" value="checked">White</label></div>
+                <div class="color_"><label><input type="checkbox" name="red" value="checked">Red</label></div>
+                <div class="color_"><label><input type="checkbox" name="pink" value="checked">Pink</label></div>
+                <div class="color_"><label><input type="checkbox" name="blue" value="checked">Blue</label></div>
+                <div class="color_"><label><input type="checkbox" name="boho" value="checked">Orange</label></div>
+            </div>
+            <div class="type"><a href="#type">Type</a><span id = "typeplus"></span></div>
+            <div class="size"><a href="#size">Size</a><span id = "sizeplus"></span></div>
+            <div class="pattern"><a href="#pattern">Pattern Type</a><span id = "patternplus"></span></div>
+            <div class="length"><a href="#length">Length</a><span id = "lenplus"></span></div>
+
+        </div>
+
+        <div class="search-container">
+            <input type="text" placeholder="Search...">
+            <button type="submit"><i class="fas fa-search"></i></button>
+        </div>
+
+        <div class="sort">Sort By
+        <select class="" name="">
+            <option value="recommend">Recommend</option>
+            <option value="lth_price">Low to High Price</option>
+            <option value="htl_price">High to Low Price</option>
+            <option value="trendy">Most in Trend</option>
+
+        </select>
+        </div>
+
+        <div class="collection">
+            <div id="item1">
+                <p style = "background-color:black; color:white; height:8px; width: 50px; position: relative; font-size: 10px; top: 5px; left:5px; text-align:center; padding-top: 5px">50% OFF</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSv5IVqG8-CBiEqAf5lCfXi_t1O0MwGS4Wb5_25Uxp6jeYmm0En" alt="" height="150px" width="100px">
+                <p>SHEIN Scallop Laser Cut Detail Frilled Neck</p>
+                <span class = "price">&#x20B9; 700</span>
+                <span class = "like_it">&#9829;</span>
+            </div>
+
+            <div id="item2">
+                <p style = "background-color:black; color:white; height:8px; width: 50px; position: relative; font-size: 10px; top: 5px; left:5px; text-align:center; padding-top: 5px">50% OFF</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-DkdWYDF-T2Xi9Mfyv3VWDZE2v5Nx2o_pM-ulC_H848Wn2x37" alt="">
+                <p>SHEIN Bishop Sleeve Floral Blouse</p>
+                <span class = "price">&#x20B9; 980</span>
+                <span class = "like_it">&#9829;</span>
+            </div>
+
+            <div id="item3">
+                <p style = "background-color:white; color:white; height:8px; width: 50px; position: relative; font-size: 10px; top: 5px; left:5px; text-align:center; padding-top: 5px">50% OFF</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQR-IkPK1Wxizy55b0MgvAxP8z8-cJdw2MOGZ2F3gRtrCy3UsuK" alt="">
+                <p>SHEIN Scallop Laser Cut Detail Frilled Neck</p>
+                <span class = "price">&#x20B9; 980</span>
+                <span class = "like_it">&#9829;</span>
+            </div>
+
+            <div id="item4">
+                <p style = "background-color:black; color:white; height:8px; width: 50px; position: relative; font-size: 10px; top: 5px; left:5px; text-align:center; padding-top: 5px">20% OFF</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBnnNSxy53rA3bsdF63bUL0Tsch_SoAqCrgMSdCaUCkodhzQRc" alt="">
+                <p>SHEIN Scallop Laser Cut Detail Frilled Neck</p>
+                <span class = "price">&#x20B9; 630</span>
+                <span class = "like_it">&#9829;</span>
+            </div>
+
+            <div id="item5">
+                <p style = "background-color:black; color:white; height:8px; width: 50px; position: relative; font-size: 10px; top: 5px; left:5px; text-align:center; padding-top: 5px">30% OFF</p>
+                <img src="https://images.houseoffraser.co.uk/images/products/AB375900_3pl.jpg" alt="">
+                <p>SHEIN Scallop Laser Cut Detail Frilled Neck</p>
+                <span class = "price">&#x20B9; 700</span>
+                <span class = "like_it">&#9829;</span>
+            </div>
+
+            <div id="item6">
+                <p style = "background-color:white; color:white; height:8px; width: 50px; position: relative; font-size: 10px; top: 5px; left:5px; text-align:center; padding-top: 5px">10% OFF</p>
+                <img src="http://www.gladnessfoundation.org/images/cate_13/640/Hot-Sale-Women-Vneck-Pregnancy-Clothes-Maternity-Clothing-Breastfeeding-Tee-Nursing-Tops-Printing-Long-Sleeve-Tshirt-bue0.jpg" alt="">
+                <p>SHEIN Scallop Laser Cut Detail Frilled Neck</p>
+                <span class = "price">&#x20B9; 1,020</span>
+                <span class = "like_it">&#9829;</span>
+            </div>
+
+            <div id="item7">
+                <p style = "background-color:black; color:white; height:8px; width: 50px; position: relative; font-size: 10px; top: 5px; left:5px; text-align:center; padding-top: 5px">50% OFF</p>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyhEZ63wfxb59bEjyTVdErZbzGvY3OMHZ119L0zlXj7LRWL3M41Q" alt="">
+                <p>SHEIN Scallop Laser Cut Detail Frilled Neck</p>
+                <span class = "price">&#x20B9; 700</span>
+                <span class = "like_it">&#9829;</span>
+            </div>
+
+            <div id="item8">
+                <p style = "background-color:black; color:white; height:8px; width: 50px; position: relative; font-size: 10px; top: 5px; left:5px; text-align:center; padding-top: 5px">40% OFF</p>
+                <img src="http://www.silviaboatti.com/images/pic/fkJd1rEe-307.jpg" alt="">
+                <p>SHEIN Scallop Laser Cut Detail Frilled Neck</p>
+                <span class = "price">&#x20B9; 999</span>
+                <span class = "like_it">&#9829;</span>
+            </div>
+
+            <div id="item9">
+                <p style = "background-color:white; color:white; height:15px; width: 50px; position: relative; top:10px; left:10px; text-align:center;padding:3px">20% OFF</p>
+                <img src="http://www.calgaryautopro.com/images/Elisabetta/Abro12746.jpg" alt="">
+                <p>SHEIN Scallop Laser Cut Detail Frilled Neck</p>
+                <span class = "price">&#x20B9; 800</span>
+                <span class = "like_it">&#9829;</span>
+            </div>
+
+        </div>
+
+        <div class="myshop"><p>MyShop</p></div>
+
+
+    </body>
+</html>
