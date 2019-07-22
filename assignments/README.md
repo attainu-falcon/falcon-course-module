@@ -242,7 +242,7 @@ Contact Us page
 ----------
 ## Week 13
 
-### Day 1: Object constructor
+### Day 1: Classes and constructors
 
 1. The assignment is to create a Javascript class called `MyArray` making use of a constructor to initialize a property named `array`.
 2. The constructor should take arguments passed to it as the initial elements of array, like `MyArray(5, 2, 6, 4, 3, 1)`.
