@@ -211,7 +211,7 @@ Contact Us page
 7. Also have a `Delete` option.
 8. Put your files inside an `Express_AttainU` folder under `assignments`.
 
-## Week 12 Assignments
+## Week 12
 
 ### Day 2: Create a flexbox webpage
 ![flexbox](images/flexbox.png)
@@ -237,4 +237,15 @@ Contact Us page
 
 > Due day: _day-3_
 
-----------
+## Week 13
+
+### Day 1: Object constructor
+
+1. The assignment is to create a Javascript class called `MyArray` making use of a constructor to initialize a property named `array`.
+2. The constructor should take arguments passed to it as the initial elements of array, like `MyArray(5, 2, 6, 4, 3, 1)`.
+3. The object should have three methods:
+    1. `print()` - Prints the content of the array to console.
+    2. `search(searchValue)` - Searches the passed element in the array and returns the index if found. If not found, returns `-1`.
+    3. `sort()` - Sorts the array in descending order. No need to use any sorting algorithm. Use JS array methods to implement the same. 
+
+> **Note:** JS arrays sort alphabetically as strings by default. [Reference](https://www.w3schools.com/js/js_array_sort.asp)

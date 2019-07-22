@@ -175,3 +175,23 @@ Given a string, find all characters that are missing from the string, i.e., the 
 Input : The quick brown fox jumps
 Output : adglvyz
 ```
+
+## Week 12
+
+### Day 3: Login page using Bootstrap
+
+Create a Javascript function that takes a number and convert it into words.
+
+For example, if your function is `convert`, the following are some sample call results -`convert(1234)` => `One Two Three Four`
+`convert(90)` => `Nine Zero`
+`convert(117)` => `One One Seven`
+
+Hints:
+
+Breaking down the problem into smaller pieces, the hardest part is to get individual digits from the number.
+
+That is you need to get 1, 2, 3, and 4 individually from the number `1234`.
+
+Now to do that, you can divide the number by 10 and get the reminder repeatedly till the number is zero. And the reminder in each step will be your individual digit.
+
+When you get the digit, finding the corresponding word is easy. You can simply create an array like `words = ["Zero", "One", "Two" ...]` and map each digit as the index to get the word for it.
