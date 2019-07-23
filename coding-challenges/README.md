@@ -178,7 +178,7 @@ Output : adglvyz
 
 ## Week 12
 
-### Day 3: Login page using Bootstrap
+### Day 3: Numbers to words
 
 Create a Javascript function that takes a number and convert it into words.
 
@@ -195,3 +195,16 @@ That is you need to get 1, 2, 3, and 4 individually from the number `1234`.
 Now to do that, you can divide the number by 10 and get the reminder repeatedly till the number is zero. And the reminder in each step will be your individual digit.
 
 When you get the digit, finding the corresponding word is easy. You can simply create an array like `words = ["Zero", "One", "Two" ...]` and map each digit as the index to get the word for it.
+
+## Week 13
+
+### Day 2: Check for power of 2
+
+Create a Javascript function that checks if a number is power of two.
+
+For a number that is power of two, you should return `true`. For others, you should return `false`. Examples: `isPowerOfTwo(16)` => `true`
+`isPowerOfTwo(9)` => `false`
+
+**Hint:** You can easily check if a number is power of two by repeatedly dividing it by two and check for any reminders until the number becomes 1 or less.
+
+If there is a remainder, the number is not a  power of two. If we can divide until one without any remainders, the number is a power of two.
