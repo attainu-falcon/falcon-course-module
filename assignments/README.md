@@ -252,3 +252,19 @@ Contact Us page
     3. `sort()` - Sorts the array in descending order. No need to use any sorting algorithm. Use JS array methods to implement the same. 
 
 > **Note:** JS arrays sort alphabetically as strings by default. [Reference](https://www.w3schools.com/js/js_array_sort.asp)
+
+> Due day: _day-0_
+
+### Day 2: Functional Programming
+
+Consider this array -
+`var numbers = [4, 28, 43, 34, 37, 41, 26, 49, 33, 19, 36, 25, 47, 20, 1, 45, 6, 5, 27, 48];`
+
+Write a program that generates an array of squares of only even numbers from the above array.
+
+The output should be -
+`[ 16, 784, 1156, 676, 1296, 400, 36, 2304 ]`
+
+And you have to write the logic in both imperative style and functional style.
+
+> Due day: _day-1_
