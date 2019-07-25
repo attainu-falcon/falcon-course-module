@@ -208,3 +208,19 @@ For a number that is power of two, you should return `true`. For others, you sho
 **Hint:** You can easily check if a number is power of two by repeatedly dividing it by two and check for any reminders until the number becomes 1 or less.
 
 If there is a remainder, the number is not a  power of two. If we can divide until one without any remainders, the number is a power of two.
+
+### Day 4: Prime Numbers
+
+A prime number is any number that can be divided, without a remainder, only by itself and by 1. For example, 23 can be divided only by 23 and by 1.
+
+It can be also defined as - A prime number is a natural number greater than 1 that cannot be formed by multiplying two smaller natural numbers, according to Wikipedia.
+
+Here are a few links to understand it better if you are very new to primes -https://www.mathsisfun.com/prime_numbers.html
+https://www.khanacademy.org/math/pre-algebra/pre-algebra-factors-multiples/pre-algebra-prime-numbers/v/prime-numbersNow you understand what a prime number is, lets create a Javascript program that has the following two functions -
+
+1. A function to check if a number is prime or not.
+2. Another function that generates `n` prime numbers. That is if we pass `35` to this function, it should return an array of 35 prime numbers.
+
+Hints:
+
+1. A simple algorithm to check if a number is prime or not is to repeatedly divide the number from 2 to one less than the number. At any point, if there is not a remainder from the division, you can conclude that the number is not prime.
