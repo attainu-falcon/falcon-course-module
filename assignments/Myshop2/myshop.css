@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    display:grid;
+    grid-gap: 15px;
+    grid-template-rows:100px auto;
+    grid-template-areas: 
+    "header"
+    "container"   
+}
+.header{
+    display: grid;
+    position:sticky;
+    top:0;
+    z-index: 1;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    "mainheader"
+    "lowernavbar"
+}
+.mainheader{
+    grid-area: mainheader;
+    background: #F7F8FA;
+    color:black;
+    display: grid;
+    margin-top: 0;   
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "mainnav logo carticon"
+}
+.mainnav{
+    grid-area: mainnav;        
+}
+.mainnav a{
+float:left;
+text-decoration: none;
+background:#F7F8FA; 
+color: black;
+padding:16px 15px;
+font-size:15px;
+font-family: Muli, Arial, Helvetica, sans-serif;
+transition: 0.5s,all;
+}
+.mainnav a:hover{
+
+        color: #e67e22;
+        
+
+}
+.mainnav .active{
+    background: #ffffff;
+}
+
+
+.logo{
+grid-area: logo;
+text-align: center;
+color: #D4BCCC;
+font-size: 15px;
+font-family: 'Cinzel Decorative', cursive;
+
+
+}
+.carticon{
+    
+grid-area: carticon;
+text-align: right;
+color: #4b6584;
+
+margin-right: 10%;
+font-size: 30px;
+}
+.lowernavbar{
+    grid-area: lowernavbar;
+    background:#ffffff;
+    color:black;
+    box-shadow: 0 0 3px 0 #ccc;
+    display: inline;
+    position: relative;
+    
+}
+.lowernavbar a{
+    float:left;
+    text-decoration: none;
+    color:black ;
+    padding:15px 10px;
+    font-size:15px;
+    font-family: Muli, Arial, Helvetica, sans-serif;
+    transition: 0.5s,all;
+    
+}
+.lowernavbar .selected{
+       color:tomato;
+}
+.lowernavbar a:hover{
+    color: #e67e22;
+}
+.lowernavbar a span{
+    position: absolute;
+    top: 0;
+    line-height:1.5;
+    font-size: 9px;
+    background-color: tomato;
+    color: white;
+    padding: 0 5px;
+}
+.nav .search{
+    float: right;
+    
+}
+.lowernavbar input[type=text]{
+    padding:7px;
+    margin-top:8px;
+    border-style:ridge;
+    border-width:1px;
+    font-size:15px;
+    float:right;
+    background:white;
+    
+    
+    
+}
+.lowernavbar .search button{
+    padding:8px;
+    margin-top:8px;
+    border:none;
+    font-size:15px;
+    background:black;
+    color: #ecf0f1;
+    cursor: pointer;
+    float:right;
+    margin-right: 1%;
+   
+
+}
+.container{
+    display:grid;
+    grid-gap:1px;
+    grid-template-columns: 280px 1200px;
+    grid-template-areas:
+     "sidebar content"
+}
+.filterarea{
+    grid-area: filterarea;
+    background:#FFFFFF;
+    color :black;
+    padding: 10px;
+    box-sizing: border-box;
+    height:90%;
+    width:15%;
+    position:fixed;
+    left:0;
+    z-index: 1;
+    overflow:scroll;
+     
+    
+ 
+}
+.filterarea ul{
+    list-style: none;
+    line-height: 18px;
+  
+    
+}
+.filterarea ul li{
+     padding:6px;
+     font-size:14px;
+     color: #666666;
+     font-family: Muli, Arial, Helvetica, sans-serif;
+}
+
+
+
+.content{
+    grid-area: content;
+    
+   
+}
+.sort-order {
+    float:right;
+	
+	padding: 10px;
+}
+.icons{
+    color: black;
+    float:right;
+}
+.wrapper2{
+    display:flex;
+    flex-flow:row wrap;
+    overflow:auto;
+    
+}
+.product{
+       
+       height:400px;
+       width:250px;
+       margin:10px;
+       box-sizing:border-box;
+       position:relative;
+}
+.product img{
+        
+        width:250px;
+        height:300px;
+       
+}
+.product:hover{
+    border: solid 1px #CCC;
+    -moz-box-shadow: 1px 1px 5px #999;
+    -webkit-box-shadow: 1px 1px 5px #999;
+        box-shadow: 1px 1px 5px #999;
+}
+.discount{
+   position:absolute;
+   top:10px;
+   left:10px;
+   background:black;
+   color:white;
+   width:10;
+   font-size:12px;
+   font-family: 'Montserrat', sans-serif;
+   padding:5px;
+   opacity:0.8;
+}
+.description{
+   background:#FFFFFF;
+}
+.productname{
+      font-family: 'Raleway', sans-serif;
+      font-size:15px;
+      color:grey;
+}
+.fa-heart-o{
+       float:right;
+       font-size:12px;
+}
+.fa-heart-o:hover{
+      color:red;
+}
+.red{
+    background:#B0824A;
+    color:#B0824A;
+    border:none;
+    outline:none;
+}
+.black{
+    background:black;
+    border:none;
+    outline:none;
+ 
+}
+.grey{
+   background:grey;
+   color:grey;
+    border:none;
+    outline:none;
+}
+.color{
+   list-style:none;
+   display:flex;
+   padding:2px;
+ 
+}
+.color li{
+   padding:2px;
+}
+ 
