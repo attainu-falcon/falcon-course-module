@@ -1,0 +1,99 @@
+
+
+body{
+	background-image:url('https://images.wallpaperscraft.com/image/vertical_lines_stripes_colorful_47045_1920x1200.jpg');
+	  color:white;
+	font-family:Roboto;
+  }
+  
+  header{
+	height:60px;
+  }
+  header > h1{
+	float: left;
+  }
+  input{
+	height:29px;
+	width:250px;
+  }
+  button
+  {
+	height: 29px;
+  float:right;
+  }
+  
+  
+  header > ul>li
+  {
+	list-style:none;
+	display: inline-block;
+  }
+  
+  input{
+	height:30px;
+  }
+
+  .navigation{
+  list-style: none;
+  padding-left:1px;
+  padding-bottom:5px;
+  padding-right: 10px;;
+  float: left}
+  
+  .navigation li{
+	padding-bottom:5px;
+  }
+  
+  table
+  {
+  
+   background-color:rgb(1,1,1,0.4);
+	border-radius:5px;
+	width:80%;
+  }
+  
+  th
+  {
+	font-style: bold;
+	height:50px;
+	width:250px;
+	background-color:rgb(10,10,10,0.2);
+  }
+  
+  tbody td{
+	padding-left:10px;
+	padding-top:8px;
+  }
+  tbody tr:hover{
+	background-color:rgb(1,1,1,0.3);
+	}
+  ul > li:hover{
+	background-color:rgb(1,1,1,0.3);
+  }
+  
+  #selected
+  {
+	font-style:bold;
+	background-color:rgb(1,2,3,0.4);
+	width:150px;
+	border-radius:0px 15px 15px 0px;
+  }
+  
+  hr{
+   border: 1px solid rgb(1,2,3,0.3);
+  }
+  
+  footer
+  {
+	position: fixed;
+	height: 100px;
+	left: 10%;
+	width:80%;
+	margin-top:80px;
+	text-align:center;
+	background-color:rgb(1,2,3,0.3);
+  }
+  
+  
+  
+  
