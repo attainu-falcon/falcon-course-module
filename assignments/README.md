@@ -268,3 +268,18 @@ The output should be -
 And you have to write the logic in both imperative style and functional style.
 
 > Due day: _day-1_
+
+### Weekly Test: Pokemon Game
+
+1. Generate 5 two-digit random numbers between 1 and 100.
+2. For each of the numbers generated call the api, `https://pokeapi.co/api/v2/pokemon/xx` (`xx` being the two-digit number).
+3. The result of this api call, will give you the `height` property which is an integer.
+4. Add `height` for all the 5 pokemons. If this sum is an even number, resolve the promise alerting this sum.
+5. If sum is an odd number, reject the promise alerting this sum.
+6. Put your files under `assignments` > `week13` > `weekly-test`.
+
+**Hint:** Use `Math.random()` to generate random numbers.
+
+> Due day: _day-3_
+
+----------
