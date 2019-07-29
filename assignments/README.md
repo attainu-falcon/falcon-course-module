@@ -283,3 +283,18 @@ And you have to write the logic in both imperative style and functional style.
 > Due day: _day-3_
 
 ----------
+## Week 14
+
+### Day 1: First React app
+
+1. Use the timer example at https://reactjs.org/ and modify it to tick at every 100 millisecond.
+0.0, 0.1, 0.2 -> ... 
+2. Add this .jsx code to an npm project. [Reference](https://reactjs.org/docs/add-react-to-a-website.html#add-jsx-to-a-project)
+3. Use `npx` commands to compile .jsx to js.
+4. Use the compiled file as a script in your html file.
+5. Give the html an `h1` of 'React 100ms Counter'.
+6. Put your files under `assignments` > `week14` > `day01`.
+
+**Hint:** Use `number.toFixed()` to display `45` as `45.0`. [Reference](https://www.w3schools.com/jsref/jsref_tofixed.asp)
+
+> Due day: _day-0_
