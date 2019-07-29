@@ -224,3 +224,21 @@ https://www.khanacademy.org/math/pre-algebra/pre-algebra-factors-multiples/pre-a
 Hints:
 
 1. A simple algorithm to check if a number is prime or not is to repeatedly divide the number from 2 to one less than the number. At any point, if there is not a remainder from the division, you can conclude that the number is not prime.
+
+## Week 14
+
+### Day 1: Sum of series
+
+Given the value of n, we need to find the sum of the series where i-th term is sum of first i natural numbers.
+
+1 + (1+2) + (1+2+3) + (1+2+3+4) + …… + (1+2+3+4+…+n)
+
+```
+Input: 5
+Output: 35
+Explanation: (1) + (1+2) + (1+2+3) + (1+2+3+4) + (1+2+3+4+5) = 35
+
+Input: 10
+Output: 220
+Explanation: (1) + (1+2) + (1+2+3) +  .... +(1+2+3+4+.....+10) = 220
+```
