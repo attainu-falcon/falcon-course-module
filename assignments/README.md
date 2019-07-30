@@ -298,3 +298,13 @@ And you have to write the logic in both imperative style and functional style.
 **Hint:** Use `number.toFixed()` to display `45` as `45.0`. [Reference](https://www.w3schools.com/jsref/jsref_tofixed.asp)
 
 > Due day: _day-0_
+
+### Day 2: React login form
+
+1. Create a `LoginForm` component that renders two inputs and a button.
+2. Break down into as many components as you can.
+3. Use `npx` commands to compile .jsx to js.
+4. Use the compiled file as a script in your html file.
+5. Put your files under `assignments` > `week14` > `day02`.
+
+> Due day: _day-0_
