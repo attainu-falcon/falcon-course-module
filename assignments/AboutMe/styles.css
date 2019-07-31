@@ -1,0 +1,20 @@
+.heading {
+  padding: 30px;
+  text-align: center;
+  background-color: #00FFFF
+}
+.photo img {
+  width: 450px;
+  float: left;
+}
+.about {
+  background-color: #acd693;
+
+}
+.movies h1 {
+  text-align: center;
+  padding: 10px;
+  margin-left: 450px;
+  margin-right: 450px;
+  background-color: #690989;
+}

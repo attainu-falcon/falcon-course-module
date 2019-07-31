@@ -1,0 +1,10 @@
+Hello World
+
+The first thing that I got mesmerised by programming was the various ways the codes
+behave in the user interface. When something is clicked or entered as input, the
+codes (written by someone) behaves like a set of instructions and executes something.
+I always wanted to know how. So when I tried some basic codes in HTML, it was amazing
+to see the codes working. But again, how the whole thing interacts with users. Then
+finally I knew that there's something called back-end. So, to be able to solve any problem
+the whole concept should be clear. I always wanted to do something helpful for the people
+and I think I have chosen the right way.
