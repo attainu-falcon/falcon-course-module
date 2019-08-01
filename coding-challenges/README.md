@@ -242,3 +242,9 @@ Input: 10
 Output: 220
 Explanation: (1) + (1+2) + (1+2+3) +  .... +(1+2+3+4+.....+10) = 220
 ```
+
+### Day 4: React events & states
+
+Create a React app that checks if a number entered is even or not.
+
+The component should have a input element to enter the number and a button for the user to click and check odd/even status of the number.
