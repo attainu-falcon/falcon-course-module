@@ -308,3 +308,10 @@ And you have to write the logic in both imperative style and functional style.
 5. Put your files under `assignments` > `week14` > `day02`.
 
 > Due day: _day-0_
+
+### Day 4: React calculator
+
+We have created a simple calculator using JavaScript before.
+
+Now let's create the same one using React.
+All the arithmetic operations should be implemented using functions.
