@@ -248,3 +248,7 @@ Explanation: (1) + (1+2) + (1+2+3) +  .... +(1+2+3+4+.....+10) = 220
 Create a React app that checks if a number entered is even or not.
 
 The component should have a input element to enter the number and a button for the user to click and check odd/even status of the number.
+
+### Day 5: Setup React development environment and create a simple HelloWorld button component
+
+Create a react app using `npx create-react-app first-app`. Create a `HelloWorld` component which renders a simple button on the page.
