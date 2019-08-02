@@ -315,3 +315,16 @@ We have created a simple calculator using JavaScript before.
 
 Now let's create the same one using React.
 All the arithmetic operations should be implemented using functions.
+
+> Due day: _day-0_
+
+### Weekly Test: Quiz app
+![quiz](images/quiz.png)
+
+Create a React app which loads a question from the [quiz.json](data/quiz.json) file. You can store the json as in a variable in your component.
+
+On clicking the submit button, the app should show the next question and keep a track of the number of questions that have been answered correctly.
+
+Also present is a timer component which ticks every second for 60 seconds. Once the timer shuts down or if all the 10 questions are answered, the app should display the score for the user.
+
+> Due day: _day-3_
