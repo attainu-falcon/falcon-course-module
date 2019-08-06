@@ -328,3 +328,24 @@ On clicking the submit button, the app should show the next question and keep a 
 Also present is a timer component which ticks every second for 60 seconds. Once the timer shuts down or if all the 10 questions are answered, the app should display the score for the user.
 
 > Due day: _day-3_
+
+----------
+## Week 6
+
+### Day 2: Bootstrap company website in React
+
+Create the following pages in React:
+
+Home
+![home page](images/bootstrap-company-home.png)
+About Us page
+![about us page](images/bootstrap-company-about.png)
+Contact Us page
+![contact us page](images/bootstrap-company-contact.png)
+
+1. For this assignment, the pages will be written as React components.
+2. You are free to divide each page into as many components you wish.
+3. You need to use the `react-dom-router` package for routing/linking the pages.
+4. Put your files under `assignments` > `week15` > `day02`.
+
+> Due day: _day-0_
