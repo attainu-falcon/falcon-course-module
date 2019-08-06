@@ -252,3 +252,24 @@ The component should have a input element to enter the number and a button for t
 ### Day 5: Setup React development environment and create a simple HelloWorld button component
 
 Create a react app using `npx create-react-app first-app`. Create a `HelloWorld` component which renders a simple button on the page.
+
+## Week 15
+
+### Day 2: React state lifting
+![react-state](images/react-state.png)
+
+Create a React app whoose UI looks like the above picture.
+
+There should be three components in the app:
+
+1. `InputComponent` - that receives the text input from the user.
+2. `DisplayComponent` - that shows whatever text is typed by the user in `InputComponent`
+3. `App` - the root component which holds both `InputComponent` and `DisplayComponent`
+
+Whatever text is typed inside the input box should be shown in the display component (which can be an h2 tag).
+
+**Hints:**
+
+1. This app should use the `Lifting the state up to the parent component` concept we have learnt. That is, input text should be stored in the state of the `App` component so that the `DisplayComponent` can accept it.
+2. The `App` component should pass down required properties and methods as props to both `InputComponent` and `DisplayComponent`.
+3. Start building the UI first, then try to store the state of changed input text in `InputComponent` itself. Then try to move the state up to the `AppComponent`.
