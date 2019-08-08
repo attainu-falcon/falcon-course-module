@@ -273,3 +273,13 @@ Whatever text is typed inside the input box should be shown in the display compo
 1. This app should use the `Lifting the state up to the parent component` concept we have learnt. That is, input text should be stored in the state of the `App` component so that the `DisplayComponent` can accept it.
 2. The `App` component should pass down required properties and methods as props to both `InputComponent` and `DisplayComponent`.
 3. Start building the UI first, then try to store the state of changed input text in `InputComponent` itself. Then try to move the state up to the `AppComponent`.
+
+### Day 4: Meal search app
+![meal-search](images/meal-search.gif)
+
+1. Create a simple React JS application that illustrates how to perform a search.
+2. In this application, query one of the [themealdb.com](themealdb.com) APIs that returns an array of meals to be displayed.
+3. Use the animated gif for reference.
+4. API guide and examples [here](https://www.themealdb.com/api.php)
+
+**Hints:** Single component will do the trick. Have the API call fire on click of the 'Search' button. No lifecycle methods needed here.
