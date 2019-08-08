@@ -349,3 +349,13 @@ Contact Us page
 4. Put your files under `assignments` > `week15` > `day02`.
 
 > Due day: _day-0_
+
+### Day 4: Calendar component
+
+Create a calendar component in React which,
+1. Consists of an input element.
+2. Creates a table of dates for the month of August 2019 on focusing on this element.
+3. On clicking any date in the calendar the input box should update the value to the selected date in the format `dd.mm.yy`.
+5. Put your files under `assignments` > `week15` > `day04`.
+
+> Due day: _day-1_
