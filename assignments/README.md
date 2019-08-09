@@ -359,3 +359,14 @@ Create a calendar component in React which,
 5. Put your files under `assignments` > `week15` > `day04`.
 
 > Due day: _day-1_
+
+### Weekly Test: Webmail with React
+
+Create a webmail app in React which,
+1. Create the webmail app with navigation component on the left (Inbox, Sent, Drafts, Trash).
+2. On clicking each of these render the component with list of mails in that category.
+3. The above component gets the category as its prop and filters mails accordingly.
+4. Use [mail.json](data/mail.json) to fetch relevant data.
+5. Put your files under `assignments` > `week15` > `weekly-test`.
+
+> Due day: _day-3_
