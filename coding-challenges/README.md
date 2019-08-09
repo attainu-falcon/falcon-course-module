@@ -283,3 +283,38 @@ Whatever text is typed inside the input box should be shown in the display compo
 4. API guide and examples [here](https://www.themealdb.com/api.php)
 
 **Hints:** Single component will do the trick. Have the API call fire on click of the 'Search' button. No lifecycle methods needed here.
+
+### Day 5: 2D Array
+![matrix](images/matrix.png)
+
+We know that an array is a row of elements. Similarly, we can also implement a 2D array (also called a matrix). This is a table of elements containing rows and columns.
+
+We access an element as `a[i][j]`, where `i` is the row index and `j` is the column index.
+
+To define a 3x3 matrix as shown in the image,
+```
+var a = [[1,2,3],[4,5,6],[7,8,9]]
+
+console.log(a[0][0]); // 1
+console.log(a[0][1]); // 2
+console.log(a[1][0]); // 4
+console.log(a[2][1]); // 8
+console.log(a[1]); // [4, 5, 6]
+```
+
+Given a matrix, find the maximum element of each row.
+```
+Input: [[1, 2, 3],
+        [1, 4, 9],
+        [76, 34, 21]]
+
+Output: 3, 9, 76
+
+
+Input: [[1, 2, 3, 21],
+        [12, 1, 65, 9],
+        [1, 56, 34, 2]]
+
+Output: 21, 65, 56
+```
+You can hardcode the input matrix and call the function multiple times for these inputs.
