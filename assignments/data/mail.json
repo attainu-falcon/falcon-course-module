@@ -1,0 +1,34 @@
+[
+    {
+        "mail": "Thank you for your orser at amazon.in",
+        "category": "Inbox"
+    },
+    {
+        "mail": "Are you looking to apply for a Credit Card?",
+        "category": "Trash"
+    },
+    {
+        "mail": "Security Alert",
+        "category": "Inbox"
+    },
+    {
+        "mail": "Please find attached my resume.",
+        "category": "Sent"
+    },
+    {
+        "mail": "I have finished work on the required documents.",
+        "category": "Drafts"
+    },
+    {
+        "mail": "Freedom flight sale",
+        "category": "Trash"
+    },
+    {
+        "mail": "I will be available for a call this Friday.",
+        "category": "Drafts"
+    },
+    {
+        "mail": "Urgent! Mobile number updated.",
+        "category": "Sent"
+    }
+]
