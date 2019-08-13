@@ -318,3 +318,28 @@ Input: [[1, 2, 3, 21],
 Output: 21, 65, 56
 ```
 You can hardcode the input matrix and call the function multiple times for these inputs.
+
+## Week 16
+
+### Day 2: Addition of matrices
+
+Write a program which adds two matrices of same size. Before proceeding, check if they are of the same size.
+```
+Input:
+var a = [[1, 1, 1, 1],  
+        [2, 2, 2, 2],  
+        [3, 3, 3, 3],  
+        [4, 4, 4, 4]];  
+
+var b = [[1, 1, 1, 1],  
+        [2, 2, 2, 2],  
+        [3, 3, 3, 3],  
+        [4, 4, 4, 4]]; 
+
+Output:
+[[2, 2, 2, 2],  
+[4, 4, 4, 4],  
+[6, 6, 6, 6],  
+[8, 8, 8, 8]]; 
+
+```
