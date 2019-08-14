@@ -330,7 +330,7 @@ Also present is a timer component which ticks every second for 60 seconds. Once 
 > Due day: _day-3_
 
 ----------
-## Week 6
+## Week 15
 
 ### Day 2: Bootstrap company website in React
 
@@ -370,3 +370,28 @@ Create a webmail app in React which,
 5. Put your files under `assignments` > `week15` > `weekly-test`.
 
 > Due day: _day-3_
+
+----------
+## Week 16
+
+### Day 3: Simple Redux store
+
+Create a Redux store and reducer with the following initial state :
+
+```
+currentScore: 0
+```
+
+The reducer should accept the following actions - 
+
+```
+UPDATE_BONUS
+LEVEL_COMPLETED
+LIFE_LOST
+```
+
+`UPDATE_BONUS` should increment the `currentScore` by 100
+`LEVEL_COMPLETED` should increment the `currentScore` by 500
+`LIFE_LOST` should decrement the `currentScore` by 250
+
+> Due day: _day-1_
