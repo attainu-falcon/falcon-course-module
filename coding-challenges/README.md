@@ -343,3 +343,18 @@ Output:
 [8, 8, 8, 8]]; 
 
 ```
+
+### Day 3: Atoms count
+
+Given a chemical formula as a string, the task is to get the count of atoms in the chemical formula.
+```
+Input: str = "Fe2H3OH"
+Output: Fe 2
+        H 4
+        O 1
+
+Input: str = "NaCl2NaO2"
+Output: Na 2
+        Cl 2
+        O 2
+```
