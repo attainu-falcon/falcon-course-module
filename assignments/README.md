@@ -395,3 +395,12 @@ LIFE_LOST
 `LIFE_LOST` should decrement the `currentScore` by 250
 
 > Due day: _day-1_
+
+### Weekly Test: Twitter with Redux
+![twitter](images/twitter.png)
+
+Modify the Twitter app in React to use Redux.
+
+Have the same 3 components: `TweetContainer`, `Tweet`, `TweetForm`
+
+Posting a new tweet should dispatch an action to update the global store.
