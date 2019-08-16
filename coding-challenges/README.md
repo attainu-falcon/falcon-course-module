@@ -358,3 +358,29 @@ Output: Na 2
         Cl 2
         O 2
 ```
+
+### Day 5: 
+
+Given a number N, the task is to print the following pattern:
+```
+Input : 10
+Output :                    
+          * 
+         * * 
+        * * * 
+       * * * * 
+      * * * * * 
+     * * * * * * 
+    * * * * * * * 
+   * * * * * * * * 
+  * * * * * * * * * 
+ * * * * * * * * * * 
+
+Input :5
+Output :
+     * 
+    * * 
+   * * * 
+  * * * * 
+ * * * * * 
+```
