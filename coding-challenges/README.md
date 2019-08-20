@@ -363,8 +363,8 @@ Output: Na 2
 
 Given a number N, the task is to print the following pattern:
 ```
-Input : 10
-Output :                    
+Input: 10
+Output:                    
           * 
          * * 
         * * * 
@@ -376,11 +376,30 @@ Output :
   * * * * * * * * * 
  * * * * * * * * * * 
 
-Input :5
-Output :
+Input: 5
+Output:
      * 
     * * 
    * * * 
   * * * * 
  * * * * * 
 ```
+
+## Week 17
+
+### Day 1
+
+Create two Javascript functions - `largest` and `smallest`.
+
+Both of them takes an array of numbers as an input.
+
+`largest` should return the largest number in the array.
+`smallest` should return the smallest number in the array.
+
+Feel free to use any technique - either algo based or any of the JS' builtin feature to solve this problem.
+
+### Day 2 
+
+Create a JavaScript function that reads a file and searches for a string in it.
+
+For example, if called like this - `searchFile("file.txt", "AttainU")`, it should return the line numbers and text in the line that contains the string "AttainU".
