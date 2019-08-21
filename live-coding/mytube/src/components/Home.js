@@ -1,6 +1,6 @@
 import React from 'react';
 
-class HomePage extends React.Component {
+class Home extends React.Component {
     constructor(props) {
         super(props);
 
@@ -12,4 +12,4 @@ class HomePage extends React.Component {
     }
 }
 
-export default HomePage
+export default Home

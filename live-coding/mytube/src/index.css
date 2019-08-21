@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.card-deck {
+  padding-left: 0;
+}
+
+.card {
+  flex-basis: 25% !important;
+  margin-bottom: 15px !important; 
+}
+
+.card:hover {
+  cursor: pointer;
+}
+
+.card-body {
+  padding-bottom: 0;
+}
+
+.card-text {
+  padding: 0 1.25rem 0.75rem;
+}
