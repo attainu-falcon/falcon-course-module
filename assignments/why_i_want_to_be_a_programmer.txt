@@ -1,0 +1,9 @@
+A programmer, developer ("dev"), coder, or software engineer is a person who creates 
+computer software. The term computer programmer can refer to a specialist in one area of 
+computers, or to a generalist who writes code for many kinds of software.
+A programmer, developer ("dev"), coder, or software engineer is a person who creates 
+computer software. The term computer programmer can refer to a specialist in one area of
+ computers, or to a generalist who writes code for many kinds of software. One who 
+ practices, or professes, a formal approach to programming may also be known as a 
+ programmer analyst.[1] On the other hand, "code monkey" is a derogatory term for a
+  programmer who simply writes code without any involvement in the design or specifications.
