@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: aqua;
+}
+.main{
+    width: 250px;
+    border: 5px solid gray;
+    background-color: rgb(139, 174, 228);
+   position: fixed;
+   top: 150px;
+   left: 500px;
+
+}
+input{
+    margin: 10px;
+    height: 30px;
+    width: 190px;
+}
+
+button:hover{
+    background: brown;
+}
+
+ button{
+     font-size: 20px;
+     color: white;
+    background: rgb(160, 204, 230);
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+ h1 {
+    color: #fff;
+} 
+h1:hover{
+    color: brown;
+}

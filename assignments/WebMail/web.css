@@ -1,0 +1,52 @@
+body{
+    background-color: aqua;
+    box-sizing: border-box;
+    display: inline;
+
+}
+.head{
+    border: 1px solid red;
+  
+background-color:antiquewhite;
+ text-align: center;
+
+
+}
+.head a{
+   text-decoration: none;
+   font-size: 55px;
+}
+a:hover{color: brown; 
+}
+.side{
+    border: 1px solid red;
+    background-color:antiquewhite;
+    width: 150px;
+    height: 80%;
+    text-align: center;
+}
+
+.side a{
+    font-size: 40px;
+    line-height: 100px;
+}
+.main{
+  position: fixed;
+  bottom: 300px;
+  left: 200px;;
+
+}
+table {
+    border-collapse: collapse;
+    width: 1000px;
+    height: 100%;
+  }
+  th{
+      font-size: 20px;
+  }
+  th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  tr:hover {background-color:brown;}

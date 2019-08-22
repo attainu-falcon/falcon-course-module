@@ -1,0 +1,39 @@
+body{
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 55px;
+    
+}
+h1:hover{
+    color: blueviolet;
+}
+p{
+    margin-top: 55px;
+font-size: 30px;
+color: brown;
+}
+p:hover{
+    color:lightblue;;
+}
+h2{
+   font-size: 40px;
+   color: darkorange;
+}
+h2:hover{
+    color: black;
+}
+ul,li{
+    font-size: 25px;
+    color: aqua;
+    
+}
+ul,li:hover{
+    color: darkgreen;
+}
+img{
+   height: 250px;
+}
