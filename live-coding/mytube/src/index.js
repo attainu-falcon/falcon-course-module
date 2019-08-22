@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from "react-redux";
+import { Provider } from 'react-redux';
 import './index.css';
 import App from './components/App';
-import configureStore from './store'
+import configureStore from './store';
 
 console.log(configureStore().getState());
 
