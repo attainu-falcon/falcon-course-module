@@ -404,3 +404,27 @@ Modify the Twitter app in React to use Redux.
 Have the same 3 components: `TweetContainer`, `Tweet`, `TweetForm`
 
 Posting a new tweet should dispatch an action to update the global store.
+
+----------
+## Week 18
+
+### Day 3: React Redux - Numbers
+![react-redux-es6-module](images/react-redux-numbers.png)
+
+Lets create a React + Redux app similar to the attached picture.
+
+As you can see, an user can enter a number and click on three buttons which will generate square or cube or square root depending on the button pressed.
+
+Here are the requirements
+
+1. Use Redux store to manage your application state.
+2. Use ES6 modules to split your app into multiple components and store.
+
+Have at least four separate components - `Input`, `SquareButton`, `CubeButton`, `SquareRootButton` in different files and import all of them in `App.js` and then finally render them inside `index.js`.
+
+Put your files like discussed for better review.
+1. action creators -> inside `actions` folder
+2. reducers -> inside `reducers` folder
+3. store -> in a `store.js` file
+
+**Hint:** The first step should be to divide the task into appropriate number of reducers and actions. This app can be done with single reducer containing 3 actions.
