@@ -14,7 +14,6 @@ class Home extends React.Component {
     }
 
     render() {
-        console.log(this.props.videosList);
         return <main>
             <div className="jumbotron">
                 <div className="container">
@@ -31,7 +30,6 @@ class Home extends React.Component {
 }
 
 function mapActionToProps(dispatch) {
-    console.log('Home ==> mapActionToProps()');
     return {
         getTrendingVideos: function() {
             dispatch(fetchingVideos());

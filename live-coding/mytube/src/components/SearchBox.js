@@ -20,7 +20,6 @@ class SearchBox extends React.Component {
 }
 
 function mapActionToProps(dispatch) {
-    console.log('SearchBox ==> mapActionToProps()');
     return {
         handleClick: function (e) {
             console.log(e.target.parentNode.previousSibling.value);

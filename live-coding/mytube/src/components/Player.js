@@ -5,7 +5,6 @@ import { fetchVideoDetails } from '../api';
 import CommentsThread from './CommentsThread';
 
 class Player extends React.Component {
-
     componentDidMount() {
         this.props.getDetails(this.props.match.params.videoId);
     }
@@ -15,7 +14,6 @@ class Player extends React.Component {
     }
 
     render() {
-        console.log(this.props)
         return <main>
             <div className="jumbotron">
                 {this.props.videosList && this.props.videosList.length === 1 ?
@@ -46,21 +44,19 @@ class Player extends React.Component {
 }
 
 function mapStateToProps(state) {
-    console.log('Player ==> mapStateToProps()');
     return {videosList: state.videosReducer.videosList};
 }
 
 function mapActionToProps(dispatch) {
-    console.log('Player ==> mapActionToProps()');
     return {
         getDetails: function (videoId) {
-            console.log("get");
+            console.log("getDetails()");
             dispatch(fetchingVideos());
             fetchVideoDetails(videoId)
                 .then(result => dispatch(retrievedVideos(result)));
         },
         clearDetails: function() {
-            console.log("clear");
+            console.log("clearDetails()");
             dispatch(clearVideos());
         }
     }

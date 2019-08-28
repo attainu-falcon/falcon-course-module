@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 
 class SearchResults extends React.Component {
-
     render() {
         console.log(this.props);
         return <div className="container search-results">
@@ -28,7 +27,6 @@ class SearchResults extends React.Component {
 }
 
 function mapStateToProps(state) {
-    console.log('SearchResults ==> mapStateToProps()');
     return {videosList: state.videosReducer.videosList};
 }
 

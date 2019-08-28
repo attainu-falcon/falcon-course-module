@@ -1,14 +1,9 @@
 import React from 'react';
 
 class Profile extends React.Component {
-    constructor(props) {
-        super(props);
-
-        // No internal state, but bind 'this' to class methods
-    }
-
     render() {
-        return <h1>Profile ?</h1>
+        // console.log(this.props);
+        return <h5 className="mx-5 my-2">Logged in as {this.props.name}</h5>
     }
 }
 
