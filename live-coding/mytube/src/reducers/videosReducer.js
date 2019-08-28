@@ -1,5 +1,4 @@
 function videosReducer(state = { videosList: [] }, action) {
-
     console.log('videosReducer()');
 
     switch (action.type) {

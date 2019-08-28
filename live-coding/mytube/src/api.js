@@ -14,17 +14,15 @@ export function fetchVideos(query) {
         });
 }
 
-
 export function fetchVideoDetails(videoId) {
     let url = `https://www.googleapis.com/youtube/v3/videos?key=${CONFIG.API_KEY}&id=${videoId}&part=snippet,contentDetails,statistics`;
 
     console.log(url);
-    return fetch(url)
+    return fetch(url, {credentials: 'include'})
         .then(function (data) {
             return data.json();
         });
 }
-
 
 export function fetchVideoComments(videoId) {
     let url = `https://www.googleapis.com/youtube/v3/commentThreads?key=${CONFIG.API_KEY}&videoId=${videoId}&part=snippet,replies`;

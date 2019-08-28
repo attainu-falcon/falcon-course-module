@@ -1,5 +1,4 @@
 function commentsReducer(state = { commentsThread: [] }, action) {
-
     console.log('commentsReducer()');
 
     switch (action.type) {

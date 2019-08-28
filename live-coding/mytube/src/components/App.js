@@ -1,5 +1,6 @@
 import React from 'react';
-import {BrowserRouter as Router, Route} from 'react-router-dom';
+import { connect } from 'react-redux';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Header from './Header';
 import Home from './Home';
@@ -7,18 +8,28 @@ import SearchPage from './SearchPage';
 import Profile from './Profile';
 import Player from './Player';
 
-function App() {
+function App(props) {
+  console.log(props);
   return (
     <Router>
-      <div className="App">
-        <Header />
-        <Route path="/" exact={true} component={Home} />
-        <Route path="/search" component={SearchPage} />
-        <Route path="/profile" component={Profile} />
-        <Route path="/watch/:videoId" component={Player} />
-      </div>
+      {props.loggedIn ?
+        <div className="App">
+          <Header />
+          <Route path="/" exact={true} component={Home} />
+          <Route path="/search" component={SearchPage} />
+          <Route path="/profile" render={(childProps) => <Profile {...childProps} name={props.loggedIn.name} />} />
+          <Route path="/watch/:videoId" component={Player} />
+        </div> :
+        <div className="App">
+          <Header hideLogout={true} />
+        </div>
+      }
     </Router>
   );
 }
 
-export default App;
+function mapStateToProps(state) {
+  return {loggedIn: state.loginReducer.loggedIn};
+}
+
+export default connect(mapStateToProps)(App);
