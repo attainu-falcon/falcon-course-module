@@ -403,3 +403,38 @@ Feel free to use any technique - either algo based or any of the JS' builtin fea
 Create a JavaScript function that reads a file and searches for a string in it.
 
 For example, if called like this - `searchFile("file.txt", "AttainU")`, it should return the line numbers and text in the line that contains the string "AttainU".
+
+### Day 3
+
+Write a Javascript program that prints the numbers from 1 to 100 with the following rules
+1. For numbers that are multiples of three, print `Fizz` instead of the number.
+2. For numbers that are multiples of five print `Buzz`.
+3. For numbers which are multiples of both three and five print `FizzBuzz`.
+
+### Day 4
+
+Create a Stack class using arrays and ES6 class.
+
+Stack is an ordered data structure that supports two functions - `push` and `pop`. `push` adds an element to a stack, where `pop` removes it.
+
+The adding and removal of elements take a special order. The last element added to a stack will be the first element to be removed from it, when called using push and pop respectively.
+
+**Hint:** You can use an array to represent the stack in your class. Then use the array push/pop or shift/unshift methods to get the element in or out of the array.
+
+### Day 5
+
+Consider two sorted arrays, A and B.
+
+Write a Javascript function that merges these two arrays maintaining the sorted order.
+
+We know that this can be easily achieved using `.concat()` and then `.sort()` methods. However, for this problem, you cannot use the `.sort()` function. Try to do the merge without it.
+
+## Week 18
+
+### Day 3
+
+Write a Javascript function that takes a string and compresses it.
+
+You can use a simple character count algorithm for the compression. So for each character in the input string, replace it with a number if the next character(s) are the same.
+
+So an input string like `AAABCCDDDD` will become `A3BC2D4`.
