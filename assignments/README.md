@@ -428,3 +428,10 @@ Put your files like discussed for better review.
 3. store -> in a `store.js` file
 
 **Hint:** The first step should be to divide the task into appropriate number of reducers and actions. This app can be done with single reducer containing 3 actions.
+
+### Day 4: React Redux - Colors
+
+1. Adding to the same assignment above, create 3 more components - `RedButton`, `GreenButton`, `BlueButton`.
+2. Display these buttons on the same page as previous below the existing buttons.
+3. On clicking on any of these dispatch actions to a `colorReducer` to update the color code in the store.
+4. Use this state variable to set the `input -> backgroundColor` in the Input component. Use inline styling.
