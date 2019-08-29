@@ -1,0 +1,39 @@
+body {
+    background-color: #093145;
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: #efd469;
+    color: #093145;
+    text-align: center;
+    border: hidden;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10px;
+}
+
+p, h3 {
+
+    color: #F2F3F4;
+}
+
+span {
+    font-weight: bold;
+}
+
+div {
+    background-color: #efd469;
+    padding: 10px;
+
+}
+
+h2, ul {
+    color:  #093145;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    margin-right: 20px;
+}

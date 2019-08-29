@@ -1,0 +1,44 @@
+body{
+    background-color: slategray;
+    margin: 0;
+    font-family: Cambria;
+  }
+
+header{
+  background-color: black;
+  font-size: 60px;
+  text-align: center;
+  color: slategray;
+}
+  
+.container{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  height: 400px;
+  width: 400px;
+  background-color: black;
+}
+  
+  button{
+    background-color: black;
+    color: slategray;
+    height: 30px;
+  }
+  
+  input{
+    height: 25px;
+    background-color: black;
+    color: slategray;
+    margin: 40px;
+    margin-right: 0;
+  }
+  
+  #result{
+    color: slategray;
+    text-align: center;
+    font-size: 20px;
+  }

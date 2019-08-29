@@ -1,0 +1,120 @@
+
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(https://www.solidbackgrounds.com/images/website/950x534/950x534-blue-abstract-noise-free-website-background-image.jpg);
+}
+
+.container {
+    background: rgba(0,0,0,0.5);
+    position: relative;
+    top: -10px;
+    width: 95%;
+    height: 650px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h2 {
+  position: absolute;
+  top:-5px;
+  left:0px;
+  background:	#B8860B;
+  padding:10px;
+}
+
+h2:hover{
+    background-color: black;
+    color: #B8860B;
+}
+.list, .content{
+  display: inline-block;
+  position: absolute;
+  top: 80px;
+}
+
+.list {
+    left: 30px;
+    background: rgba(0,0,0,0.3);
+    width: 15%;
+    margin: 10px;
+    margin-right: 40px;
+    height: 395px;
+}
+
+ul {
+    font-size: 20px;
+    line-height: 1.5;
+    list-style: none;
+    padding: 18px;
+
+}
+
+ul li {
+    background: #6699ff;
+    margin: 5px;
+    opacity: 0.5;
+}
+
+li:hover{
+    background-color: black;
+    color: white;
+}
+
+.content {
+    background: rgba(0,0,0,0.3);
+    padding:50px;
+    width: 70%;
+    height: 395px;
+    right:30px;
+    margin:10px;
+
+}
+
+table {
+    border: hidden;
+    font-size: 17px;
+    line-height: 1.5;
+    height: 100%;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid grey;
+    background: #6699ff;
+    opacity: 0.5;
+}
+
+th{
+  text-align:left;
+}
+
+tr:hover{
+    background-color: black;
+    color: white;
+}
+img {
+    position: absolute;
+    top: 490px;
+    left: 0px;
+    width: 100%;
+    height: 150px;   
+}
+
+img:hover{
+    opacity: 1;
+	animation: flash 1.5s; 
+}
+
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
