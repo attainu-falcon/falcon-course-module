@@ -432,6 +432,15 @@ Put your files like discussed for better review.
 ### Day 4: React Redux - Colors
 
 1. Adding to the same assignment above, create 3 more components - `RedButton`, `GreenButton`, `BlueButton`.
-2. Display these buttons on the same page as previous below the existing buttons.
-3. On clicking on any of these dispatch actions to a `colorReducer` to update the color code in the store.
+2. Display these buttons on the same page as previous, below the existing buttons.
+3. On clicking on any of these, dispatch actions to a `colorReducer` to update the color code in the store.
 4. Use this state variable to set the `input -> backgroundColor` in the Input component. Use inline styling.
+
+### Weekly Test:
+![react-redux-api](images/react-redux-api.png)
+
+1. Create an app in React + Redux with 3 components - App, UserList and RepoList.
+2. Fetch a list of users from `https://api.github.com/users` and display in UserList like shown.
+3. On clicking the `Show repos` button on any user card, fetch the list of repos for the user and display in `RepoList`.
+eg, `https://api.github.com/users/defunkt/repos`
+4. There will be two reducers each for fetching `users` and `repos`.
