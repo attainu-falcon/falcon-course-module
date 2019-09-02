@@ -444,3 +444,16 @@ Put your files like discussed for better review.
 3. On clicking the `Show repos` button on any user card, fetch the list of repos for the user and display in `RepoList`.
 eg, `https://api.github.com/users/defunkt/repos`
 4. There will be two reducers each for fetching `users` and `repos`.
+
+----------
+## Week 19
+
+### Day 1: React Redux - Webmail
+Create a webmail app in React + Redux which,
+1. Displays a navigation component on the left (Inbox, Sent, Drafts, Trash).
+2. On clicking any of these render the component with list of mails in that category.
+3. This component dispatches the corresponding action + a payload of filtered mails to the reducer.
+4. Use [mail.json](data/mail.json) to fetch relevant data.
+5. Put your files under `assignments` > `week19` > `weekly-test`.
+
+> Due day: _day-1_
