@@ -438,3 +438,27 @@ Write a Javascript function that takes a string and compresses it.
 You can use a simple character count algorithm for the compression. So for each character in the input string, replace it with a number if the next character(s) are the same.
 
 So an input string like `AAABCCDDDD` will become `A3BC2D4`.
+
+### Day 5
+
+The sum of the squares of the first ten natural numbers is,
+1 ^ 2 + 2 ^ 2 + ... + 10 ^ 2 = 385
+
+The square of the sum of the first ten natural numbers is,
+(1 + 2 + ... + 10) ^ 2 = 552 = 3025
+
+Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025 − 385 = 2640.
+
+Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
+
+## Week 19
+
+### Day 1
+
+2 ^ 15 = 32768 and the sum of its digits is 3 + 2 + 7 + 6 + 8 = 26.
+
+What is the sum of the digits of the number 2 ^ 1000?
+
+(Read 2 ^ 15 as 2 raise to 15 or simply exponentiation with the base 2).
+
+**Hint:** Math object has a function to find the power. Once you get that, get individual numbers from the result and add them together.
