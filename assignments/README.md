@@ -454,6 +454,16 @@ Create a webmail app in React + Redux which,
 2. On clicking any of these render the component with list of mails in that category.
 3. This component dispatches the corresponding action + a payload of filtered mails to the reducer.
 4. Use [mail.json](data/mail.json) to fetch relevant data.
-5. Put your files under `assignments` > `week19` > `weekly-test`.
+5. Put your files under `assignments` > `week19` > `day01`.
+
+> Due day: _day-1_
+
+### Day 2: React Redux - Webmail
+Modify the webmail app in React + Redux to,
+1. Show a checkbox beside the mail.
+2. On clicking on it, mark that mail as read.
+3. Unselecting the checkbox should mark it as unread again.
+4. This component dispatches the corresponding action to the store to update the corresponding mail object to add a new key `read: true`.
+5. On the initial load, the key would not exist, which should be taken as an unread mail.
 
 > Due day: _day-1_
