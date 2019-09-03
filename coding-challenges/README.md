@@ -462,3 +462,13 @@ What is the sum of the digits of the number 2 ^ 1000?
 (Read 2 ^ 15 as 2 raise to 15 or simply exponentiation with the base 2).
 
 **Hint:** Math object has a function to find the power. Once you get that, get individual numbers from the result and add them together.
+
+### Day 2
+
+Write a Javascript program that removes duplicates from an array.
+
+For example, if the input array is `[1, 2, 2, 3, 4, 5, 6, 6, 7]`, the output of the program should be [1, 2, 3, 4, 5, 6, 7]
+
+You can assume that the input array is sorted. (If this fact is not mentioned in your interview challenge, you can always sort the input array before processing).
+
+Can you do this in O(n) time?
