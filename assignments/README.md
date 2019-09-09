@@ -467,3 +467,8 @@ Modify the webmail app in React + Redux to,
 5. On the initial load, the key would not exist, which should be taken as an unread mail.
 
 > Due day: _day-1_
+
+### Day 4: Merge Sort
+Implement merge sort for an array of numbers.
+
+> Due day: _day-0_
