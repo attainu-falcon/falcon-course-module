@@ -472,3 +472,38 @@ For example, if the input array is `[1, 2, 2, 3, 4, 5, 6, 6, 7]`, the output of 
 You can assume that the input array is sorted. (If this fact is not mentioned in your interview challenge, you can always sort the input array before processing).
 
 Can you do this in O(n) time?
+
+### Day 3
+
+Implement `sqrt(x)`. Compute and return the square root of `x` (integer).
+If `x` is not a perfect square, return `floor(sqrt(x))`.
+```
+Example
+Input: 11
+Output: 3
+```
+
+**Note:** Do not use any standard library functions.
+
+### Day 4
+
+Implement Selection Sort and Bubble Sort functions for a numerical array.
+Both require 2 loops - O(n^2)
+console.log() the array in the outer loop. This will show the resulting array n times.
+
+### Day 5
+
+Implement Quick Sort function for a numerical array.
+console.log() the array in the outer loop. This will show the resulting array `n` times.
+
+## Week 20
+
+### Day 1
+
+Write a JavaScript function that finds all prime numbers upto a number `n`.
+
+`findPrimes(100)` should print all the prime numbers upto 100.
+
+**Hints:**
+1. You know how to check a number is prime or not. Doing the same for numbers from 1 to 100 is easy.
+2. If you have solved the problem using the first method above, please read about 'Sieve of Eratosthenes'. It is a very efficient way to find all prime numbers upto `n`. And it is a common interview task to implement the same. Try and see if you can solve the program using that algorithm.
