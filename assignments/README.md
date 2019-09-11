@@ -472,3 +472,21 @@ Modify the webmail app in React + Redux to,
 Implement merge sort for an array of numbers.
 
 > Due day: _day-0_
+
+----------
+## Week 20
+
+### Day 1: Reverse a singly linked list.
+
+Example:
+```
+Input: 1->2->3->4->5->NULL
+Output: 5->4->3->2->1->NULL
+```
+
+Follow up:
+A linked list can be reversed either iteratively or recursively. Could you implement both?
+
+### Day 2: Loop in a linked list
+
+Given a linked list of N nodes. The task is to check if the the linked list has a loop. Linked list can contain self loop.

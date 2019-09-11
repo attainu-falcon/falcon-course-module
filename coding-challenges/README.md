@@ -507,3 +507,37 @@ Write a JavaScript function that finds all prime numbers upto a number `n`.
 **Hints:**
 1. You know how to check a number is prime or not. Doing the same for numbers from 1 to 100 is easy.
 2. If you have solved the problem using the first method above, please read about 'Sieve of Eratosthenes'. It is a very efficient way to find all prime numbers upto `n`. And it is a common interview task to implement the same. Try and see if you can solve the program using that algorithm.
+
+### Day 2
+
+Given a 32-bit signed integer, reverse digits of an integer.
+
+Example 1:
+
+Input: 123
+Output: 321
+
+Example 2:
+
+Input: -123
+Output: -321
+
+Example 3:
+
+Input: 120
+Output: 21
+
+Rules:
+1. No conversion to string and back please.
+
+This is one of the most common number related question asked in interviews according to TopCoder and LeetCode.
+
+### Day 3
+
+Write a Javascript function that finds the missing numbers in an array of integers from 1 to N, where N being the largest number in the array.
+
+Examples:
+`findMissing( [1, 2, 4, 5, 6] )` should return `[3]` as `3` is the missing number in the series.
+`findMissing( [1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 15] )` should return `[8, 10]` as both of them are missing the series.
+
+You can assume that the input array is sorted and does not contain any duplicates.
