@@ -541,3 +541,18 @@ Examples:
 `findMissing( [1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 15] )` should return `[8, 10]` as both of them are missing the series.
 
 You can assume that the input array is sorted and does not contain any duplicates.
+
+### Day 4
+
+Write a Javascript function that prints the frequency of all the elements in an array.
+
+```
+Input :  arr[] = {10, 20, 20, 10, 10, 20, 5, 20}
+Output : 10 -> 3
+         20 -> 4
+         5  -> 1
+
+Input : arr[] = {10, 20, 20}
+Output : 10 -> 2
+         20 -> 1
+```
