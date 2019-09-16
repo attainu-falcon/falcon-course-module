@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+body{
+  background-image:url(https://image.freepik.com/free-photo/close-up-blank-old-concrete-wall_23-2147856094.jpg);
+}
+header {
+  background-color:#28B463;
+  padding: 2px;
+  text-align: left;
+  font-size: 15px;
+  height : 50px;
+}
+nav {
+  float: left;
+  border : 2px solid black;
+  width: 10%;
+  height: 302px; 
+  background: #D4AC0D;
+  padding: 10px;
+  margin : 40px 80px 40px 0;
+  font-size:20px;
+
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+a:link{
+  text-decoration:none;
+  color:black;
+  }
+a:visited{
+  color:unset;
+}
+a:hover{
+  color:grey;
+  text-decoration:underline;
+}
+a:active{
+  color:brown;
+}
+#details{
+  margin : 40px 20px 80px 40px;
+  width:70%;
+  border-collapse:collapse;
+ }
+th
+{
+  border: 2px solid white;
+  text-align:left;
+  padding:20px;
+  background-color:#404040;
+  font-family:sans-serif;
+  color:white;
+}
+td {
+  border: 2px solid black;
+  text-align:left;
+  padding:20px;
+ 
+  font-family:sans-serif;
+  
+ 
+}
+tr:nth-child(2n) {
+  background-color:#F2F3F4;
+}
+#details tr:hover {
+  color:brown;
+}
+footer{
+  background-color:#28B463;
+  padding:2px;
+  text-align:center;
+}
+
+  
