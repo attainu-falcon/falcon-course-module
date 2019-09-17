@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: Muli, sans-serif;
+  font-size: 12px;
+}
+
+.header {
+  height: 60px;
+  background-color: whitesmoke;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.header ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.header ul li {
+  display: inline-block;
+  line-height: 20px;
+  padding: 20px;
+  font-size: 14px;
+}
+
+.header ul li.active, .header ul li:hover {
+  background-color: white;
+}
+
+.header a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  line-height: 60px;
+  font-size: 28px;
+  font-weight: bold;
+  color: tomato;
+  font-family: Impact;
+}
+
+.navigation {
+  height: 50px;
+  position: fixed;
+  top: 60px;
+  left: 0;
+  right: 0;
+  padding: 0 10px;
+  background-color: white;
+  box-shadow: 0 0 5px 0 #ccc;
+  z-index: 4;
+}
+
+.navigation ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.navigation ul li {
+  display: inline-block;
+  line-height: 30px;
+  padding: 10px;
+  position: relative;
+}
+
+.navigation ul li.active, .navigation ul li:hover {
+  color: tomato;
+}
+
+.navigation ul li span {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  line-height: 1.6;
+  font-size: 9px;
+  background-color: tomato;
+  color: white;
+  padding: 0 5px;
+}
+
+.search-box {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.search-box input, .search-box button {
+  height: 30px;
+  vertical-align: top;
+}
+
+.search-box button {
+  background-color: black;
+  color: white;
+  border: 0;
+  width: 30px;
+  font-size: 16px;
+}
+
+.sidebar {
+  position: fixed;
+  top: 110px;
+  left: 0;
+  bottom: 0;
+  width: 220px;
+  border-right: 2px solid #eee;
+  padding: 10px 30px;
+  overflow: auto;
+}
+
+.filter-type label {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+input[name="filter-type"] {
+  display: none;
+}
+
+input[name="filter-type"]:checked~ul {
+  max-height: 300px;
+}
+
+.filter-type ul {
+  list-style: none;
+  padding-left: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.filter-type ul li {
+  line-height: 30px;
+  color: #666;
+}
+
+.container {
+  padding-top: 120px;
+  padding-left: 240px;
+}
+
+.sort {
+  text-align: right;
+  margin: 20px;
+}
+
+.container ul {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0;
+}
+
+.product {
+  display: inline-block;
+  width: 25%;
+  padding: 15px;
+  font-size: 12px;
+}
+
+.product:hover {
+  box-shadow: 0 0 10px 0 #ccc;
+  border-radius: 2px;
+}
+
+.product img {
+  background-color: #eee;
+  display: block;
+  width: 100%;
+}
+
+.product .details {
+  width: 100%;
+  height: 50px;
+  font-family: sans-serif;
+}
+
+.product .title {
+  color: #666;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  line-height: 2;
+}
+
+.product .price {
+  color: tomato;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.product .mrp {
+  font-size: 14px;
+  text-decoration: line-through;
+  margin-left: 5px;
+}
+
+.product i {
+  font-size: 16px;
+  float: right;
+}

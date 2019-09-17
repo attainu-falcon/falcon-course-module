@@ -1,0 +1,23 @@
+<h1>Twitter Feed</h1>
+
+<div class="twitter-feed">
+    {{#each tweets}}
+
+        <div class="card border border-info rounded my-3">
+            <div class="card-header text-info">#tweet {{add @index 1}}</div>
+            <div class="card-body">
+                <p class="card-text">{{this.tweet}}</p>
+                <footer class="blockquote-footer">{{this.name}}</footer>
+            </div>
+        </div>
+
+    {{/each}}
+</div>
+
+<form class="form-signin" action="/" method="POST">
+    <input type="text" class="form-control my-1" name="name" placeholder="Enter name" required autofocus>
+    <textarea class="form-control my-1" name="tweet" placeholder="Enter Tweet" required></textarea>
+
+    <input class="btn btn-lg btn-info btn-block" type="submit" />
+    <p class="mt-5 mb-3 text-muted">&copy; 2017-2019</p>
+</form>
