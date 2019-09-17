@@ -1,0 +1,163 @@
+.navBar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000033;
+  position: absolute;
+  left: 208px;
+  top: 118.9167px;
+
+}
+
+.navBar li {
+  border:1px solid white;
+  float: left;
+  width: 381px;
+}
+
+.navBar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.navBar li a:hover {
+  background-color: #3939BA;
+}
+.active{
+  background-color:#555F7F;
+}
+.navBar li a:hover:not(.active){
+
+}
+.sideBar ul{
+  list-style-type:none;
+  background-color: #000033;
+  width: 200px;
+  margin: 0;
+  padding: 0;
+  position:fixed;
+  top: 165px;
+}
+.sideBar ul li{
+  width: 200px;
+  border:1px solid white;
+}
+.sideBar ul li a{
+  display: block;
+  color: white;
+  padding: 20px 12px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+.sideBar ul li a:hover{
+  background-color:#3939BA;
+}
+.active1{
+  background-color: #555F7F;
+}
+.btnCompose{
+  border:2px solid white;
+  text-decoration: none;
+  display: block;
+  color:white;
+  background-color: #17A2D1;
+  padding: 14px 16px;
+  box-sizing: border-box;
+  width: 200px;
+  position: relative;
+  top:111px;
+  text-align: center;
+  font-weight: 200;
+}
+
+a:hover{
+  background-color:#9CB4BF;
+  color:#373D3F ;
+}
+.searchBox{
+  position: fixed;
+  left: 510px;
+  z-index: 100;
+}
+table{
+  position: absolute;
+  left: 206px;
+  top:164px;
+  box-sizing: border-box;
+}
+th{
+  background-color: #FBBA38;
+  color:#FEFEFE;
+  padding: 10px;
+  text-align: center;
+}
+ td{
+   text-align: center;
+   padding: 12px;
+   border: 1px solid #161512;
+   box-sizing: border-box;
+   border-collapse: collapse;
+ }
+ td a{
+   text-decoration: none;
+   display: block;
+   width:259px;
+   text-align: center;
+
+ }
+.one {
+  width:259px;
+}
+.two{
+  width: 854px;
+}
+
+.advertisement{
+  background-color: #003300;
+  color: #20F920;
+  position: relative;
+  top:1300px;
+  z-index: 100;
+
+}
+
+.advertisement a{
+  display: block;
+  width:1341px;
+  height: 67px;
+  padding: 14px;
+  text-align: center;
+}
+marquee{
+  behaviour:alternate;
+}
+h3{
+  background-color: #FF3399;
+  position:relative;
+  top:1280px;
+  height: 100px;
+}
+footer ul{
+  list-style-type: none;
+}
+footer ul li{
+  display: inline;
+  position:relative;
+  top:1400px;
+  left:1088px;
+  z-index: 1000;
+}
+.common{
+  width:45px;
+  height:45px;
+  background-image: url(img/5.png);
+  border: 1px solid black;
+  background-position:490px 567px;
+  z-index: 1002;
+}
