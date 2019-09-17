@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="./js/index.js"></script>
+    <title>Calculator</title>
+</head>
+<body onload="addListener()">
+    <div id="main">
+        <h1>JS Calculator</h1>
+        <br />
+        <input type="number" id = "first_operand"><br />
+        <input type="number" id = "second_operand"> <br />
+        <button id="add">+</button>
+        <button id="subtract" onclick="calculate()">-</button>
+        <button id="multiply">*</button>
+        <button id="divide">/</button> <br />
+        <input type="number" id = "result" disabled>
+    </div>
+    <link rel="stylesheet" href="./css/style.css">
+</body>
+</html>
