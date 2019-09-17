@@ -492,3 +492,61 @@ A linked list can be reversed either iteratively or recursively. Could you imple
 Given a linked list of N nodes. The task is to check if the the linked list has a loop. Linked list can contain self loop.
 
 ### Day 4: 
+
+Given a list of words with lower cases. Implement a function to find all Words that have the same unique character set .
+
+Example:
+```
+Input: words = ["may", "student", "students", "dog",
+                 "studentssess", "god", "cat", "act",
+                 "tab", "bat", "flow", "wolf", "lambs",
+                 "amy", "yam", "balms", "looped", 
+                 "poodle"];
+Output : 
+looped, poodle, 
+lambs, balms, 
+flow, wolf, 
+tab, bat, 
+may, amy, yam, 
+student, students, studentssess, 
+dog, god, 
+cat, act, 
+```
+
+All words with same set of characters are printed
+together in a line.
+
+### Weekly test:
+
+Given an array of integers, find two numbers such that they add up to a specific 'target' number.
+
+The function `twoSum` should return indices of the two numbers such that they add up to the 'target', where `index1` < `index2`.
+If multiple solutions exist, output the one where `index2` is minimum. If there are multiple solutions with the minimum `index2`, choose the one with minimum `index1` out of them.
+```
+Input: [2, 7, 11, 15], target=9
+Output: index1 = 0, index2 = 1
+```
+
+----------
+## Week 21
+
+### Day 1
+Write a Javascript function that finds all permutations of an input string.
+
+Permutation is the act of arranging the members of a collection into some sequence or order - https://en.wikipedia.org/wiki/Permutation
+For example, the input "ABC" to our function would return the following permutations: "ABC", "ACB", "BAC", "BCA", "CBA", and "CAB".
+**Hints:**
+1. These kind of problems are well suited for Recursive problem solving.
+2. If you are completely stuck, here is a well known algorithm for solving this problem - https://en.wikipedia.org/wiki/Heap%27s_algorithm. Read about the algorithm and try to implement the code by yourself.
+
+### Day 2
+This is a math based coding challenge.
+
+Implement integer division without using division, multiplication or modulus operators.
+The function should take two arguments - dividend and divisor and return the quotient.
+```
+Example
+divide (10, 3) -> 3
+divide (6, -3) -> -2
+```
+Please take care of negative numbers as well.

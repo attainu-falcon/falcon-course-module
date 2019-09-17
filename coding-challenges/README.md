@@ -547,12 +547,12 @@ You can assume that the input array is sorted and does not contain any duplicate
 Write a Javascript function that prints the frequency of all the elements in an array.
 
 ```
-Input :  arr[] = {10, 20, 20, 10, 10, 20, 5, 20}
+Input :  arr = [10, 20, 20, 10, 10, 20, 5, 20]
 Output : 10 -> 3
          20 -> 4
          5  -> 1
 
-Input : arr[] = {10, 20, 20}
+Input : arr = [10, 20, 20]
 Output : 10 -> 2
          20 -> 1
 ```
