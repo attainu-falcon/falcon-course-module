@@ -512,23 +512,19 @@ Write a JavaScript function that finds all prime numbers upto a number `n`.
 
 Given a 32-bit signed integer, reverse digits of an integer.
 
-Example 1:
-
+Examples:
+```
 Input: 123
 Output: 321
-
-Example 2:
 
 Input: -123
 Output: -321
 
-Example 3:
-
 Input: 120
 Output: 21
+```
 
-Rules:
-1. No conversion to string and back please.
+No conversion to string and back, please.
 
 This is one of the most common number related question asked in interviews according to TopCoder and LeetCode.
 
@@ -537,8 +533,8 @@ This is one of the most common number related question asked in interviews accor
 Write a Javascript function that finds the missing numbers in an array of integers from 1 to N, where N being the largest number in the array.
 
 Examples:
-`findMissing( [1, 2, 4, 5, 6] )` should return `[3]` as `3` is the missing number in the series.
-`findMissing( [1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 15] )` should return `[8, 10]` as both of them are missing the series.
+- `findMissing( [1, 2, 4, 5, 6] )` should return `[3]` as `3` is the missing number in the series.
+- `findMissing( [1, 2, 3, 4, 5, 6, 7, 9, 11, 12, 13, 14, 15] )` should return `[8, 10]` as both of them are missing the series.
 
 You can assume that the input array is sorted and does not contain any duplicates.
 
@@ -546,13 +542,97 @@ You can assume that the input array is sorted and does not contain any duplicate
 
 Write a Javascript function that prints the frequency of all the elements in an array.
 
+Examples:
 ```
-Input :  arr[] = {10, 20, 20, 10, 10, 20, 5, 20}
+Input :  arr = [10, 20, 20, 10, 10, 20, 5, 20]
 Output : 10 -> 3
          20 -> 4
          5  -> 1
 
-Input : arr[] = {10, 20, 20}
+Input : arr = [10, 20, 20]
 Output : 10 -> 2
          20 -> 1
+```
+
+### Day 5: Roman numerals
+
+This is a popular LeetCode problem. Write a Javascript program that converts integers to Roman numerals.
+
+Roman numerals are represented by seven different symbols:
+```
+Symbol       Value
+I                1
+V                5
+X               10
+L               50
+C              100
+D              500
+M             1000
+```
+
+For example, two is written as `II` in Roman numeral - just two one's added together. Twelve is written as `XII`, which is simply `X` + `II`. The number twenty-seven is written as `XXVII`, which is `XX` + `V` + `II`.
+
+Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not `IIII`. Instead, the number four is written as `IV`. Because the one is before the five, we subtract it making four. The same principle applies to the number nine, which is written as `IX`. There are six instances where subtraction is used:
+
+- `I` can be placed before `V` (5) and `X` (10) to make 4 and 9. 
+- `X` can be placed before `L` (50) and `C` (100) to make 40 and 90. 
+- `C` can be placed before `D` (500) and `M` (1000) to make 400 and 900.
+
+Examples:
+```
+Input: 3
+Output: "III"
+
+Input: 4
+Output: "IV"
+
+Input: 9
+Output: "IX"
+
+Input: 58
+Output: "LVIII"
+
+Input: 1994
+Output: "MCMXCIV"
+```
+Assume that, the input integer is guaranteed to be within the range from 1 to 3999.
+
+## Week 21
+
+### Day 1: String permutations
+
+Write a Javascript function that finds all permutations of an input string.
+
+Permutation is the act of arranging the members of a collection into some sequence or order - https://en.wikipedia.org/wiki/Permutation. For example, the input "ABC" to our function would return the following permutations: "ABC", "ACB", "BAC", "BCA", "CBA", and "CAB".
+
+**Hints:**
+1. These kind of problems are well suited for Recursive problem solving.
+2. If you are completely stuck, here is a well known algorithm for solving this problem - https://en.wikipedia.org/wiki/Heap%27s_algorithm. Read about the algorithm and try to implement the code by yourself.
+
+### Day 2: Integer division 
+
+This is a math based coding challenge.
+
+Implement integer division without using division, multiplication or modulus operators. The function should take two arguments - dividend and divisor and return the quotient.
+
+Examples:
+```
+divide (10, 3) -> 3
+divide (6, -3) -> -2
+```
+Please take care of negative numbers as well.
+
+### Day 3: Parentheses combinations
+
+Given `n` pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
+
+For example, given n = 3, a solution set is:
+```
+[
+  "((()))",
+  "(()())",
+  "(())()",
+  "()(())",
+  "()()()"
+]
 ```
