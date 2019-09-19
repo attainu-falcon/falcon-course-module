@@ -636,3 +636,15 @@ For example, given n = 3, a solution set is:
   "()()()"
 ]
 ```
+
+### Day 4: Product of integers
+
+Given two non-negative integers `num1` and `num2` represented as strings, return the product of `num1` and `num2`, also represented as a string.
+
+You must not use any built-in math library or convert the inputs to integer directly.
+
+Examples:
+```
+Input: num1 = "123", num2 = "456"
+Output: "56088"
+```
