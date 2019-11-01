@@ -38,7 +38,7 @@ Here are the rules:
 
 The backend part consisting of writing a Node script to read a JSON file and populate the database. Then you have to create two Express routes as mentioned below.
 
-Please find `airports.json` ![here](airports.json). You should create a simple NodeJS script that reads this file and populate two collections in MongoDB - `cities` and `airports`.
+Please find [`airports.json`](../assignments/data/airports.json). You should create a simple NodeJS script that reads this file and populate two collections in MongoDB - `cities` and `airports`.
 
 Then create two endpoints in Express - 
 
