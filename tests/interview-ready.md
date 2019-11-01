@@ -9,9 +9,9 @@ You have about 6 hours to submit everything - from 8am to 4pm.
 
 ## MCQ
 
-MCQ will be shared in the afternoon.
+MCQ will be shared at Saturday 10am.
 
-## Coding Challenge
+## Coding Challenge 1
 
 Please create a Javascript function that takes in a string and returns an integer version of it. (No `parseInt` please. Please construct an algorithm for the same).
 
@@ -30,6 +30,14 @@ Here are the rules:
 1. Only space is considered as a non-numeric character.
 2. If the input contains any character other than space, negative sign or numbers, please return 0.
 3. Do not forget the negative sign, if it exists in the front of the string.
+4. Please give time and space complexeties of your solution. You can put it as comments in your code.
+
+## Coding Challenge 2
+Given a binary tree, find the lowest common ancestor (LCA) of two given nodes in the tree.
+
+The lowest common ancestor is defined between two nodes p and q as the lowest node in T that has both p and q as descendants (where we allow a node to be a descendant of itself).
+
+Please give time and space complexeties of your solution. You can put it as comments in your code.
 
 
 ## Assignment
@@ -38,7 +46,7 @@ Here are the rules:
 
 The backend part consisting of writing a Node script to read a JSON file and populate the database. Then you have to create two Express routes as mentioned below.
 
-Please find [`airports.json`](../assignments/data/airports.json). You should create a simple NodeJS script that reads this file and populate two collections in MongoDB - `cities` and `airports`.
+Please find `airports.json` ![here](../assignments/data/airports.json). You should create a simple NodeJS script that reads this file and populate two collections in MongoDB - `cities` and `airports`.
 
 Then create two endpoints in Express - 
 
@@ -58,6 +66,6 @@ You can use simple Bootstrap classes to style your app.
 
 ## Submitting the Solution
 
-Please created a repo named `attainu-test` and put the coding challenge solution as `strtoint.js` and the Express + React project inside `app` folder.
+Please created a repo named `attainu-test` and put the coding challenge solution as `strtoint.js` and `lca.js` and the Express + React project inside `app` folder.
 
 Please include `package.json` in with all the packages you are using inside the `app` folder as well.
