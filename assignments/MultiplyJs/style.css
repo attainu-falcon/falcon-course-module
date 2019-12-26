@@ -1,0 +1,37 @@
+div {
+    background-color:beige;
+    height: 300px;
+    margin-left: 37%;
+    width: 320px;
+    font-size:20px;
+    text-align:center;
+    padding-top:30px;
+    
+  }
+  h1 {
+    background-color: rgba(0, 0, 255, 0.671);
+    padding:10px;
+    padding-left:30px;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  
+  button {
+    font-size:13px;
+    height:30px;
+    position:absolute;
+    background-color:beige;
+  }
+  
+  input {
+    background-color:beige;
+    color: black;
+    width:140px;
+
+    font-size:25px;
+    margin-left: 37%;
+    margin-right:5px;
+    margin-bottom:10px;
+    height:25px;
+  }
